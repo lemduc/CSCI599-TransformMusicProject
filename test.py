@@ -14,5 +14,6 @@ from utils import *
 
 
 #components= readMidiFile('data/LetItBe.mid')
-printPianoChordSequence('data/LetItBe.mid')
-
+path = 'data/Imagine.mid'
+printPianoChordSequence(path)
+printPianoChord(path.split(".mid")[0] + "_chord.txt")

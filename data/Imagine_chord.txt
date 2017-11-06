@@ -1,0 +1,274 @@
+228.0
+4/4
+FullName,CommonName,Len,Offset
+Chord {E in octave 4 | G in octave 4} Whole,interval class 3,1.0,68.0
+Chord {A in octave 4 | F in octave 4} Whole,interval class 4,1.0,72.0
+Chord {G in octave 4 | E in octave 4} Whole,interval class 3,1.0,76.0
+Chord {A in octave 4 | F in octave 4} Whole,interval class 4,1.0,80.0
+Chord {G in octave 4 | E in octave 4} Whole,interval class 3,1.0,84.0
+Chord {A in octave 4 | F in octave 4} Whole,interval class 4,1.0,88.0
+Chord {E in octave 4 | G in octave 4} Whole,interval class 3,1.0,92.0
+Chord {F in octave 4 | A in octave 4} Half,interval class 4,1.0,96.0
+Chord {F in octave 4 | A in octave 4} Eighth Triplet (1/3 QL),interval class 4,0.125,98.5
+Chord {A in octave 4 | C in octave 5} Quarter,interval class 3,0.25,99.0
+Chord {C in octave 5 | A in octave 4 | F in octave 5} Whole,major triad,1.0,100.0
+Chord {F in octave 5 | D in octave 5 | A in octave 4} Whole,minor triad,1.0,104.0
+Chord {D in octave 5 | B in octave 4 | D in octave 4} Dotted Half,interval class 3,1.0,108.0
+Chord {E in octave 5 | E in octave 4 | C in octave 5} Quarter,interval class 4,0.25,111.0
+Chord {F in octave 5 | F in octave 4 | D in octave 5} Dotted Half,interval class 3,1.0,112.0
+Chord {A in octave 5 | F in octave 5} Quarter,interval class 4,0.25,117.0
+Chord {D in octave 6 | B in octave 5} Eighth,interval class 3,0.125,127.5
+Chord {E in octave 5 | G in octave 5} Double Dotted Quarter,interval class 3,1.0,128.0
+Chord {G-sharp in octave 5 | E in octave 5 | B in octave 5} Double Dotted Quarter,major triad,0.5,130.0
+Chord {D in octave 6 | B in octave 5} Eighth Triplet (1/3 QL),interval class 3,0.125,135.5
+Chord {E in octave 5 | G in octave 5} Half,interval class 3,1.0,136.0
+Chord {B in octave 5 | E in octave 6 | G-sharp in octave 5} Double Dotted Quarter,major triad,0.5,138.0
+Chord {C in octave 5 | A in octave 5 | C in octave 6} Half,interval class 3,1.0,140.0
+Chord {D in octave 5 | B in octave 5 | G in octave 5} Half,major triad,0.5,142.0
+Chord {E in octave 5 | G in octave 5 | C in octave 6} Triple Dotted Half (3 3/4 QL),major triad,1.0,144.0
+Chord {C in octave 4 | A in octave 3} Whole,interval class 3,1.0,152.0
+Chord {G in octave 3 | C in octave 4} Whole,interval class 5,1.0,156.0
+Chord {A in octave 3 | C in octave 4} Whole,interval class 3,1.0,168.0
+Chord {C in octave 4 | A in octave 3 | F in octave 4} Whole,major triad,1.0,176.0
+Chord {A in octave 4 | F in octave 5 | C in octave 5} Whole,major triad,1.0,180.0
+Chord {A in octave 4 | D in octave 5 | F in octave 5} Whole,minor triad,1.0,184.0
+Chord {B in octave 4 | D in octave 4 | D in octave 5} Dotted Half,interval class 3,1.0,188.0
+Chord {C in octave 5 | E in octave 4 | E in octave 5} Quarter,interval class 4,0.25,191.0
+Chord {F in octave 4 | D in octave 5 | F in octave 5} Dotted Half,interval class 3,1.0,192.0
+Chord {F in octave 5 | A in octave 5} Quarter,interval class 4,0.25,197.0
+Chord {C in octave 6 | G in octave 5} Half,interval class 5,1.0,200.0
+Chord {G-sharp in octave 5 | E in octave 5} Double Dotted Quarter,interval class 4,0.5,202.0
+Chord {G in octave 5 | E in octave 5} Double Dotted Quarter,interval class 3,1.0,208.0
+Chord {B in octave 5 | E in octave 5 | G-sharp in octave 5} Double Dotted Quarter,major triad,0.5,210.0
+Chord {D in octave 6 | B in octave 5} Eighth Triplet (1/3 QL),interval class 3,0.125,215.5
+Chord {G in octave 5 | E in octave 5} Half,interval class 3,1.0,216.0
+Chord {E in octave 6 | B in octave 5 | G-sharp in octave 5} Double Dotted Quarter,major triad,0.5,218.0
+Chord {C in octave 6 | A in octave 5 | C in octave 5} Half,interval class 3,1.0,220.0
+Chord {B in octave 5 | D in octave 5 | G in octave 5} Half,major triad,0.5,222.0
+Chord {C in octave 6 | G in octave 5 | E in octave 5} Whole,major triad,1.0,224.0
+Chord {C in octave 6 | G in octave 5} Half,interval class 5,1.0,120.0
+Chord {G-sharp in octave 5 | E in octave 5} Double Dotted Quarter,interval class 4,0.5,122.0
+Chord {C in octave 4 | G in octave 3} Whole,interval class 5,1.0,148.0
+Chord {C in octave 4 | A in octave 3} Whole,interval class 3,1.0,160.0
+Chord {G in octave 3 | C in octave 4} Whole,interval class 5,1.0,164.0
+Chord {C in octave 4 | G in octave 3} Whole,interval class 5,1.0,172.0
+Chord {D in octave 6 | B in octave 5} Eighth,interval class 3,0.125,207.5
+Chord {G in octave 3 | E in octave 3} Eighth,interval class 3,1.0,4.0
+Chord {A in octave 3 | C in octave 4 | F in octave 3} Eighth,major triad,1.0,8.0
+Chord {A in octave 3 | F in octave 3 | C in octave 4} Eighth,major triad,0.25,9.0
+Chord {F in octave 3 | C in octave 4} Eighth Triplet (1/3 QL),interval class 5,0.5,10.0
+Chord {E in octave 3 | D in octave 4 | G in octave 3} Eighth,incomplete minor-seventh chord,1.0,12.0
+Chord {G in octave 3 | E in octave 3} Eighth,interval class 3,0.25,13.0
+Chord {E in octave 3 | G in octave 3} Eighth,interval class 3,0.5,14.0
+Chord {G in octave 3 | E in octave 3 | B in octave 3} Eighth,minor triad,0.25,15.0
+Chord {C in octave 4 | A in octave 3 | F in octave 3} Eighth,major triad,1.0,16.0
+Chord {A in octave 3 | C in octave 4 | F in octave 3} Eighth,major triad,0.25,17.0
+Chord {A in octave 3 | C in octave 4 | F in octave 3} Eighth,major triad,0.5,18.0
+Chord {A in octave 3 | F in octave 3} Eighth Triplet (1/3 QL),interval class 4,0.25,19.0
+Chord {E in octave 3 | G in octave 3} Eighth,interval class 3,0.25,5.0
+Chord {G in octave 3 | E in octave 3} Eighth,interval class 3,0.5,6.0
+Chord {G in octave 3 | B in octave 3 | E in octave 3} Eighth,minor triad,0.25,7.0
+Chord {A in octave 3 | C in octave 4} Eighth,interval class 3,0.5,10.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,52.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,53.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,54.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,54.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,55.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,56.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,57.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,58.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,58.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,59.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,60.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,61.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,62.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,62.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,63.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,64.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,68.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,69.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,70.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,70.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,71.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,72.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,73.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,74.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,74.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,75.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,76.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,77.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,78.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,78.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,79.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,80.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,81.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,82.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,82.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,83.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,84.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,85.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,86.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,86.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,87.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,88.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,89.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,90.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,90.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,91.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,92.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,93.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,94.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,94.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,95.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,96.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,97.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,98.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,98.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,99.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,100.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,101.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,102.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,102.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,103.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,104.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,105.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,106.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,106.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,107.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,108.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,109.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,110.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,110.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,111.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,112.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,116.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,117.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,118.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,118.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,119.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,120.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,121.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,122.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,122.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,123.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,124.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,125.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,126.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,126.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,127.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,128.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,129.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,130.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,130.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,131.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,132.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,133.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,134.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,134.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,135.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,136.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,137.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,138.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,138.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,139.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,140.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,141.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,142.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,142.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,143.0
+Chord {F-sharp in octave 2 | C in octave 3} Zero,tritone,0.125,143.5
+Chord {C in octave 2 | C-sharp in octave 3} Zero,interval class 1,1.0,144.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,148.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,149.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,150.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,150.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,151.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,152.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,153.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,154.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,154.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,155.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,156.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,157.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,158.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,158.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,159.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,160.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,161.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,162.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,162.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,163.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,164.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,165.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,166.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,166.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,167.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,168.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,169.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,170.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,170.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,171.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,172.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,173.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,174.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,174.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,175.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,176.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,177.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,178.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,178.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,179.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,180.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,181.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,182.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,182.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,183.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,184.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,185.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,186.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,186.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,187.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,188.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,189.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,190.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,190.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,191.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,192.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,196.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,197.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,198.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,198.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,199.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,200.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,201.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,202.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,202.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,203.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,204.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,205.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.5,206.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,206.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,207.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,208.0
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,209.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,210.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,210.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,211.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,212.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,213.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,214.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,214.5
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,215.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,1.0,216.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,217.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.5,218.0
+Chord {C in octave 2 | F-sharp in octave 2} Zero,tritone,0.125,218.5
+Chord {F-sharp in octave 2 | E in octave 2} Zero,interval class 2,0.25,219.0
+Chord {F in octave 2 | F-sharp in octave 2} Zero,interval class 1,0.125,219.5
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,1.0,220.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.25,221.0
+Chord {E in octave 2 | F-sharp in octave 2 | C in octave 2} Zero,incomplete half-diminished seventh chord,0.5,222.0
+Chord {E in octave 2 | F-sharp in octave 2} Zero,interval class 2,0.125,222.5
+Chord {C in octave 3 | F-sharp in octave 2} Zero,tritone,0.25,223.0
+Chord {F-sharp in octave 2 | C in octave 2} Zero,tritone,0.125,223.5
+Chord {C in octave 2 | C-sharp in octave 3} Zero,interval class 1,1.0,224.0
