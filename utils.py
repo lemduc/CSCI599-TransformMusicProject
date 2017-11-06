@@ -62,7 +62,7 @@ def printPianoChord(file_path):
     # Import the chord data.
     allchords = pd.read_csv(file_path, skiprows=2)[:].sort_values("Offset")
     allchords.index = range(1, len(allchords) + 1)
-    with open('oscar2chords.txt', 'r') as f:
+    with open(file_path, 'r') as f:
         metmark = float(f.readline())
         tsig_num, tsig_den = [i for i in f.readline().replace(' /', '').split()]
 
