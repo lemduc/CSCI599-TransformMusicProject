@@ -4,8 +4,8 @@ from music21 import converter,instrument # or import *
 from collections import Counter, defaultdict
 from sklearn.cluster import KMeans
 #from mingus.midi import fluidsynth
-from mingus.containers import NoteContainer
-from mingus.containers import Bar
+#from mingus.containers import NoteContainer
+#import mingus.containers
 import mingus.core.value as value
 import pandas as pd
 import numpy as np
@@ -55,14 +55,14 @@ def printPianoChordSequence(file_path):
             printColumns = False
             # Write chords out into cleaned-up version of Oscar's chords
 
-    with open(file_path.split(".mid")[0] + "_chord.txt", 'wb') as f:
+    with open(file_path.split(".mid")[0] + "_chord.txt", 'w') as f:
        f.write(output)
 
 def printPianoChord(file_path):
     # Import the chord data.
     allchords = pd.read_csv(file_path, skiprows=2)[:].sort_values("Offset")
-    allchords.index = xrange(1, len(allchords) + 1)
-    with open('oscar2chords.txt', 'rb') as f:
+    allchords.index = range(1, len(allchords) + 1)
+    with open('oscar2chords.txt', 'r') as f:
         metmark = float(f.readline())
         tsig_num, tsig_den = [i for i in f.readline().replace(' /', '').split()]
 
@@ -74,11 +74,11 @@ def printPianoChord(file_path):
     allchords.head()
 
     oscarchords = getChords(allchords)
-    print len(oscarchords)
+    print(len(oscarchords))
     oscarchords[:10]
 
     # Write chords out into cleaned-up version of Oscar's chords
-    with open(file_path.split(".txt")[0] + "_extract.txt", 'wb') as f:
+    with open(file_path.split(".txt")[0] + "_extract.txt", 'w') as f:
         for chord in oscarchords:
             for n in chord:
                 f.write(n)
@@ -125,13 +125,13 @@ def getChords(allchords, mingify=True):
     chords_poss = []
     for chordname in allchords['FullName']:
         notenames = re.findall("[CDEFGAB]+[-]*[sharp|flat]*[in octave]*[1-9]", chordname)
-        for ix in xrange(len(notenames)):
+        for ix in range(len(notenames)):
             notenames[ix] = notenames[ix].replace(" in octave ", '').replace("-sharp","#").replace("-flat","-")
         if mingify==True:
             notenames = [mingifytext(note) for note in notenames]
         else:
             notenames = [note for note in notenames]
-        toDel = [ix for ix in xrange(len(notenames)) if "6" in notenames[ix]
+        toDel = [ix for ix in range(len(notenames)) if "6" in notenames[ix]
                  or "5" in notenames[ix]] # rm chords with notes too high, e.g. oct == 6 or 5
         notenames = [i for ix, i in enumerate(notenames) if ix not in toDel]
         if len(notenames) > 2: # min num of notes in valid chord = 3. Can change this
