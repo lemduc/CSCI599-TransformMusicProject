@@ -179,6 +179,67 @@ def extractNodeChordToFile(file_path, chordFile,noteFile):
     with open(noteFile, 'a') as f:
         f.write(common_name + '\n')
 
+def convertToNote(str_note):
+    str_note = str_note.replace("_"," ")
+    str_note = str_note.strip()
+    note = str_note[0]
+    is_sharp = False
+    is_flat = False
+    if("sharp" in str_note):
+        is_sharp = True
+    if "flat" in str_note:
+        is_flat = True
+    index_octave = str_note.index("octave") + 7
+    octave = str_note[index_octave:(index_octave+1)]
+    if is_flat:
+        note =  note + "-"
+    elif is_sharp:
+        note = note + "#"
+    note = note + octave
+    print("str_note="+str_note)
+    print("note ="+note)
+    return music21.note.Note(nameWithOctave=note)
+
+def writeComponentsToMidiFile(components, outputFile):
+    s = music21.stream.Stream()
+    for component in components:
+        s.repeatAppend(component,1)
+    mf = music21.midi.translate.streamToMidiFile(s)
+    mf.open(outputFile, 'wb')
+    mf.write()
+    mf.close()
+
+def testMidiFile(midiFilePath, translatedChordListFile):
+    components = readMidiFile(midiFilePath)
+    chords = []
+    with open(translatedChordListFile, 'r') as f:
+
+        for line in f:
+            line = line.strip()
+            str_chords = line.split(" ")
+            for str_chord in str_chords:
+                str_notes = str_chord.replace("{","").replace("}","").split("|")
+                notes =[]
+                for str_note in str_notes:
+                    note = convertToNote(str_note)
+                    notes.append(note)
+                chord = music21.chord.Chord(notes)
+                chords.append(chord)
+    new_components = []
+    count = 0
+    for component in components:
+        if not type(component) is music21.chord.Chord:
+            new_components.append(component)
+        else:
+            if count < len(chords):
+                chords[count].duration = component.duration
+                chords[count].quarterLength = component.quarterLength
+                new_components.append(chords[count])
+
+    return new_components
+
+
+
 
 def matchTestChordFile(originalChordFile, translatedChordFile):
     output = []
