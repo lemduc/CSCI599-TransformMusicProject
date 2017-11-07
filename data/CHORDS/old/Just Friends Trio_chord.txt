@@ -1,0 +1,7 @@
+4/4
+Chord {B in octave 5 | A in octave 5} Eighth,B5-interval class 2,0.5,200.0
+Chord {C in octave 6 | B in octave 5} 16th,C6-interval class 1,0.25,226.5
+Chord {G in octave 4 | A in octave 4} Zero,A4-interval class 2,0.0,311.0
+Chord {A in octave 5 | B in octave 5} Zero,B5-interval class 2,0.0,375.75
+Chord {G in octave 5 | A in octave 5} Eighth Triplet (1/3 QL),A5-interval class 2,1/3,1399/3
+Chord {E-flat in octave 5 | D in octave 5} 16th,E-5-interval class 1,0.25,508.75

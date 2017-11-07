@@ -15,26 +15,29 @@ import sys, re, itertools, random
 def readMidiFile(file_path):
     file = converter.parse(file_path)
     components = []
-    for element in file.recurse():
+    # select the first channels
+    for element in file[0].recurse():
         components.append(element)
     return components
 
 
 def printPianoChordSequence(file_path):
     components = readMidiFile(file_path=file_path)
-    startPiano = False
+    startPiano = True #False
     printRatio = True
     printHighest = True
     printColumns = True
     output = ""
+    notes = ""
+    chords = ""
     for component in components:
 
-        if hasattr(component, 'instrumentName') and component.instrumentName == 'Piano':
-            startPiano = True
-        elif hasattr(component, 'instrumentName') and not component.instrumentName == 'Piano':
-            startPiano = False
+        # if hasattr(component, 'instrumentName') and component.instrumentName == 'Piano':
+        #     startPiano = True
+        # elif hasattr(component, 'instrumentName') and not component.instrumentName == 'Piano':
+        #     startPiano = False
         if startPiano and type(component) is music21.chord.Chord:
-            tmp = component.fullName + "," + component.commonName + "," + str(component.beatStrength) + "," + str(
+            tmp = component.fullName + "," + component.pitchedCommonName + "," + str(component.quarterLength) + "," + str(
                 component.offset)
             output += tmp + "\n"
             print(tmp)
@@ -55,7 +58,7 @@ def printPianoChordSequence(file_path):
             printColumns = False
             # Write chords out into cleaned-up version of Oscar's chords
 
-    with open(file_path.split(".mid")[0] + "_chord.txt", 'w') as f:
+    with open((file_path.split(".mid")[0] + "_chord.txt").replace("MIDI", "CHORDS"), 'w') as f:
        f.write(output)
 
 def printPianoChord(file_path):
@@ -139,3 +142,21 @@ def getChords(allchords, mingify=True):
     result = sorted(list(chords_poss for chords_poss,_ in itertools.groupby(chords_poss)))
     result = list(result for result,_ in itertools.groupby(result))
     return result
+
+def extractNodeChord(file_path):
+    read_data = None
+    full_name = ""
+    common_name = ""
+    with open(file_path, 'r') as f:
+        read_data = f.readlines()
+    for line in read_data[1:]:
+        sl = line.split(",")
+        i  = sl[0].index("{")
+        j  = sl[0].index("}")
+        full_name += sl[0][i:j+1].replace(" ", "_") + " "
+        common_name += sl[1].replace(" ", "_") + " "
+
+    with open("train_nodes.txt", 'a') as f:
+        f.write(full_name + '\n')
+    with open("train_ch.txt", 'a') as f:
+        f.write(common_name + '\n')
