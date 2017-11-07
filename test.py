@@ -22,9 +22,9 @@ from utils import *
 # printPianoChordSequence(path)
 #printPianoChord(path.split(".mid")[0] + "_chord.txt")
 #extractNodeChord('data/Imagine_chord.txt')
-note = convertToNote('B-flat_in_octave_1_')
-print(note.name)
-newComponents = testMidiFile('data/MIDI/comesun.mid','test.node')
+#note = convertToNote('B-flat_in_octave_1_')
+#print(note.name)
+newComponents = testMidiFile('imagine/Imagine.mid','imagine/Imagine_jazz.node')
 print(newComponents)
-writeComponentsToMidiFile(newComponents,'luantestmidi.mid')
+writeComponentsToMidiFile(newComponents,'imagine/Imagine_jazz.mid')
 
