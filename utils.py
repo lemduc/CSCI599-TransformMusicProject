@@ -160,3 +160,42 @@ def extractNodeChord(file_path):
         f.write(full_name + '\n')
     with open("train_ch.txt", 'a') as f:
         f.write(common_name + '\n')
+
+def extractNodeChordToFile(file_path, chordFile,noteFile):
+    read_data = None
+    full_name = ""
+    common_name = ""
+    with open(file_path, 'r') as f:
+        read_data = f.readlines()
+    for line in read_data[1:]:
+        sl = line.split(",")
+        i = sl[0].index("{")
+        j = sl[0].index("}")
+        full_name += sl[0][i:j + 1].replace(" ", "_") + " "
+        common_name += sl[1].replace(" ", "_") + " "
+
+    with open(chordFile, 'a') as f:
+        f.write(full_name + '\n')
+    with open(noteFile, 'a') as f:
+        f.write(common_name + '\n')
+
+
+def matchTestChordFile(originalChordFile, translatedChordFile):
+    output = []
+    origLines = []
+    with open(originalChordFile, 'r') as f:
+        count = 0
+        for line in f:
+            if count >0:
+                origLines.append(line.strip())
+            else:count +=1
+    translatedLines = []
+    with open(translatedChordFile, 'r') as f:
+        translatedLines.append(line.strip())
+    for i in range(len(origLines)):
+        line = origLines[i]
+        openBracket = line.index("{")
+        closeBracket = line.index("}")
+        newLine = line[0:(openBracket+1)] + translatedLines[i] +line[closeBracket:]
+        output.append(newLine)
+    return output
