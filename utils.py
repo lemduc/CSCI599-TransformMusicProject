@@ -143,18 +143,25 @@ def getChords(allchords, mingify=True):
     result = list(result for result,_ in itertools.groupby(result))
     return result
 
-def extractNodeChord(file_path):
+def extractNodeChord(file_path, split_length):
     read_data = None
     full_name = ""
     common_name = ""
+    count_length = 0
     with open(file_path, 'r') as f:
         read_data = f.readlines()
     for line in read_data[1:]:
+        count_length += 1
         sl = line.split(",")
         i  = sl[0].index("{")
         j  = sl[0].index("}")
         full_name += sl[0][i:j+1].replace(" ", "_") + " "
         common_name += sl[1].replace(" ", "_") + " "
+        if split_length is not None and count_length == split_length:
+            full_name += "\n"
+            common_name += "\n"
+            count_length = 0
+
 
     with open("train_nodes.txt", 'a') as f:
         f.write(full_name + '\n')

@@ -25,11 +25,12 @@ import os
 #printPianoChord(path.split(".mid")[0] + "_chord.txt")
 
 import os
-for file in os.listdir("data/CHORDS"):
+for file in os.listdir("data/CHORDS/old"):
     if file.endswith(".txt"):
-        path = os.path.join("data/CHORDS", file)
+        path = os.path.join("data/CHORDS/old", file)
         print(path)
-        extractNodeChord(path)
+        #extractNodeChord(path, None)
+        extractNodeChord(path, 20)
 
 
 
