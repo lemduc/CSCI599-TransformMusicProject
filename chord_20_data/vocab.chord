@@ -1347,8 +1347,6 @@ D2-incomplete_dominant-seventh_chord
 E5-major-third_diminished_terachord
 B-5-phrygian_tetrachord
 G4-harmonic_minor_tetrachord
-
-
 C5-Scriabin's_Mystic-chord
 C#4-major-diminished_tetrachord
 F#4-diminished_triad
@@ -1594,8 +1592,6 @@ C6-major-second_major_tetrachord
 B1-diminished-major_ninth_chord
 C6-incomplete_minor-seventh_chord
 G2-minor_triad
-D6-interval_class_5
-
 C#6-minor_seventh_chord
 G#4-minor_seventh_chord
 F5-minor-second_quartal_tetrachord
@@ -1942,7 +1938,6 @@ G#4-major-third_diminished_terachord
 C5-lydian_tetrachord
 B3-chromatic_trimirror
 C4-interval_class_4
-
 C6-
 G3-tritone_quartal_tetrachord
 C#3-whole-tone_trichord
@@ -2230,7 +2225,6 @@ A5-diminished_pentacluster
 D6-dominant_seventh_chord
 E5-tritone-fourth
 F#3-lydian_tetrachord
-C4-interval_class_4
 C#2-whole-tone_trichord
 F4-tritone_quartal_tetrachord
 C6-incomplete_half-diminished_seventh_chord

@@ -9,7 +9,7 @@ from sklearn.cluster import KMeans
 import mingus.core.value as value
 import pandas as pd
 import numpy as np
-import sys, re, itertools, random
+import sys, re, itertools, random, os
 #fluidsynth.init('piano.SF2',"alsa")
 
 def readMidiFile(file_path):
@@ -143,6 +143,24 @@ def getChords(allchords, mingify=True):
     result = list(result for result,_ in itertools.groupby(result))
     return result
 
+
+def extractChordToFileFromMidi(file_path, split_length, output_file):
+    components = readMidiFile(file_path)
+    chords = []
+    for component in components:
+        if type(component) is music21.chord.Chord:
+            chords.append(component)
+    str_output = ""
+    for idx in range(len(chords)):
+        chord = chords[idx]
+        #fullName = chord.fullName
+
+        str_output = str_output + chord.pitchedCommonName.replace(" ","_")+" "
+        if idx > 0 and idx % split_length == (split_length -1):
+            str_output += '\n'
+    with open(output_file, 'w') as f:
+        f.write(str_output)
+
 def extractNodeChord(file_path, split_length):
     read_data = None
     full_name = ""
@@ -167,6 +185,28 @@ def extractNodeChord(file_path, split_length):
         f.write(full_name + '\n')
     with open("train_ch.txt", 'a') as f:
         f.write(common_name + '\n')
+
+
+def removeDuplicateChordinVocab(vocabFile):
+    words = []
+    with open(vocabFile, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if line not in words:
+                words.append(line)
+            else:
+                print("Aaaaaa")
+        f.close()
+    try:
+        os.remove(vocabFile)
+    except OSError:
+        pass
+    with open(vocabFile, 'w') as f:
+        for word in words:
+            f.write(word +'\n')
+        f.close()
+
+
 
 def extractNodeChordToFile(file_path, chordFile,noteFile):
     read_data = None
@@ -235,7 +275,7 @@ def testMidiFile(midiFilePath, translatedChordListFile):
     new_components = []
     count = 0
     for component in components:
-        if not type(component) is music21.chord.Chord:
+        if not type(component) is music21.chord.Chord or (type(component) is music21.chord.Chord and len(component.normalOrder) <= 2):
             new_components.append(component)
         else:
             if count < len(chords):
