@@ -25,11 +25,15 @@ from utils import *
 #extractNodeChord('data/Imagine_chord.txt')
 #note = convertToNote('B-flat_in_octave_1_')
 #print(note.name)
-newComponents = testMidiFile('imagine/Imagine.mid','test_data/imagine.node')
+#newComponents = testMidiFile('imagine/Imagine.mid','test_data/imagine.node')
 #print(newComponents)
-writeComponentsToMidiFile(newComponents,'imagine/Imagine_jazz2.mid')
+#writeComponentsToMidiFile(newComponents,'imagine/Imagine_jazz2.mid')
 
 #removeDuplicateChordinVocab('chord_20_data/vocab.chord')
 #removeDuplicateChordinVocab('chord_20_data/vocab.node')
 
 #extractChordToFileFromMidi('imagine/Imagine.mid', 20, 'imagine.chord')
+
+#readMidiFile2('imagine/Imagine.mid')
+
+testMidiFile2('imagine/Imagine.mid', 'test_data/imagine.node','test_data/Imagine_jazz2.mid')

@@ -1,5 +1,5 @@
 import music21
-from music21 import converter,instrument # or import *
+from music21 import  *
 
 from collections import Counter, defaultdict
 from sklearn.cluster import KMeans
@@ -10,15 +10,18 @@ import mingus.core.value as value
 import pandas as pd
 import numpy as np
 import sys, re, itertools, random, os
-#fluidsynth.init('piano.SF2',"alsa")
-
+#fluidsynth.init('piano.SF2',"alsa
 def readMidiFile(file_path):
     file = converter.parse(file_path)
     components = []
     # select the first channels
-    for element in file[0].recurse():
+    for element in file.recurse():
+
         components.append(element)
     return components
+
+def readMidiFile2(file_path):
+    file = converter.parse(file_path)
 
 
 def printPianoChordSequence(file_path):
@@ -153,11 +156,12 @@ def extractChordToFileFromMidi(file_path, split_length, output_file):
     str_output = ""
     for idx in range(len(chords)):
         chord = chords[idx]
+        if(len(chord.normalOrder) > 2):
         #fullName = chord.fullName
 
-        str_output = str_output + chord.pitchedCommonName.replace(" ","_")+" "
-        if idx > 0 and idx % split_length == (split_length -1):
-            str_output += '\n'
+            str_output = str_output + chord.pitchedCommonName.replace(" ","_")+" "
+            if idx > 0 and idx % split_length == (split_length -1):
+                str_output += '\n'
     with open(output_file, 'w') as f:
         f.write(str_output)
 
@@ -251,10 +255,76 @@ def writeComponentsToMidiFile(components, outputFile):
     s = music21.stream.Stream()
     for component in components:
         s.repeatAppend(component,1)
+    #mf = music21.midi.translate.streamToMidiFile(s)
+    #mf.open(outputFile, 'wb')
+    #mf.write()
+    #mf.close()
+
+    fp = s.write('midi', fp=outputFile)
+
+
+def testMidiFile3(midiFilePath, translatedChordListFile, outputFile):
+    mf = music21.midi.MidiFile()
+    mf.open(midiFilePath)
+    mf.read()
+    mf.close()
+    s = music21.midi.translate.midiFileToStream(mf)
     mf = music21.midi.translate.streamToMidiFile(s)
     mf.open(outputFile, 'wb')
     mf.write()
     mf.close()
+def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
+    chords = []
+    with open(translatedChordListFile, 'r') as f:
+
+        for line in f:
+            line = line.strip()
+            str_chords = line.split(" ")
+            for str_chord in str_chords:
+                str_notes = str_chord.replace("{", "").replace("}", "").split("|")
+                notes = []
+                for str_note in str_notes:
+                    note = convertToNote(str_note)
+                    notes.append(note)
+                chord = music21.chord.Chord(notes)
+                chords.append(chord)
+
+    count = 0
+
+    file = converter.parse(midiFilePath)
+
+    mf = midi.MidiFile()
+    mf.open(midiFilePath)
+    mf.read()
+    mf.close()
+
+    s = midi.translate.midiFileToStream(mf)
+    partStream = s.parts.stream()
+    for p in partStream:
+        print(p.partName)
+        if(p.partName =='Piano'):
+            for ele in list(p.recurse()):
+                if (type(ele) is music21.chord.Chord and len(ele.normalOrder) > 2):
+                    ele.__dict__ = chords[count].__dict__
+                    count +=1
+
+    #for part  in list(file.recurse(skipSelf=True, streamsOnly=True)):
+
+        #if type(part) is music21.stream.Part:
+            #for ele in part:
+                #if  (type(ele) is music21.chord.Chord and len(ele.normalOrder) > 2):
+                    #if count < len(chords):
+                       # ele.__dict__ = chords[count].__dict__
+                        #ele.fullName = chords[count].fullName
+
+                        #chords[count].duration = component.duration
+                        #chords[count].quarterLength = component.quarterLength
+                        #new_components.append(chords[count])
+                        #count +=1
+
+
+
+    fp = s.write('midi', fp=outputFile)
 
 def testMidiFile(midiFilePath, translatedChordListFile):
     components = readMidiFile(midiFilePath)
@@ -275,13 +345,17 @@ def testMidiFile(midiFilePath, translatedChordListFile):
     new_components = []
     count = 0
     for component in components:
-        if not type(component) is music21.chord.Chord or (type(component) is music21.chord.Chord and len(component.normalOrder) <= 2):
-            new_components.append(component)
-        else:
+        if False and ( type(component) is  music21.chord.Chord and len(component.normalOrder) > 2):
             if count < len(chords):
+                component.fullName = chords[count].fullName
+
                 chords[count].duration = component.duration
                 chords[count].quarterLength = component.quarterLength
                 new_components.append(chords[count])
+
+
+        else:
+            new_components.append(component)
 
     return new_components
 
