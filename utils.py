@@ -224,6 +224,46 @@ def extractNodeSimpleChord(file_path, split_length, type):
     with open(type + ".chord", 'a') as f:
         f.write(common_name + '\n')
 
+def extractNodeMoreSimpleChord(file_path, split_length, type):
+    read_data = None
+    full_name = ""
+    common_name = ""
+    count_length = 0
+    with open(file_path, 'r') as f:
+        read_data = f.readlines()
+    for line in read_data[1:]:
+        if line == "":
+            continue
+        count_length += 1
+        sl = line.split(",")
+        i  = sl[0].index("{")
+        j  = sl[0].index("}")
+        full_name += sl[0][i:j+1].replace(" ", "_") + " "
+        temp = sl[1].split(" ")[0] + " "
+        # if temp.endswith("-incomplete"):
+        #     temp = temp.replace("-incomplete","")
+        # if temp.endswith("-diminished"):
+        #     temp = temp.replace("-diminished","")
+        # if temp.endswith("-interval"):
+        #     temp = temp.replace("-interval","")
+        # if temp.endswith("-whole-tone"):
+        #     temp = temp.replace("-whole-tone","")
+        common_name += sl[1].split(" ")[0].split("-")[0] + " "
+        if split_length is not None and count_length == split_length:
+            full_name += "\n"
+            common_name += "\n"
+            count_length = 0
+
+    if full_name.endswith("\n"):
+        full_name = full_name[:-1]
+    if common_name.endswith("\n"):
+        common_name = common_name[:-1]
+
+    with open(type + ".node", 'a') as f:
+        f.write(full_name + '\n')
+    with open(type + ".chord", 'a') as f:
+        f.write(common_name + '\n')
+
 def removeDuplicateChordinVocab(vocabFile):
     words = []
     with open(vocabFile, 'r') as f:
