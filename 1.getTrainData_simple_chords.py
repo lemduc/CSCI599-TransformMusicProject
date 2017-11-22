@@ -23,13 +23,31 @@ import os
 #printPianoChord(path.split(".mid")[0] + "_chord.txt")
 
 import os
-for file in os.listdir("data/CHORDS/test"):
+
+# extract train
+type = "train"
+for file in os.listdir("data/CHORDS/"+type):
     if file.endswith(".txt"):
-        path = os.path.join("data/CHORDS/test", file)
+        path = os.path.join("data/CHORDS/"+type, file)
         print(path)
         #extractNodeChord(path, None)
-        extractNodeSimpleChord(path, 20)
+        extractNodeSimpleChord(path, 20, type)
 
+# extract dev
+type = "test"
+for file in os.listdir("data/CHORDS/"+type):
+    if file.endswith(".txt"):
+        path = os.path.join("data/CHORDS/"+type, file)
+        print(path)
+        #extractNodeChord(path, None)
+        extractNodeSimpleChord(path, 20, type)
 
-
+# extract test
+type = "dev"
+for file in os.listdir("data/CHORDS/"+type):
+    if file.endswith(".txt"):
+        path = os.path.join("data/CHORDS/"+type, file)
+        print(path)
+        #extractNodeChord(path, None)
+        extractNodeSimpleChord(path, 20, type)
 

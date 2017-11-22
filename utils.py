@@ -162,7 +162,7 @@ def extractChordToFileFromMidi(file_path, split_length, output_file):
     with open(output_file, 'w') as f:
         f.write(str_output)
 
-def extractNodeChord(file_path, split_length):
+def extractNodeChord(file_path, split_length, type):
     read_data = None
     full_name = ""
     common_name = ""
@@ -170,6 +170,8 @@ def extractNodeChord(file_path, split_length):
     with open(file_path, 'r') as f:
         read_data = f.readlines()
     for line in read_data[1:]:
+        if line == "":
+            continue
         count_length += 1
         sl = line.split(",")
         i  = sl[0].index("{")
@@ -181,13 +183,17 @@ def extractNodeChord(file_path, split_length):
             common_name += "\n"
             count_length = 0
 
+    if full_name.endswith("\n"):
+        full_name = full_name[:-1]
+    if common_name.endswith("\n"):
+        common_name = common_name[:-1]
 
-    with open("train_nodes.txt", 'a') as f:
+    with open(type+".node", 'a') as f:
         f.write(full_name + '\n')
-    with open("train_ch.txt", 'a') as f:
+    with open(type+".chord", 'a') as f:
         f.write(common_name + '\n')
 
-def extractNodeSimpleChord(file_path, split_length):
+def extractNodeSimpleChord(file_path, split_length, type):
     read_data = None
     full_name = ""
     common_name = ""
@@ -195,6 +201,8 @@ def extractNodeSimpleChord(file_path, split_length):
     with open(file_path, 'r') as f:
         read_data = f.readlines()
     for line in read_data[1:]:
+        if line == "":
+            continue
         count_length += 1
         sl = line.split(",")
         i  = sl[0].index("{")
@@ -206,10 +214,14 @@ def extractNodeSimpleChord(file_path, split_length):
             common_name += "\n"
             count_length = 0
 
+    if full_name.endswith("\n"):
+        full_name = full_name[:-1]
+    if common_name.endswith("\n"):
+        common_name = common_name[:-1]
 
-    with open("train_nodes_simple.txt", 'a') as f:
+    with open(type + ".node", 'a') as f:
         f.write(full_name + '\n')
-    with open("train_chord_simple.txt", 'a') as f:
+    with open(type + ".chord", 'a') as f:
         f.write(common_name + '\n')
 
 def removeDuplicateChordinVocab(vocabFile):
