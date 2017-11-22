@@ -300,17 +300,18 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
     s = midi.translate.midiFileToStream(mf)
     partStream = s.parts.stream()
 
+
     for i in s.recurse().getElementsByClass('Instrument'):
         if i.midiProgram is None:
-            i.midiProgram = 0
+            i.midiProgram = 5
 
     for p in partStream:
-        print(p.partName)
         if(p.partName =='Piano'):
             for ele in list(p.recurse()):
                 if (type(ele) is music21.chord.Chord and len(ele.normalOrder) > 2):
                     ele.__dict__ = chords[count].__dict__
                     count +=1
+            break
 
 
     fp = s.write('midi', fp=outputFile)
