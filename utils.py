@@ -20,9 +20,6 @@ def readMidiFile(file_path):
         components.append(element)
     return components
 
-def readMidiFile2(file_path):
-    file = converter.parse(file_path)
-
 
 def printPianoChordSequence(file_path):
     components = readMidiFile(file_path=file_path)
@@ -273,6 +270,8 @@ def testMidiFile3(midiFilePath, translatedChordListFile, outputFile):
     mf.open(outputFile, 'wb')
     mf.write()
     mf.close()
+
+#Use this function to generate midi file
 def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
     chords = []
     with open(translatedChordListFile, 'r') as f:
@@ -300,6 +299,11 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
 
     s = midi.translate.midiFileToStream(mf)
     partStream = s.parts.stream()
+
+    for i in s.recurse().getElementsByClass('Instrument'):
+        if i.midiProgram is None:
+            i.midiProgram = 0
+
     for p in partStream:
         print(p.partName)
         if(p.partName =='Piano'):
@@ -308,26 +312,22 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
                     ele.__dict__ = chords[count].__dict__
                     count +=1
 
-    #for part  in list(file.recurse(skipSelf=True, streamsOnly=True)):
-
-        #if type(part) is music21.stream.Part:
-            #for ele in part:
-                #if  (type(ele) is music21.chord.Chord and len(ele.normalOrder) > 2):
-                    #if count < len(chords):
-                       # ele.__dict__ = chords[count].__dict__
-                        #ele.fullName = chords[count].fullName
-
-                        #chords[count].duration = component.duration
-                        #chords[count].quarterLength = component.quarterLength
-                        #new_components.append(chords[count])
-                        #count +=1
-
-
 
     fp = s.write('midi', fp=outputFile)
 
 def testMidiFile(midiFilePath, translatedChordListFile):
-    components = readMidiFile(midiFilePath)
+    file = converter.parse('imagine/Imagine.mid')
+    components = []
+    # select the first channels
+    partStream = file.parts.stream()
+    for part in partStream:
+        print(part.partName)
+    for i in file.recurse().getElementsByClass('Instrument'):
+        if i.midiProgram is None:
+            i.midiProgram = 0
+
+    for element in file[0].recurse():
+        components.add(element)
     chords = []
     with open(translatedChordListFile, 'r') as f:
 

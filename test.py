@@ -11,11 +11,11 @@ from utils import *
 #             startPiano = True
 #          if type(component) is music21.chord.Chord:
 
-for file in os.listdir("data/MIDI"):
-    if file.endswith(".mid"):
-        path = os.path.join("data/MIDI", file)
-        print(path)
-        printPianoChordSequence(path)
+# for file in os.listdir("data/MIDI"):
+#     if file.endswith(".mid"):
+#         path = os.path.join("data/MIDI", file)
+#         print(path)
+#         printPianoChordSequence(path)
 
 #extractNodeChordToFile("data/CHORDS/old/accustomed_chord.txt","chordTest1.chord","noteTest1.note")
 #components= readMidiFile('data/LetItBe.mid')
@@ -36,4 +36,20 @@ for file in os.listdir("data/MIDI"):
 
 #readMidiFile2('imagine/Imagine.mid')
 
-testMidiFile2('imagine/Imagine.mid', 'test_data/imagine.node','test_data/Imagine_jazz2.mid')
+testMidiFile2('imagine/Imagine.mid', 'test_data/imagine.node','test_data/Imagine_jazz3.mid')
+#
+#
+# file = converter.parse('imagine/Imagine.mid')
+# components = []
+#     # select the first channels
+# partStream = file.parts.stream()
+# for part in partStream:
+#     print(part.partName)
+# for i in file.recurse().getElementsByClass('Instrument'):
+#     if i.midiProgram is None:
+#         i.midiProgram = 0
+# s = music21.stream.Score()
+# for part in partStream:
+#     s.insert(part)
+# fp = s.write('midi', fp='test_data/Imagine_jazz3.mid')
+
