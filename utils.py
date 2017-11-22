@@ -187,6 +187,30 @@ def extractNodeChord(file_path, split_length):
     with open("train_ch.txt", 'a') as f:
         f.write(common_name + '\n')
 
+def extractNodeSimpleChord(file_path, split_length):
+    read_data = None
+    full_name = ""
+    common_name = ""
+    count_length = 0
+    with open(file_path, 'r') as f:
+        read_data = f.readlines()
+    for line in read_data[1:]:
+        count_length += 1
+        sl = line.split(",")
+        i  = sl[0].index("{")
+        j  = sl[0].index("}")
+        full_name += sl[0][i:j+1].replace(" ", "_") + " "
+        common_name += sl[1].split(" ")[0] + " "
+        if split_length is not None and count_length == split_length:
+            full_name += "\n"
+            common_name += "\n"
+            count_length = 0
+
+
+    with open("train_nodes_simple.txt", 'a') as f:
+        f.write(full_name + '\n')
+    with open("train_chord_simple.txt", 'a') as f:
+        f.write(common_name + '\n')
 
 def removeDuplicateChordinVocab(vocabFile):
     words = []
