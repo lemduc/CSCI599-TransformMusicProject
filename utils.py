@@ -301,9 +301,15 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
     partStream = s.parts.stream()
 
 
+    maxMidiProgam = 0
+    for i in s.recurse().getElementsByClass('Instrument'):
+        if i.midiProgram is not None:
+            if maxMidiProgam < i.midiProgram:
+                maxMidiProgam = i.midiProgram
     for i in s.recurse().getElementsByClass('Instrument'):
         if i.midiProgram is None:
-            i.midiProgram = 5
+            maxMidiProgam +=1
+            i.midiProgram = maxMidiProgam
 
     for p in partStream:
         if(p.partName =='Piano'):
