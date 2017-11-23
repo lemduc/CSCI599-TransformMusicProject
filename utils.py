@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 #from mingus.midi import fluidsynth
 #from mingus.containers import NoteContainer
 #import mingus.containers
-import mingus.core.value as value
+#import mingus.core.value as value
 import pandas as pd
 import numpy as np
 import sys, re, itertools, random, os
@@ -166,6 +166,7 @@ def extractNodeChord(file_path, split_length, type):
     read_data = None
     full_name = ""
     common_name = ""
+    duration_name = ""
     count_length = 0
     with open(file_path, 'r') as f:
         read_data = f.readlines()
@@ -178,20 +179,26 @@ def extractNodeChord(file_path, split_length, type):
         j  = sl[0].index("}")
         full_name += sl[0][i:j+1].replace(" ", "_") + " "
         common_name += sl[1].replace(" ", "_") + " "
+        duration_name += sl[2] + " "
         if split_length is not None and count_length == split_length:
             full_name += "\n"
             common_name += "\n"
+            duration_name += "\n"
             count_length = 0
 
     if full_name.endswith("\n"):
         full_name = full_name[:-1]
     if common_name.endswith("\n"):
         common_name = common_name[:-1]
+    if duration_name.endswith("\n"):
+        duration_name = duration_name[:-1]
 
     with open(type+".node", 'a') as f:
         f.write(full_name + '\n')
     with open(type+".chord", 'a') as f:
         f.write(common_name + '\n')
+    with open(type+".dura", 'a') as f:
+        f.write(duration_name + '\n')
 
 def extractNodeSimpleChord(file_path, split_length, type):
     read_data = None
@@ -282,8 +289,6 @@ def removeDuplicateChordinVocab(vocabFile):
         for word in words:
             f.write(word +'\n')
         f.close()
-
-
 
 def extractNodeChordToFile(file_path, chordFile,noteFile):
     read_data = None
@@ -392,7 +397,7 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
             for ele in list(p.recurse()):
                 if (type(ele) is music21.chord.Chord and len(ele.normalOrder) > 2):
                     ele.__dict__ = chords[count].__dict__
-                    count +=1
+                    count += 1
             break
 
 
@@ -442,9 +447,6 @@ def testMidiFile(midiFilePath, translatedChordListFile):
 
     return new_components
 
-
-
-
 def matchTestChordFile(originalChordFile, translatedChordFile):
     output = []
     origLines = []
@@ -462,5 +464,31 @@ def matchTestChordFile(originalChordFile, translatedChordFile):
         openBracket = line.index("{")
         closeBracket = line.index("}")
         newLine = line[0:(openBracket+1)] + translatedLines[i] +line[closeBracket:]
+        output.append(newLine)
+    return output
+
+def matchTestDuraFile(originalChordFile, translatedChordFile):
+    # TODO: still modifying
+    # replace the duration to new one
+    output = []
+    origLines = []
+    with open(originalChordFile, 'r') as f:
+        count = 0
+        for line in f:
+            if count > 0:
+                origLines.append(line.strip())
+            else:
+                count += 1
+    translatedLines = []
+    with open(translatedChordFile, 'r') as f:
+        for line in f:
+            translatedLines.append(line.strip())
+    for i in range(len(origLines)):
+        sl = translatedLines[i].split(",")
+        sl[2] = translatedLines[i]
+        newLine = ""
+        for j in range(len(sl)):
+            newLine += sl[j] + ','
+        newLine = newLine[:-1]  # for removing the last ','
         output.append(newLine)
     return output
