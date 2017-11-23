@@ -15,10 +15,53 @@ def readMidiFile(file_path):
     file = converter.parse(file_path)
     components = []
     # select the first channels
-    for element in file.recurse():
+    for element in file[0].recurse():
 
         components.append(element)
     return components
+
+#print piano chord sequence to output file
+
+def printChordSequence(file_path, outputFile):
+    components = readMidiFile(file_path=file_path)
+    startPiano = True  # False
+    printRatio = True
+    printHighest = True
+    printColumns = True
+    output = ""
+    notes = ""
+    chords = ""
+    for component in components:
+
+        # if hasattr(component, 'instrumentName') and component.instrumentName == 'Piano':
+        #     startPiano = True
+        # elif hasattr(component, 'instrumentName') and not component.instrumentName == 'Piano':
+        #     startPiano = False
+        if startPiano and type(component) is music21.chord.Chord:
+            tmp = component.fullName + "," + component.pitchedCommonName + "," + str(
+                component.quarterLength) + "," + str(
+                component.offset)
+            output += tmp + "\n"
+            print(tmp)
+        elif type(component) is music21.meter.TimeSignature and printRatio:
+            tmp = str(component.ratioString)
+            output += tmp + "\n"
+            print(tmp)
+            printRatio = False
+        elif type(component) is music21.stream.Score and printHighest:
+            tmp = component.highestTime
+            output += str(tmp) + "\n"
+            print(tmp)
+            printHighest = False
+        elif not printHighest and not printRatio and printColumns:
+            tmp = "FullName,CommonName,Len,Offset"
+            output += tmp + "\n"
+            print(tmp)
+            printColumns = False
+            # Write chords out into cleaned-up version of Oscar's chords
+
+    with open(outputFile, 'w') as f:
+        f.write(output)
 
 
 def printPianoChordSequence(file_path):
@@ -60,6 +103,9 @@ def printPianoChordSequence(file_path):
 
     with open((file_path.split(".mid")[0] + "_chord.txt").replace("MIDI", "CHORDS"), 'w') as f:
        f.write(output)
+
+
+
 
 def printPianoChord(file_path):
     # Import the chord data.
@@ -224,6 +270,88 @@ def extractNodeSimpleChord(file_path, split_length, type):
     with open(type + ".chord", 'a') as f:
         f.write(common_name + '\n')
 
+
+
+#print more simple chords to file
+def extractMoreSimpleChord(file_path, split_length, outputFile):
+    read_data = None
+    full_name = ""
+    common_name = ""
+    count_length = 0
+    with open(file_path, 'r') as f:
+        read_data = f.readlines()
+    for line in read_data[3:]:
+        if line == "":
+            continue
+        count_length += 1
+        sl = line.split(",")
+        i = sl[0].index("{")
+        j = sl[0].index("}")
+        full_name += sl[0][i:j + 1].replace(" ", "_") + " "
+        temp = sl[1].split(" ")[0] + " "
+        # if temp.endswith("-incomplete"):
+        #     temp = temp.replace("-incomplete","")
+        # if temp.endswith("-diminished"):
+        #     temp = temp.replace("-diminished","")
+        # if temp.endswith("-interval"):
+        #     temp = temp.replace("-interval","")
+        # if temp.endswith("-whole-tone"):
+        #     temp = temp.replace("-whole-tone","")
+        common_name += sl[1].split(" ")[0].split("-")[0] + " "
+        if split_length is not None and count_length == split_length:
+            full_name += "\n"
+            common_name += "\n"
+            count_length = 0
+
+    if full_name.endswith("\n"):
+        full_name = full_name[:-1]
+    if common_name.endswith("\n"):
+        common_name = common_name[:-1]
+
+
+    with open(outputFile, 'a') as f:
+        f.write(common_name + '\n')
+
+def extractNodeMoreSimpleChord(file_path, split_length, type):
+    read_data = None
+    full_name = ""
+    common_name = ""
+    count_length = 0
+    with open(file_path, 'r') as f:
+        read_data = f.readlines()
+    for line in read_data[1:]:
+        if line == "":
+            continue
+        count_length += 1
+        sl = line.split(",")
+        i  = sl[0].index("{")
+        j  = sl[0].index("}")
+        full_name += sl[0][i:j+1].replace(" ", "_") + " "
+        temp = sl[1].split(" ")[0] + " "
+        # if temp.endswith("-incomplete"):
+        #     temp = temp.replace("-incomplete","")
+        # if temp.endswith("-diminished"):
+        #     temp = temp.replace("-diminished","")
+        # if temp.endswith("-interval"):
+        #     temp = temp.replace("-interval","")
+        # if temp.endswith("-whole-tone"):
+        #     temp = temp.replace("-whole-tone","")
+        common_name += sl[1].split(" ")[0].split("-")[0] + " "
+        if split_length is not None and count_length == split_length:
+            full_name += "\n"
+            common_name += "\n"
+            count_length = 0
+
+    if full_name.endswith("\n"):
+        full_name = full_name[:-1]
+    if common_name.endswith("\n"):
+        common_name = common_name[:-1]
+
+    with open(type + ".node", 'a') as f:
+        f.write(full_name + '\n')
+    with open(type + ".chord", 'a') as f:
+        f.write(common_name + '\n')
+
 def removeDuplicateChordinVocab(vocabFile):
     words = []
     with open(vocabFile, 'r') as f:
@@ -307,6 +435,9 @@ def testMidiFile3(midiFilePath, translatedChordListFile, outputFile):
     mf.write()
     mf.close()
 
+#create a more simple chord from a midi file
+
+
 #Use this function to generate midi file
 def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
     chords = []
@@ -351,7 +482,11 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
         if(p.partName =='Piano'):
             for ele in list(p.recurse()):
                 if (type(ele) is music21.chord.Chord and len(ele.normalOrder) > 2):
+                    tempDuration = ele.duration
+                    tempOffset = ele.offset
                     ele.__dict__ = chords[count].__dict__
+                    ele.duration = tempDuration
+                    ele.offset =tempOffset
                     count +=1
             break
 

@@ -36,7 +36,7 @@ from utils import *
 
 #readMidiFile2('imagine/Imagine.mid')
 
-testMidiFile2('imagine/Imagine.mid', 'test_data/imagine.node','test_data/Imagine_jazz3.mid')
+#testMidiFile2('imagine/Imagine.mid', 'test_data/imagine.node','test_data/Imagine_jazz3.mid')
 #
 #
 # file = converter.parse('imagine/Imagine.mid')
@@ -53,3 +53,7 @@ testMidiFile2('imagine/Imagine.mid', 'test_data/imagine.node','test_data/Imagine
 #     s.insert(part)
 # fp = s.write('midi', fp='test_data/Imagine_jazz3.mid')
 
+#printChordSequence('test_data/Imagine.mid', 'test_data/ImagineChordSequence.txt')
+#extractMoreSimpleChord('test_data/ImagineChordSequence.txt', 20, 'test_data/imagine_more_simple_chord.txt')
+
+testMidiFile2('test_data/Imagine.mid', 'test_data/Imagine_more_simple_jazz.note','test_data/Imagine_more_simple.mid')
