@@ -522,69 +522,25 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
 
     count = 0
 
-    # file = converter.parse(midiFilePath)
-    #
-    # mf = midi.MidiFile()
-    # mf.open(midiFilePath)
-    # mf.read()
-    # mf.close()
-    #
-    # s = midi.translate.midiFileToStream(mf)
-    # partStream = s.parts.stream()
-    #
-    #
-    # maxMidiProgam = 0
-    # for i in s.recurse().getElementsByClass('Instrument'):
-    #     if i.midiProgram is not None:
-    #         if maxMidiProgam < i.midiProgram:
-    #             maxMidiProgam = i.midiProgram
-    # for i in s.recurse().getElementsByClass('Instrument'):
-    #     if i.midiProgram is None:
-    #         maxMidiProgam +=1
-    #         i.midiProgram = maxMidiProgam
-    #
-    # for p in partStream:
-    #     for ele in list(p.recurse()):
-    #         if (type(ele) is music21.chord.Chord and count < len(chords)):
-    #             tempDuration = ele.duration
-    #             tempOffset = ele.offset
-    #             ele.__dict__ = chords[count].__dict__
-    #
-    #             ele.duration = tempDuration
-    #             ele.offset = tempOffset
-    #
-    #         count += 1
-    #     break
-    #
-    #
-    # fp = s.write('midi', fp=outputFile)
+    outScore = music21.stream.Score()
+    components = readPianoMidiFile(midiFilePath)
 
-    file = converter.parse(midiFilePath)
-    components = []
-    # select the first channels
-    maxMidiProgam = 0
-    for i in file.recurse().getElementsByClass('Instrument'):
-        if i.midiProgram is not None:
-            if maxMidiProgam < i.midiProgram:
-                maxMidiProgam = i.midiProgram
-    maxMidiProgam += 1
-    for i in file.recurse().getElementsByClass('Instrument'):
-        if i.midiProgram is None:
-            #maxMidiProgam +=1
-            i.midiProgram = 1
-    for ele in list(file.recurse()):
-        # if (type(ele) is music21.chord.Chord and count < len(chords)):
-        #     tempDuration = ele.duration
-        #     tempOffset = ele.offset
-        #     ele.__dict__ = chords[count].__dict__
-        #
-        #     ele.duration = tempDuration
-        #     ele.offset = tempOffset
-        #
-        #     count += 1
-        components.append(ele)
+    for i in range(len(components)):
+        ele = components[i]
+        if type(ele) is music21.chord.Chord:
+            tempDuration = ele.duration
+            tempOffset = ele.offset
+            ele.__dict__ = chords[count].__dict__
+            ele.duration = tempDuration
+            ele.offset = tempOffset
+            count +=1
+        outScore.insert(ele)
 
-    fp = file.write('midi', fp=outputFile)
+
+
+
+
+    fp = outScore.write('midi', fp=outputFile)
 
 
 
