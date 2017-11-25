@@ -326,6 +326,7 @@ def extractMoreSimpleChord(file_path, split_length, outputFile):
 
 
 def extractNodeMoreSimpleChord(file_path, split_length, type):
+
     read_data = None
     full_name = ""
     common_name = ""
@@ -333,7 +334,7 @@ def extractNodeMoreSimpleChord(file_path, split_length, type):
     with open(file_path, 'r') as f:
         read_data = f.readlines()
     for line in read_data[1:]:
-        if line == "":
+        if line == "" or "{" not in line:
             continue
         count_length += 1
         sl = line.split(",")
@@ -468,43 +469,70 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
 
     count = 0
 
+    # file = converter.parse(midiFilePath)
+    #
+    # mf = midi.MidiFile()
+    # mf.open(midiFilePath)
+    # mf.read()
+    # mf.close()
+    #
+    # s = midi.translate.midiFileToStream(mf)
+    # partStream = s.parts.stream()
+    #
+    #
+    # maxMidiProgam = 0
+    # for i in s.recurse().getElementsByClass('Instrument'):
+    #     if i.midiProgram is not None:
+    #         if maxMidiProgam < i.midiProgram:
+    #             maxMidiProgam = i.midiProgram
+    # for i in s.recurse().getElementsByClass('Instrument'):
+    #     if i.midiProgram is None:
+    #         maxMidiProgam +=1
+    #         i.midiProgram = maxMidiProgam
+    #
+    # for p in partStream:
+    #     for ele in list(p.recurse()):
+    #         if (type(ele) is music21.chord.Chord and count < len(chords)):
+    #             tempDuration = ele.duration
+    #             tempOffset = ele.offset
+    #             ele.__dict__ = chords[count].__dict__
+    #
+    #             ele.duration = tempDuration
+    #             ele.offset = tempOffset
+    #
+    #         count += 1
+    #     break
+    #
+    #
+    # fp = s.write('midi', fp=outputFile)
+
     file = converter.parse(midiFilePath)
-
-    mf = midi.MidiFile()
-    mf.open(midiFilePath)
-    mf.read()
-    mf.close()
-
-    s = midi.translate.midiFileToStream(mf)
-    partStream = s.parts.stream()
-
-
+    components = []
+    # select the first channels
     maxMidiProgam = 0
-    for i in s.recurse().getElementsByClass('Instrument'):
+    for i in file.recurse().getElementsByClass('Instrument'):
         if i.midiProgram is not None:
             if maxMidiProgam < i.midiProgram:
                 maxMidiProgam = i.midiProgram
-    for i in s.recurse().getElementsByClass('Instrument'):
+    maxMidiProgam += 1
+    for i in file.recurse().getElementsByClass('Instrument'):
         if i.midiProgram is None:
-            maxMidiProgam +=1
-            i.midiProgram = maxMidiProgam
+            #maxMidiProgam +=1
+            i.midiProgram = 1
+    for ele in list(file.recurse()):
+        # if (type(ele) is music21.chord.Chord and count < len(chords)):
+        #     tempDuration = ele.duration
+        #     tempOffset = ele.offset
+        #     ele.__dict__ = chords[count].__dict__
+        #
+        #     ele.duration = tempDuration
+        #     ele.offset = tempOffset
+        #
+        #     count += 1
+        components.append(ele)
 
-    for p in partStream:
-        if(p.partName =='Piano'):
-            for ele in list(p.recurse()):
-                if (type(ele) is music21.chord.Chord and len(ele.normalOrder) > 1 and count < len(chords)):
-                    tempDuration = ele.duration
-                    tempOffset = ele.offset
-                    ele.__dict__ = chords[count].__dict__
+    fp = file.write('midi', fp=outputFile)
 
-                    ele.duration = tempDuration
-                    ele.offset =tempOffset
-
-                count += 1
-            break
-
-
-    fp = s.write('midi', fp=outputFile)
 
 def testMidiFile(midiFilePath, translatedChordListFile):
     file = converter.parse('imagine/Imagine.mid')
@@ -653,3 +681,27 @@ def matchTestDuraFile(originalChordFile, translatedChordFile):
         newLine = newLine[:-1]  # for removing the last ','
         output.append(newLine)
     return output
+
+def testWriteMidi(filePath,outputFile):
+    s = converter.parse(filePath)
+    s2 = instrument.partitionByInstrument(s)
+
+
+    s3 = music21.stream.Score()
+    for i in s2.parts:
+        print(i.partName)
+        if(i.partName=='Piano'):
+            s3.insert(0,i)
+
+
+    #fp = s3.write('midi', fp=outputFile)
+    components = []
+
+
+    s4 = music21.stream.Score()
+    for ele in s3.recurse():
+        s4.insert(0,ele)
+
+    fp = s4.write('midi', fp=outputFile)
+
+
