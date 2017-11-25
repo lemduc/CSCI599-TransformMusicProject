@@ -502,6 +502,93 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
 
     fp = s.write('midi', fp=outputFile)
 
+
+def testMidiFile5(midiFilePath, translatedChordListFile, translatedDuraListFile, outputFile, mode='both'):
+    """
+    :param midiFilePath:
+    :param translatedChordListFile:
+    :param translatedDuraListFile
+    :param outputFile:
+    :param mode: (both/note/dura)
+    :return:
+    """
+    chords = []
+    if mode in 'both' or 'note':
+        with open(translatedChordListFile, 'r') as f:
+
+            for line in f:
+                line = line.strip()
+                str_chords = line.split(" ")
+                for str_chord in str_chords:
+                    str_notes = str_chord.replace("{", "").replace("}", "").split("|")
+                    notes = []
+                    for str_note in str_notes:
+                        note = convertToNote(str_note)
+                        notes.append(note)
+                    chord = music21.chord.Chord(notes)
+                    chords.append(chord)
+
+    durations = []
+    if mode is 'both' or 'dura':
+        with open(translatedDuraListFile, 'r') as f:
+            for line in f:
+                line = line.strip()
+                duras = line.split(" ")
+                for d in duras:
+                    dd = duration.Duration()
+                    dd.quarterLength = float(d)
+                    #dd = music21.duration.Duration(quarterLength=d)
+                    durations.append(dd)
+
+    count = 0
+
+    file = converter.parse(midiFilePath)
+
+    mf = midi.MidiFile()
+    mf.open(midiFilePath)
+    mf.read()
+    mf.close()
+
+    s = midi.translate.midiFileToStream(mf)
+    partStream = s.parts.stream()
+
+    maxMidiProgam = 0
+    for i in s.recurse().getElementsByClass('Instrument'):
+        if i.midiProgram is not None:
+            if maxMidiProgam < i.midiProgram:
+                maxMidiProgam = i.midiProgram
+    for i in s.recurse().getElementsByClass('Instrument'):
+        if i.midiProgram is None:
+            maxMidiProgam += 1
+            i.midiProgram = maxMidiProgam
+
+    d_count = 0
+    for p in partStream:
+        if p.partName == 'Piano':
+            for ele in list(p.recurse()):
+                if (type(ele) is music21.chord.Chord and len(ele.normalOrder) > 2):
+                    tempDuration = ele.duration
+                    tempOffset = ele.offset
+
+                    if mode is 'both' or 'note':
+                        ele.__dict__ = chords[count].__dict__
+
+                    if mode is 'both' or 'dura':
+                        if d_count < len(durations):
+                            ele.duration = durations[d_count]
+                            ele.offset = tempOffset
+                            d_count += 1
+                    else:
+                        ele.duration = tempDuration
+                        ele.offset = tempOffset
+
+                    count += 1
+
+            break
+
+    fp = s.write('midi', fp=outputFile)
+
+
 def testMidiFile(midiFilePath, translatedChordListFile):
     file = converter.parse('imagine/Imagine.mid')
     components = []
