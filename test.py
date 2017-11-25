@@ -59,3 +59,19 @@ from utils import *
 testMidiFile2('test_data/Imagine.mid', 'test_data/Imagine_more_simple_big_data_track0_jazz.note','test_data/Imagine_more_simple_big_data_track0_jazz.mid')
 #removeBadDataFile('data/CHORDS/standard-jazz1/')
 #splitFileToTrainDevTest()
+
+def testWriteMidi(filePath,outputFile):
+    s = converter.parse(filePath)
+    s2 = instrument.partitionByInstrument(s)
+    # for i in file.recurse().getElementsByClass('Instrument'):
+    #     if i.midiProgram is None:
+    #         i.midiProgram = 0
+    # fp = s.write('midi', fp=outputFile)
+    #print(s2)
+    #print(s2.parts)
+    s3 = music21.stream.Score()
+    for i in s2.parts:
+        print(i.partName)
+        if(i.partName=='Piano'):
+            s3.insert(i)
+    fp = s3.write('midi', fp=outputFile)

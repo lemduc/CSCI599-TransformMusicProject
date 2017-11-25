@@ -12,14 +12,25 @@ import pandas as pd
 import numpy as np
 import sys, re, itertools, random, os
 #fluidsynth.init('piano.SF2',"alsa
+
 def readMidiFile(file_path):
     file = converter.parse(file_path)
     components = []
     # select the first channels
     for element in file.recurse():
-
         components.append(element)
     return components
+
+def readPianoMidiFile(file_path):
+    file = converter.parse(file_path)
+    components = []
+    # select the first channels
+    for i in instrument.partitionByInstrument(file):
+        print(i.partName)
+        if i.partName == "Piano":
+            for element in i.recurse():
+                components.append(element)
+            return components
 
 #print piano chord sequence to output file
 
@@ -65,7 +76,7 @@ def printChordSequence(file_path, outputFile):
         f.write(output)
 
 
-def printPianoChordSequence(file_path):
+def printChordSequenceFirstTrack(file_path):
     try:
         components = readMidiFile(file_path=file_path)
         startPiano = True #False
@@ -109,6 +120,48 @@ def printPianoChordSequence(file_path):
         pass
 
 
+def printPianoChordSequence(file_path):
+    try:
+        components = readPianoMidiFile(file_path=file_path)
+        startPiano = True #False
+        printRatio = True
+        printHighest = True
+        printColumns = True
+        output = ""
+        notes = ""
+        chords = ""
+        for component in components:
+
+            # if hasattr(component, 'instrumentName') and component.instrumentName == 'Piano':
+            #     startPiano = True
+            # elif hasattr(component, 'instrumentName') and not component.instrumentName == 'Piano':
+            #     startPiano = False
+            if startPiano and type(component) is music21.chord.Chord:
+                tmp = component.fullName + "," + component.pitchedCommonName + "," + str(component.quarterLength) + "," + str(
+                    component.offset)
+                output += tmp + "\n"
+                print(tmp)
+            elif type(component) is music21.meter.TimeSignature and printRatio:
+                tmp = str(component.ratioString)
+                output += tmp + "\n"
+                print(tmp)
+                printRatio = False
+            elif type(component) is music21.stream.Score and printHighest:
+                tmp = component.highestTime
+                output += str(tmp) + "\n"
+                print(tmp)
+                printHighest = False
+            elif not printHighest and not printRatio and printColumns:
+                tmp = "FullName,CommonName,Len,Offset"
+                output += tmp + "\n"
+                print(tmp)
+                printColumns = False
+                # Write chords out into cleaned-up version of Oscar's chords
+
+        with open((file_path.split(".mid")[0] + "_chord.txt").replace("data/MidKar", "data/midkar_chords"), 'w') as f:
+           f.write(output)
+    except:
+        pass
 
 
 def printPianoChord(file_path):
