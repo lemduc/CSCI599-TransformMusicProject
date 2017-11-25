@@ -1,0 +1,15 @@
+4/4
+Chord {C in octave 5 | E in octave 4} Whole,C5-interval class 4,4.0,20.0
+Chord {E in octave 4 | C in octave 4} Eighth,C4-interval class 4,0.5,99.5
+Chord {C in octave 5 | E in octave 4} Whole,C5-interval class 4,4.0,120.0
+Chord {E in octave 4 | C in octave 4} Eighth,C4-interval class 4,0.5,199.5
+Chord {A in octave 5 | F in octave 5} Eighth,F5-interval class 4,0.5,205.0
+Chord {F in octave 5 | D in octave 5} Dotted Quarter,D5-interval class 3,1.5,206.5
+Chord {C in octave 5 | E in octave 4} Whole,C5-interval class 4,4.0,228.0
+Chord {E in octave 4 | C in octave 4} Half tied to Eighth (2 1/2 total QL),C4-interval class 4,2.5,307.5
+Chord {C in octave 5 | F in octave 5} Half,F5-interval class 5,2.0,312.0
+Chord {A in octave 4 | C in octave 5} Half,A4-interval class 3,2.0,314.0
+Chord {C in octave 4 | F in octave 4} Quarter,F4-interval class 5,1.0,316.0
+Chord {E in octave 4 | C in octave 4} Half tied to Eighth (2 1/2 total QL),C4-interval class 4,2.5,359.5
+Chord {C in octave 5 | E in octave 4} Whole,C5-interval class 4,4.0,380.0
+Chord {F in octave 4 | C in octave 5 | F in octave 5} Whole tied to Eighth (4 1/2 total QL),F4-interval class 5,4.5,387.5

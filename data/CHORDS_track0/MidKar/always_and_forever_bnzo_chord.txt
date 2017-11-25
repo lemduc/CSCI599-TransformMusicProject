@@ -1,0 +1,63 @@
+4/4
+Chord {D in octave 4 | B in octave 3} Half,B3-interval class 3,2.0,32.0
+Chord {F-sharp in octave 3 | A in octave 3} Half,F#3-interval class 3,2.0,34.0
+Chord {B in octave 3 | G in octave 3} Half,G3-interval class 4,2.0,36.0
+Chord {A in octave 3 | C-sharp in octave 4} Quarter,A3-interval class 4,1.0,38.0
+Chord {D in octave 4 | B in octave 3} Half,B3-interval class 3,2.0,48.0
+Chord {F-sharp in octave 3 | A in octave 3} Half,F#3-interval class 3,2.0,50.0
+Chord {B in octave 3 | G in octave 3} Half,G3-interval class 4,2.0,52.0
+Chord {C-sharp in octave 5 | F-sharp in octave 4 | E in octave 4 | A in octave 4} Half tied to Quarter tied to 16th (3 1/4 total QL),F#4-minor seventh chord,3.25,208.0
+Chord {E in octave 4 | C in octave 5 | G in octave 4 | A in octave 4} Half Triplet (1 1/3 QL),A4-minor seventh chord,4/3,212.0
+Chord {D in octave 4 | B in octave 4 | G in octave 4 | A in octave 4} Half,G4-major-second major tetrachord,2.0,214.0
+Chord {C-sharp in octave 5 | A in octave 4 | F-sharp in octave 4} 16th,F#4-minor triad,0.25,216.0
+Chord {F in octave 4 | E in octave 4} Zero,F4-interval class 1,0.0,216.25
+Chord {D in octave 4 | C in octave 4 | B in octave 3} Zero,B3-phrygian trichord,0.0,216.25
+Chord {A in octave 3 | G in octave 3 | F in octave 3} Zero,F3-whole-tone trichord,0.0,649/3
+Chord {B in octave 2 | A in octave 2} Zero,B2-interval class 2,0.0,216.5
+Chord {F-sharp in octave 5 | C-sharp in octave 5 | A in octave 5} Half tied to Eighth (2 1/2 total QL),F#5-minor triad,2.5,217.0
+Chord {F in octave 5 | A in octave 4 | C in octave 5} Half,F5-major triad,2.0,220.0
+Chord {G in octave 4 | B in octave 4 | E in octave 5} Half,E5-minor triad,2.0,222.0
+Chord {C-sharp in octave 5 | A in octave 4 | F-sharp in octave 4} 16th,F#4-minor triad,0.25,224.0
+Chord {F in octave 4 | E in octave 4} Zero,F4-interval class 1,0.0,224.25
+Chord {D in octave 4 | C in octave 4 | B in octave 3} Zero,B3-phrygian trichord,0.0,224.25
+Chord {A in octave 3 | G in octave 3 | F in octave 3} Zero,F3-whole-tone trichord,0.0,673/3
+Chord {B in octave 2 | A in octave 2} Zero,B2-interval class 2,0.0,224.5
+Chord {F-sharp in octave 5 | C-sharp in octave 5 | A in octave 5} Half tied to Eighth (2 1/2 total QL),F#5-minor triad,2.5,225.0
+Chord {F in octave 5 | A in octave 4 | C in octave 5} Half,F5-major triad,2.0,228.0
+Chord {G in octave 4 | B in octave 4 | E in octave 5} Half,E5-minor triad,2.0,230.0
+Chord {C-sharp in octave 5 | A in octave 4 | F-sharp in octave 4} 16th,F#4-minor triad,0.25,232.0
+Chord {F in octave 4 | E in octave 4} Zero,F4-interval class 1,0.0,232.25
+Chord {D in octave 4 | C in octave 4 | B in octave 3} Zero,B3-phrygian trichord,0.0,232.25
+Chord {A in octave 3 | G in octave 3 | F in octave 3} Zero,F3-whole-tone trichord,0.0,697/3
+Chord {B in octave 2 | A in octave 2} Zero,B2-interval class 2,0.0,232.5
+Chord {F-sharp in octave 5 | C-sharp in octave 5 | A in octave 5} Half tied to Eighth (2 1/2 total QL),F#5-minor triad,2.5,233.0
+Chord {F in octave 5 | A in octave 4 | C in octave 5} Half,F5-major triad,2.0,236.0
+Chord {G in octave 4 | B in octave 4 | E in octave 5} Half,E5-minor triad,2.0,238.0
+Chord {F-sharp in octave 5 | D in octave 5 | F-sharp in octave 4} 16th,D5-interval class 4,0.25,240.0
+Chord {F in octave 4 | E in octave 4} Zero,F4-interval class 1,0.0,240.25
+Chord {D in octave 4 | C in octave 4 | B in octave 3} Zero,B3-phrygian trichord,0.0,240.25
+Chord {A in octave 3 | G in octave 3 | F in octave 3} Zero,F3-whole-tone trichord,0.0,721/3
+Chord {B in octave 2 | A in octave 2} Zero,B2-interval class 2,0.0,240.5
+Chord {F-sharp in octave 5 | D in octave 5 | F-sharp in octave 4} 16th,D5-interval class 4,0.25,241.0
+Chord {F in octave 4 | E in octave 4} Zero,F4-interval class 1,0.0,241.25
+Chord {D in octave 4 | C in octave 4 | B in octave 3} Zero,B3-phrygian trichord,0.0,241.25
+Chord {A in octave 3 | G in octave 3 | F in octave 3} Zero,F3-whole-tone trichord,0.0,724/3
+Chord {B in octave 2 | A in octave 2} Zero,B2-interval class 2,0.0,241.5
+Chord {F-sharp in octave 5 | D in octave 5 | F-sharp in octave 4} 16th,D5-interval class 4,0.25,242.0
+Chord {F in octave 4 | E in octave 4} Zero,F4-interval class 1,0.0,242.25
+Chord {D in octave 4 | C in octave 4 | B in octave 3} Zero,B3-phrygian trichord,0.0,242.25
+Chord {A in octave 3 | G in octave 3 | F in octave 3} Zero,F3-whole-tone trichord,0.0,727/3
+Chord {B in octave 2 | A in octave 2} Zero,B2-interval class 2,0.0,242.5
+Chord {F-sharp in octave 5 | D in octave 5 | F-sharp in octave 4} 16th,D5-interval class 4,0.25,243.0
+Chord {F in octave 4 | E in octave 4} Zero,F4-interval class 1,0.0,243.25
+Chord {D in octave 4 | C in octave 4 | B in octave 3} Zero,B3-phrygian trichord,0.0,243.25
+Chord {A in octave 3 | G in octave 3 | F in octave 3} Zero,F3-whole-tone trichord,0.0,730/3
+Chord {B in octave 2 | A in octave 2} Zero,B2-interval class 2,0.0,243.5
+Chord {E in octave 5 | C-sharp in octave 5 | A in octave 4} Imperfect Longa Tuplet of 24/13ths (8 2/3 QL),A4-major triad,26/3,922/3
+Chord {E in octave 3 | D in octave 3 | C in octave 3} Zero,C3-whole-tone trichord,0.0,649/3
+Chord {E in octave 3 | D in octave 3 | C in octave 3} Zero,C3-whole-tone trichord,0.0,673/3
+Chord {E in octave 3 | D in octave 3 | C in octave 3} Zero,C3-whole-tone trichord,0.0,697/3
+Chord {E in octave 3 | D in octave 3 | C in octave 3} Zero,C3-whole-tone trichord,0.0,721/3
+Chord {E in octave 3 | D in octave 3 | C in octave 3} Zero,C3-whole-tone trichord,0.0,724/3
+Chord {E in octave 3 | D in octave 3 | C in octave 3} Zero,C3-whole-tone trichord,0.0,727/3
+Chord {E in octave 3 | D in octave 3 | C in octave 3} Zero,C3-whole-tone trichord,0.0,730/3

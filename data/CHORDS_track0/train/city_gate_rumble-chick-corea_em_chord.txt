@@ -1,0 +1,49 @@
+4/4
+Chord {B-flat in octave 4 | F in octave 5} Eighth,B-4-interval class 5,0.5,7.0
+Chord {A in octave 4 | E in octave 5} Half,A4-interval class 5,2.0,7.5
+Chord {C-sharp in octave 5 | F-sharp in octave 4} Half,F#4-interval class 5,2.0,15.5
+Chord {E in octave 4 | B in octave 4} Eighth,E4-interval class 5,0.5,23.0
+Chord {B-flat in octave 4 | F-sharp in octave 4 | E-flat in octave 4} Half,E-4-minor triad,2.0,23.5
+Chord {E-flat in octave 4 | B in octave 3} Dotted Eighth,E-4-interval class 4,0.75,25.5
+Chord {F in octave 4 | D in octave 4 | B-flat in octave 3 | A in octave 4} Whole Tuplet of 12/7ths (2 1/3 QL),B-3-major seventh chord,7/3,27.0
+Chord {G-sharp in octave 4 | E in octave 4 | B in octave 3} Dotted Quarter,E4-major triad,1.5,29.5
+Chord {C in octave 4 | G in octave 4 | E-flat in octave 4 | B-flat in octave 3} Dotted Quarter,C4-minor seventh chord,1.5,31.0
+Chord {F in octave 3 | B-flat in octave 3 | C in octave 4} Whole tied to Eighth (4 1/2 total QL),B-3-quartal trichord,4.5,32.5
+Chord {B-flat in octave 4 | C-sharp in octave 5 | F-sharp in octave 5} Double Dotted Half,B-4-major triad,3.5,39.5
+Chord {C-sharp in octave 5 | F in octave 5 | B-flat in octave 4 | F-sharp in octave 4} Eighth,B-4-major seventh chord,0.5,43.0
+Chord {C in octave 5 | E in octave 5 | F in octave 4 | A in octave 4} Half,F4-major seventh chord,2.0,43.5
+Chord {A in octave 4 | E in octave 4} Dotted Quarter,A4-interval class 5,1.5,45.5
+Chord {G in octave 4 | C in octave 5 | E-flat in octave 5 | A in octave 4} Double Dotted Half,A4-half-diminished seventh chord,3.5,47.5
+Chord {F in octave 4 | D in octave 5} Eighth,D5-interval class 3,0.5,51.0
+Chord {C-sharp in octave 5 | F-sharp in octave 4 | A in octave 4} Half,F#4-minor triad,2.0,51.5
+Chord {F-sharp in octave 4 | C-sharp in octave 4} Dotted Quarter,F#4-interval class 5,1.5,53.5
+Chord {F in octave 4 | D in octave 4 | A in octave 4} Half,D4-minor triad,2.0,63.0
+Chord {A in octave 4 | F-sharp in octave 4 | C-sharp in octave 5} Quarter,F#4-minor triad,1.0,65.5
+Chord {E in octave 5 | C in octave 5 | G in octave 5} Quarter,C5-major triad,1.0,67.5
+Chord {B in octave 5 | E in octave 5} Eighth,E5-interval class 5,0.5,68.5
+Chord {B-flat in octave 5 | E-flat in octave 5} Eighth,E-5-interval class 5,0.5,69.0
+Chord {D in octave 5 | A in octave 5} Eighth,D5-interval class 5,0.5,69.5
+Chord {G-sharp in octave 5 | C-sharp in octave 5} Quarter,C#5-interval class 5,1.0,70.0
+Chord {C in octave 5 | G in octave 5} Eighth,C5-interval class 5,0.5,71.0
+Chord {G in octave 4 | F-sharp in octave 5} Double Dotted Half,G4-interval class 1,3.5,71.5
+Chord {C-sharp in octave 5 | F in octave 5 | B-flat in octave 4 | F-sharp in octave 4} Eighth,B-4-major seventh chord,0.5,75.0
+Chord {C in octave 5 | E in octave 5 | A in octave 4 | F in octave 4} Half,F4-major seventh chord,2.0,75.5
+Chord {A in octave 4 | E in octave 4} Double Dotted Quarter,A4-interval class 5,1.75,77.5
+Chord {G in octave 4 | C in octave 5 | A in octave 4 | E-flat in octave 5} Double Dotted Half,A4-half-diminished seventh chord,3.5,79.5
+Chord {D in octave 5 | B-flat in octave 4 | F in octave 4} Eighth,B-4-major triad,0.5,83.0
+Chord {A in octave 4 | F-sharp in octave 4 | C-sharp in octave 5} Half,F#4-minor triad,2.0,83.5
+Chord {F-sharp in octave 4 | C-sharp in octave 4} Dotted Quarter,F#4-interval class 5,1.5,85.5
+Chord {G in octave 4 | E in octave 4 | C in octave 5 | A in octave 4} Double Dotted Half,A4-minor seventh chord,3.5,87.5
+Chord {G in octave 4 | B in octave 4} Eighth,G4-interval class 4,0.5,91.0
+Chord {C-sharp in octave 4 | F-sharp in octave 4 | E-flat in octave 4 | B-flat in octave 4} Half,C#4-minor seventh chord,2.0,91.5
+Chord {D in octave 4 | A in octave 4} Half,D4-interval class 5,2.0,95.0
+Chord {C-sharp in octave 5 | A in octave 4} Half,A4-interval class 4,2.0,97.5
+Chord {G in octave 5 | B in octave 5 | E in octave 5} Quarter,E5-minor triad,1.0,101.5
+Chord {G in octave 5 | B in octave 5 | D in octave 6} Quarter,G5-major triad,1.0,102.5
+Chord {C in octave 6 | B-flat in octave 5 | G-sharp in octave 5 | E-flat in octave 6} Eighth,C6-major-second major tetrachord,0.5,103.5
+Chord {F in octave 6 | C in octave 6 | B-flat in octave 5} Dotted Half,B-5-quartal trichord,3.0,105.0
+Chord {F in octave 5 | G in octave 5 | B-flat in octave 5 | D in octave 6} Double Dotted Half,G5-minor seventh chord,3.5,108.5
+Chord {C in octave 5 | G in octave 5 | F in octave 5} Dotted Quarter,F5-quartal trichord,1.5,115.5
+Chord {B in octave 4 | C in octave 5 | G in octave 5 | F in octave 5 | C in octave 6} Eighth,G5-tritone quartal tetrachord,0.5,117.5
+Chord {F in octave 5 | C in octave 6 | G in octave 5 | C in octave 5} Eighth,F5-quartal trichord,0.5,118.5
+Chord {F in octave 5 | C in octave 6 | G in octave 5 | C in octave 5} Eighth,F5-quartal trichord,0.5,119.0

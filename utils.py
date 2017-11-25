@@ -1,5 +1,6 @@
 import music21
 from music21 import  *
+import shutil
 
 from collections import Counter, defaultdict
 from sklearn.cluster import KMeans
@@ -15,7 +16,7 @@ def readMidiFile(file_path):
     file = converter.parse(file_path)
     components = []
     # select the first channels
-    for element in file[0].recurse():
+    for element in file.recurse():
 
         components.append(element)
     return components
@@ -65,44 +66,47 @@ def printChordSequence(file_path, outputFile):
 
 
 def printPianoChordSequence(file_path):
-    components = readMidiFile(file_path=file_path)
-    startPiano = True #False
-    printRatio = True
-    printHighest = True
-    printColumns = True
-    output = ""
-    notes = ""
-    chords = ""
-    for component in components:
+    try:
+        components = readMidiFile(file_path=file_path)
+        startPiano = True #False
+        printRatio = True
+        printHighest = True
+        printColumns = True
+        output = ""
+        notes = ""
+        chords = ""
+        for component in components:
 
-        # if hasattr(component, 'instrumentName') and component.instrumentName == 'Piano':
-        #     startPiano = True
-        # elif hasattr(component, 'instrumentName') and not component.instrumentName == 'Piano':
-        #     startPiano = False
-        if startPiano and type(component) is music21.chord.Chord:
-            tmp = component.fullName + "," + component.pitchedCommonName + "," + str(component.quarterLength) + "," + str(
-                component.offset)
-            output += tmp + "\n"
-            print(tmp)
-        elif type(component) is music21.meter.TimeSignature and printRatio:
-            tmp = str(component.ratioString)
-            output += tmp + "\n"
-            print(tmp)
-            printRatio = False
-        elif type(component) is music21.stream.Score and printHighest:
-            tmp = component.highestTime
-            output += str(tmp) + "\n"
-            print(tmp)
-            printHighest = False
-        elif not printHighest and not printRatio and printColumns:
-            tmp = "FullName,CommonName,Len,Offset"
-            output += tmp + "\n"
-            print(tmp)
-            printColumns = False
-            # Write chords out into cleaned-up version of Oscar's chords
+            # if hasattr(component, 'instrumentName') and component.instrumentName == 'Piano':
+            #     startPiano = True
+            # elif hasattr(component, 'instrumentName') and not component.instrumentName == 'Piano':
+            #     startPiano = False
+            if startPiano and type(component) is music21.chord.Chord:
+                tmp = component.fullName + "," + component.pitchedCommonName + "," + str(component.quarterLength) + "," + str(
+                    component.offset)
+                output += tmp + "\n"
+                print(tmp)
+            elif type(component) is music21.meter.TimeSignature and printRatio:
+                tmp = str(component.ratioString)
+                output += tmp + "\n"
+                print(tmp)
+                printRatio = False
+            elif type(component) is music21.stream.Score and printHighest:
+                tmp = component.highestTime
+                output += str(tmp) + "\n"
+                print(tmp)
+                printHighest = False
+            elif not printHighest and not printRatio and printColumns:
+                tmp = "FullName,CommonName,Len,Offset"
+                output += tmp + "\n"
+                print(tmp)
+                printColumns = False
+                # Write chords out into cleaned-up version of Oscar's chords
 
-    with open((file_path.split(".mid")[0] + "_chord.txt").replace("MIDI", "CHORDS"), 'w') as f:
-       f.write(output)
+        with open((file_path.split(".mid")[0] + "_chord.txt").replace("data", "data/CHORDS"), 'w') as f:
+           f.write(output)
+    except:
+        pass
 
 
 
@@ -488,15 +492,15 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
     for p in partStream:
         if(p.partName =='Piano'):
             for ele in list(p.recurse()):
-                if (type(ele) is music21.chord.Chord and len(ele.normalOrder) > 2):
+                if (type(ele) is music21.chord.Chord and len(ele.normalOrder) > 1 and count < len(chords)):
                     tempDuration = ele.duration
                     tempOffset = ele.offset
                     ele.__dict__ = chords[count].__dict__
 
                     ele.duration = tempDuration
                     ele.offset =tempOffset
-                    count +=1
 
+                count += 1
             break
 
 
@@ -565,6 +569,64 @@ def matchTestChordFile(originalChordFile, translatedChordFile):
         newLine = line[0:(openBracket+1)] + translatedLines[i] +line[closeBracket:]
         output.append(newLine)
     return output
+
+def removeBadDataFile(folderPath):
+    for filename in os.listdir(folderPath):
+        file = os.path.join(folderPath, filename)
+        toRemove  = False
+        with open(file,'r') as f:
+            count = 0
+            for line in f:
+                count +=1
+            if count < 10:
+                toRemove = True
+        if toRemove:
+            # remove that file
+            print("remove file "+ str(file) +" with number of lines =" + str(count))
+
+            os.remove(file)
+
+def splitFileToTrainDevTest():
+    files =[]
+    for filename in os.listdir('data/CHORDS/standard-jazz1/'):
+        file = os.path.join('data/CHORDS/standard-jazz1/',filename)
+        files.append(file)
+    for filename in os.listdir('data/CHORDS/MIDI_1/'):
+        file = os.path.join('data/CHORDS/MIDI_1/',filename)
+        files.append(file)
+    for filename in os.listdir('data/CHORDS/MIDI_2/'):
+        file = os.path.join('data/CHORDS/MIDI_2/',filename)
+        files.append(file)
+    for filename in os.listdir('data/CHORDS/MidKar/'):
+        file = os.path.join('data/CHORDS/MidKar/',filename)
+        files.append(file)
+    print("Total number of files = "+ str(len(files)))
+    train = 0
+    dev = 0
+    test = 0
+
+
+    for i  in range(len(files)):
+        if i < 0.7* len(files):
+            train +=1
+            shutil.copy2(files[i],'data/CHORDS/train/')
+        elif i <0.8*len(files):
+            dev +=1
+            shutil.copy2(files[i], 'data/CHORDS/dev/')
+        else:
+            test +=1
+            shutil.copy2(files[i], 'data/CHORDS/test/')
+
+    print("train ="+str(train))
+    print("dev = "+str(dev))
+    print("test = "+str(test))
+
+
+
+
+
+
+
 
 def matchTestDuraFile(originalChordFile, translatedChordFile):
     # TODO: still modifying

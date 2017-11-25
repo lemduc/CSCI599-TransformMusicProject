@@ -56,4 +56,6 @@ from utils import *
 #printChordSequence('test_data/Imagine.mid', 'test_data/ImagineChordSequence.txt')
 #extractMoreSimpleChord('test_data/ImagineChordSequence.txt', 20, 'test_data/imagine_more_simple_chord.txt')
 
-testMidiFile2('test_data/Imagine.mid', 'test_data/Imagine_more_simple_jazz.note','test_data/Imagine_more_simple.mid')
+testMidiFile2('test_data/Imagine.mid', 'test_data/Imagine_more_simple_big_data_track0_jazz.note','test_data/Imagine_more_simple_big_data_track0_jazz.mid')
+#removeBadDataFile('data/CHORDS/standard-jazz1/')
+#splitFileToTrainDevTest()

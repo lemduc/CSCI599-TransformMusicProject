@@ -1,0 +1,52 @@
+4/4
+Chord {F-sharp in octave 4 | G in octave 4} Zero,G4-interval class 1,0.0,63.5
+Chord {F-sharp in octave 5 | B-flat in octave 5} 16th,B-5-interval class 4,0.25,80.0
+Chord {B in octave 5 | G in octave 5} 16th,G5-interval class 4,0.25,80.25
+Chord {B-flat in octave 5 | F-sharp in octave 5} 16th,B-5-interval class 4,0.25,84.0
+Chord {B in octave 5 | G-sharp in octave 5} 16th,G#5-interval class 3,0.25,254/3
+Chord {A in octave 4 | E in octave 5} 16th,A4-interval class 5,0.25,86.0
+Chord {B in octave 4 | A in octave 4} Zero,B4-interval class 2,0.0,114.5
+Chord {C-sharp in octave 5 | F in octave 5} 16th,F5-interval class 4,0.25,180.5
+Chord {C-sharp in octave 5 | F in octave 5} Eighth Triplet (1/3 QL),F5-interval class 4,1/3,181.0
+Chord {E-flat in octave 5 | C in octave 5} 16th,C5-interval class 3,0.25,181.5
+Chord {E-flat in octave 5 | C in octave 5} Eighth Triplet (1/3 QL),C5-interval class 3,1/3,182.0
+Chord {C-sharp in octave 5 | B-flat in octave 4} 16th,C#5-interval class 3,0.25,182.5
+Chord {B-flat in octave 4 | C-sharp in octave 5} Eighth Triplet (1/3 QL),C#5-interval class 3,1/3,183.0
+Chord {C in octave 5 | A in octave 4} Zero,A4-interval class 3,0.0,183.5
+Chord {C in octave 5 | A in octave 4} Eighth,A4-interval class 3,0.5,184.0
+Chord {C in octave 5 | E-flat in octave 5} 16th,C5-interval class 3,0.25,184.5
+Chord {C in octave 5 | A in octave 4} 16th,A4-interval class 3,0.25,185.5
+Chord {A in octave 4 | F-sharp in octave 4} 16th,F#4-interval class 3,0.25,560/3
+Chord {A in octave 4 | F-sharp in octave 4} Eighth Triplet (1/3 QL),F#4-interval class 3,1/3,187.0
+Chord {C in octave 5 | A in octave 4} Eighth Triplet (1/3 QL),A4-interval class 3,1/3,563/3
+Chord {B-flat in octave 4 | G in octave 4} 16th,G4-interval class 3,0.25,566/3
+Chord {A in octave 4 | F-sharp in octave 4} 16th,F#4-interval class 3,0.25,569/3
+Chord {F-sharp in octave 4 | A in octave 4} 16th,F#4-interval class 3,0.25,190.0
+Chord {G-sharp in octave 4 | F in octave 4} 16th,G#4-interval class 3,0.25,572/3
+Chord {E in octave 4 | G in octave 4} 16th,E4-interval class 3,0.25,191.5
+Chord {F in octave 4 | A in octave 4} 16th,F4-interval class 4,0.25,578/3
+Chord {F in octave 4 | C in octave 4} Eighth Triplet (1/3 QL),F4-interval class 5,1/3,581/3
+Chord {E-flat in octave 6 | E-flat in octave 5} Eighth Triplet (1/3 QL),E-6-unison,1/3,662/3
+Chord {E in octave 6 | E in octave 5} 16th,E6-unison,0.25,221.25
+Chord {G-sharp in octave 4 | G-sharp in octave 5} 16th,G#4-unison,0.25,221.75
+Chord {A in octave 5 | A in octave 4} 16th,A5-unison,0.25,222.25
+Chord {E-flat in octave 5 | E-flat in octave 4} 16th,E-5-unison,0.25,668/3
+Chord {E in octave 5 | E in octave 4} Zero,E5-unison,0.0,223.25
+Chord {C-sharp in octave 5 | C-sharp in octave 4} Eighth Triplet (1/3 QL),C#5-unison,1/3,224.0
+Chord {D in octave 4 | D in octave 5} 16th,D4-unison,0.25,674/3
+Chord {C-sharp in octave 6 | C-sharp in octave 5} Zero,C#6-unison,0.0,682/3
+Chord {D in octave 6 | D in octave 5 | C in octave 6} 16th,D6-interval class 2,0.25,227.5
+Chord {D in octave 6 | D in octave 5} 16th,D6-unison,0.25,227.75
+Chord {D in octave 6 | D in octave 5} 16th,D6-unison,0.25,228.0
+Chord {C-sharp in octave 6 | C-sharp in octave 5} 16th,C#6-unison,0.25,228.5
+Chord {D in octave 6 | D in octave 5} 16th,D6-unison,0.25,228.75
+Chord {G in octave 5 | D in octave 6} Eighth,G5-interval class 5,0.5,234.25
+Chord {D in octave 6 | D in octave 5} Eighth Triplet (1/3 QL),D6-unison,1/3,727/3
+Chord {E in octave 6 | E in octave 5} Eighth,E6-unison,0.5,244.0
+Chord {E in octave 6 | E in octave 5} 16th,E6-unison,0.25,244.75
+Chord {E in octave 6 | E in octave 5} Double Dotted Quarter,E6-unison,1.75,245.75
+Chord {A in octave 5 | D in octave 6} Eighth,D6-interval class 5,0.5,256.25
+Chord {A in octave 5 | D in octave 6} 16th,D6-interval class 5,0.25,256.75
+Chord {G-sharp in octave 5 | D in octave 6} Eighth Triplet (1/3 QL),G#5-tritone,1/3,257.25
+Chord {G-sharp in octave 5 | D in octave 6} 16th,G#5-tritone,0.25,257.75
+Chord {D in octave 6 | G in octave 5} Dotted Quarter,G5-interval class 5,1.5,258.25

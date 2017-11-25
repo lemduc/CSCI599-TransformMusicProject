@@ -1,0 +1,10 @@
+4/4
+Chord {E in octave 4 | C in octave 3} Quarter,C3-interval class 4,1.0,22.0
+Chord {G-sharp in octave 4 | D in octave 4 | B in octave 3} Quarter,G#4-diminished triad,1.0,55.0
+Chord {C-sharp in octave 5 | A in octave 2} Whole,A2-interval class 4,4.0,56.0
+Chord {C in octave 5 | G in octave 3} Half,C5-interval class 5,2.0,60.0
+Chord {C in octave 5 | E in octave 4 | D in octave 4} Half,C5-whole-tone trichord,2.0,62.0
+Chord {E in octave 4 | C in octave 3} Quarter,C3-interval class 4,1.0,86.0
+Chord {E in octave 4 | B-flat in octave 3 | G in octave 3 | C in octave 3} Quarter,C3-dominant seventh chord,1.0,118.0
+Chord {A in octave 4 | E in octave 4 | B-flat in octave 3 | C in octave 3} Quarter,A4-all-interval tetrachord,1.0,119.0
+Chord {F in octave 4 | C-sharp in octave 4 | B-flat in octave 3 | F-sharp in octave 2} Half,B-3-major seventh chord,2.0,126.0

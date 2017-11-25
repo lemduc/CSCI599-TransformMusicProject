@@ -1,0 +1,25 @@
+4/4
+Chord {B in octave 3 | C in octave 4} Zero,C4-interval class 1,0.0,114.25
+Chord {E in octave 4 | F in octave 4} Zero,F4-interval class 1,0.0,135.75
+Chord {A in octave 3 | F-sharp in octave 4} 16th,F#4-interval class 3,0.25,151.0
+Chord {B in octave 3 | G in octave 4} 16th,G4-interval class 4,0.25,151.25
+Chord {D in octave 4 | A in octave 4} 16th,D4-interval class 5,0.25,151.5
+Chord {F-sharp in octave 4 | D in octave 5} Eighth Triplet (1/3 QL),D5-interval class 4,1/3,152.0
+Chord {D in octave 4 | A in octave 4} 16th,D4-interval class 5,0.25,152.5
+Chord {B in octave 3 | F-sharp in octave 4} 16th,B3-interval class 5,0.25,152.75
+Chord {D in octave 4 | A in octave 4} Zero,D4-interval class 5,0.0,153.0
+Chord {A in octave 4 | D in octave 4} 16th,D4-interval class 5,0.25,153.5
+Chord {D in octave 5 | F-sharp in octave 4} 16th,D5-interval class 4,0.25,156.0
+Chord {C-sharp in octave 5 | A in octave 4} Eighth Triplet (1/3 QL),A4-interval class 4,1/3,157.5
+Chord {A in octave 3 | F-sharp in octave 4} 16th,F#4-interval class 3,0.25,247.0
+Chord {B in octave 3 | G in octave 4} 16th,G4-interval class 4,0.25,247.25
+Chord {D in octave 4 | A in octave 4} 16th,D4-interval class 5,0.25,247.5
+Chord {F-sharp in octave 4 | D in octave 5} Eighth Triplet (1/3 QL),D5-interval class 4,1/3,248.0
+Chord {D in octave 4 | A in octave 4} 16th,D4-interval class 5,0.25,248.5
+Chord {B in octave 3 | F-sharp in octave 4} 16th,B3-interval class 5,0.25,248.75
+Chord {D in octave 4 | A in octave 4} Zero,D4-interval class 5,0.0,249.0
+Chord {A in octave 4 | D in octave 4} 16th,D4-interval class 5,0.25,249.5
+Chord {D in octave 5 | F-sharp in octave 4} 16th,D5-interval class 4,0.25,252.0
+Chord {C-sharp in octave 5 | A in octave 4} Eighth Triplet (1/3 QL),A4-interval class 4,1/3,253.5
+Chord {B in octave 3 | F-sharp in octave 4} 16th,B3-interval class 5,0.25,461/3
+Chord {B in octave 3 | F-sharp in octave 4} 16th,B3-interval class 5,0.25,749/3

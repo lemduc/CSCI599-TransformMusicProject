@@ -1,0 +1,486 @@
+4/4
+Chord {D in octave 4 | G in octave 4 | E in octave 3} Quarter,E3-incomplete minor-seventh chord,1.0,0.0
+Chord {C-sharp in octave 4 | E in octave 4 | G in octave 4 | B-flat in octave 3} Quarter Triplet (2/3 QL),C#4-diminished seventh chord,2/3,20/3
+Chord {E-flat in octave 4 | B-flat in octave 4 | D in octave 4 | B-flat in octave 3 | C in octave 3 | G in octave 4} Zero,C3-minor-ninth chord,0.0,8.0
+Chord {B-flat in octave 4 | E-flat in octave 4 | G in octave 4 | B-flat in octave 3 | C in octave 3} 16th,C3-minor seventh chord,0.25,26/3
+Chord {B-flat in octave 3 | B-flat in octave 4 | D in octave 4 | E-flat in octave 4 | C in octave 3 | G in octave 4} Zero,C3-minor-ninth chord,0.0,9.0
+Chord {C in octave 3 | D in octave 4 | G in octave 4} Zero,C3-quartal trichord,0.0,29/3
+Chord {B-flat in octave 4 | E-flat in octave 4} 16th,E-4-interval class 5,0.25,29/3
+Chord {A in octave 3 | G-sharp in octave 4 | C-sharp in octave 4 | E-flat in octave 3} 16th,A3-minor-second quartal tetrachord,0.25,10.0
+Chord {C-sharp in octave 4 | F in octave 4} Half tied to 16th (2 1/4 total QL),F4-interval class 4,2.25,10.75
+Chord {D in octave 5 | D in octave 6} Eighth,D5-unison,0.5,16.0
+Chord {B-flat in octave 3 | D in octave 3} 16th,B-3-interval class 4,0.25,18.0
+Chord {D in octave 5 | D in octave 6} 16th,D5-unison,0.25,56/3
+Chord {D in octave 4 | B-flat in octave 3} Zero,B-3-interval class 4,0.0,21.0
+Chord {D in octave 2 | F in octave 3} Eighth,D2-interval class 3,0.5,22.0
+Chord {E-flat in octave 2 | F-sharp in octave 3} Eighth Triplet (1/3 QL),F#3-interval class 3,1/3,68/3
+Chord {G-sharp in octave 4 | F in octave 5} Eighth,G#4-interval class 3,0.5,25.0
+Chord {C-sharp in octave 5 | A in octave 4 | F in octave 4} Eighth,F4-augmented triad,0.5,26.0
+Chord {C in octave 4 | D in octave 4} Eighth Triplet (1/3 QL),D4-interval class 2,1/3,33.75
+Chord {C-sharp in octave 6 | B-flat in octave 4} 16th,C#6-interval class 3,0.25,122/3
+Chord {C-sharp in octave 6 | B-flat in octave 4 | F-sharp in octave 2 | E in octave 3} Eighth,C#6-dominant seventh chord,0.5,42.0
+Chord {C-sharp in octave 6 | B-flat in octave 4} 16th,C#6-interval class 3,0.25,128/3
+Chord {A in octave 5 | F in octave 5 | G in octave 4} Eighth,F5-whole-tone trichord,0.5,134/3
+Chord {G in octave 2 | B-flat in octave 3} Eighth,G2-interval class 3,0.5,46.0
+Chord {G-sharp in octave 2 | B in octave 3} Eighth Triplet (1/3 QL),G#2-interval class 3,1/3,140/3
+Chord {B-flat in octave 4 | F in octave 4 | G in octave 3 | C in octave 4} 16th,G3-quartal tetramirror,0.25,146/3
+Chord {B in octave 3 | E in octave 4} Zero,E4-interval class 5,0.0,49.25
+Chord {B-flat in octave 4 | G in octave 3} Quarter,G3-interval class 3,1.0,149/3
+Chord {E-flat in octave 4 | C in octave 5 | F in octave 5 | C in octave 4} Eighth,F5-incomplete dominant-seventh chord,0.5,53.0
+Chord {F in octave 5 | C in octave 5} Eighth,F5-interval class 5,0.5,55.0
+Chord {E-flat in octave 5 | B-flat in octave 4} Whole Tuplet of 6/5ths (3 1/3 QL),E-5-interval class 5,10/3,56.0
+Chord {D in octave 4 | F in octave 4} Eighth,D4-interval class 3,0.5,64.0
+Chord {D in octave 5 | F in octave 4} Eighth Triplet (1/3 QL),D5-interval class 3,1/3,197/3
+Chord {D in octave 3 | B-flat in octave 3} Eighth Triplet (1/3 QL),B-3-interval class 4,1/3,66.0
+Chord {D in octave 5 | F-sharp in octave 4} Eighth,D5-interval class 4,0.5,69.0
+Chord {F-sharp in octave 4 | A in octave 4 | D in octave 4} Dotted Eighth,D4-major triad,0.75,209/3
+Chord {F in octave 4 | C-sharp in octave 5 | A in octave 3} Eighth Triplet (1/3 QL),F4-augmented triad,1/3,74.0
+Chord {D in octave 5 | D in octave 4} 16th,D5-unison,0.25,254/3
+Chord {G in octave 4 | C in octave 5} 16th,C5-interval class 5,0.25,257/3
+Chord {B-flat in octave 4 | D in octave 4} Quarter Triplet (2/3 QL),B-4-interval class 4,2/3,90.0
+Chord {D in octave 4 | F in octave 4} Quarter Triplet (2/3 QL),D4-interval class 3,2/3,92.0
+Chord {C-sharp in octave 4 | B-flat in octave 3} 16th,C#4-interval class 3,0.25,281/3
+Chord {E-flat in octave 4 | C in octave 3} Eighth,C3-interval class 3,0.5,94.0
+Chord {B-flat in octave 3 | F in octave 4 | D in octave 4} Zero,B-3-major triad,0.0,287/3
+Chord {E in octave 5 | D in octave 4 | F in octave 4} 16th,D4-minor trichord,0.25,97.0
+Chord {D in octave 6 | D in octave 5} 16th,D6-unison,0.25,302/3
+Chord {B-flat in octave 3 | E in octave 3} 16th,E3-tritone,0.25,103.0
+Chord {C-sharp in octave 6 | B-flat in octave 4} 16th,C#6-interval class 3,0.25,105.75
+Chord {F-sharp in octave 2 | B-flat in octave 5} Eighth,B-5-interval class 4,0.5,106.0
+Chord {C-sharp in octave 6 | B-flat in octave 4 | B-flat in octave 5} Zero,C#6-interval class 3,0.0,320/3
+Chord {C in octave 6 | F in octave 5 | C in octave 5 | A in octave 5 | E-flat in octave 4 | G in octave 4} 16th,F5-dominant-ninth,0.25,326/3
+Chord {G in octave 2 | B-flat in octave 3 | F in octave 4 | F in octave 3} 16th,G2-incomplete minor-seventh chord,0.25,329/3
+Chord {B in octave 3 | F in octave 4 | F in octave 3} Eighth Triplet (1/3 QL),B3-tritone,1/3,110.25
+Chord {F in octave 4 | D in octave 4} Zero,D4-interval class 3,0.0,112.0
+Chord {B-flat in octave 4 | F in octave 4 | G in octave 3} 16th,G3-incomplete minor-seventh chord,0.25,338/3
+Chord {G-sharp in octave 3 | C in octave 5 | F in octave 4} Eighth,F4-minor triad,0.5,113.0
+Chord {C in octave 5 | F in octave 4} 16th,F4-interval class 5,0.25,344/3
+Chord {E-flat in octave 4 | C in octave 4 | G-sharp in octave 3} 16th,C4-major triad,0.25,117.0
+Chord {F in octave 4 | D in octave 4} Zero,D4-interval class 3,0.0,120.0
+Chord {B-flat in octave 5 | B-flat in octave 6} Eighth Triplet (1/3 QL),B-5-unison,1/3,120.0
+Chord {E-flat in octave 2 | B-flat in octave 2} Zero,E-2-interval class 5,0.0,121.0
+Chord {C-sharp in octave 7 | F in octave 4 | C-sharp in octave 6 | C in octave 4 | G in octave 3 | B-flat in octave 3} Eighth Triplet (1/3 QL),G3-Kumoi pentachord,1/3,122.0
+Chord {B-flat in octave 6 | B-flat in octave 5} 16th,B-6-unison,0.25,368/3
+Chord {F-sharp in octave 4 | C-sharp in octave 4} Eighth,F#4-interval class 5,0.5,123.0
+Chord {F in octave 4 | C-sharp in octave 6} Zero,F4-interval class 4,0.0,124.0
+Chord {B-flat in octave 5 | C-sharp in octave 7} Eighth,C#7-interval class 3,0.5,124.0
+Chord {B-flat in octave 6 | B-flat in octave 5} 16th,B-6-unison,0.25,377/3
+Chord {B-flat in octave 3 | F-sharp in octave 3} 16th,B-3-interval class 4,0.25,126.0
+Chord {F-sharp in octave 4 | E-flat in octave 4 | C in octave 4} Quarter,F#4-diminished triad,1.0,380/3
+Chord {G in octave 4 | D in octave 4} Zero,G4-interval class 5,0.0,130.0
+Chord {G-sharp in octave 3 | F in octave 4 | B in octave 3 | D in octave 4} Zero,G#3-diminished seventh chord,0.0,130.75
+Chord {E in octave 4 | B-flat in octave 3 | C-sharp in octave 4} 16th,C#4-diminished triad,0.25,395/3
+Chord {E-flat in octave 4 | C in octave 5} Eighth Triplet (1/3 QL),C5-interval class 3,1/3,137.0
+Chord {F-sharp in octave 4 | A in octave 4} Dotted Eighth,F#4-interval class 3,0.75,138.0
+Chord {F-sharp in octave 4 | C in octave 5} Eighth,F#4-tritone,0.5,139.0
+Chord {B-flat in octave 4 | F in octave 4 | D in octave 4} Quarter Triplet (2/3 QL),B-4-major triad,2/3,140.0
+Chord {F in octave 4 | C in octave 6} 16th,F4-interval class 5,0.25,144.0
+Chord {B-flat in octave 3 | D in octave 3} Eighth,B-3-interval class 4,0.5,147.0
+Chord {B-flat in octave 3 | E in octave 3} 16th,E3-tritone,0.25,148.0
+Chord {E in octave 3 | D in octave 4} 16th,E3-interval class 2,0.25,150.75
+Chord {D in octave 4 | B-flat in octave 3} Zero,B-3-interval class 4,0.0,473/3
+Chord {A in octave 4 | F in octave 3 | F in octave 4} Zero,F3-interval class 4,0.0,473/3
+Chord {F-sharp in octave 4 | D in octave 4 | F in octave 4} Eighth Triplet (1/3 QL),D4-major-minor trichord,1/3,158.0
+Chord {D in octave 4 | F in octave 4} 16th,D4-interval class 3,0.25,159.25
+Chord {D in octave 4 | E in octave 3} Zero,E3-interval class 2,0.0,164.0
+Chord {B-flat in octave 3 | C-sharp in octave 5} 16th,C#5-interval class 3,0.25,164.0
+Chord {F-sharp in octave 4 | D in octave 5 | B-flat in octave 3 | A in octave 4} Dotted Eighth,B-3-augmented major tetrachord,0.75,500/3
+Chord {E-flat in octave 5 | G-sharp in octave 4 | C in octave 5} Eighth,C5-major triad,0.5,508/3
+Chord {G-sharp in octave 4 | E in octave 4} Eighth Triplet (1/3 QL),E4-interval class 4,1/3,170.0
+Chord {G-sharp in octave 4 | C in octave 4} Eighth Triplet (1/3 QL),C4-interval class 4,1/3,512/3
+Chord {E-flat in octave 4 | F in octave 5 | C-sharp in octave 5} 16th,F5-whole-tone trichord,0.25,173.75
+Chord {F in octave 4 | E-flat in octave 6} Zero,F4-interval class 2,0.0,181.0
+Chord {F in octave 4 | C in octave 4} Zero,F4-interval class 5,0.0,185.0
+Chord {F in octave 7 | F in octave 6 | B-flat in octave 3 | C in octave 7} 16th,B-3-quartal trichord,0.25,185.0
+Chord {G-sharp in octave 6 | C in octave 7 | F in octave 6} Quarter Triplet (2/3 QL),F6-minor triad,2/3,563/3
+Chord {C in octave 7 | G-sharp in octave 6 | C in octave 6 | F in octave 6} 16th,F6-minor triad,0.25,566/3
+Chord {B in octave 6 | B in octave 5} Zero,B6-unison,0.0,189.75
+Chord {C in octave 4 | F in octave 6} Eighth Triplet (1/3 QL),F6-interval class 5,1/3,190.0
+Chord {B-flat in octave 3 | B-flat in octave 4} Eighth,B-3-unison,0.5,192.0
+Chord {C-sharp in octave 5 | B-flat in octave 4} Eighth,C#5-interval class 3,0.5,193.0
+Chord {D in octave 5 | E in octave 4} Quarter Triplet (2/3 QL),E4-interval class 2,2/3,194.0
+Chord {B-flat in octave 3 | B-flat in octave 4 | G in octave 4 | D in octave 4} Zero,G4-minor triad,0.0,197.0
+Chord {B-flat in octave 3 | D in octave 4 | E in octave 4} Quarter Triplet (2/3 QL),E4-incomplete half-diminished seventh chord,2/3,596/3
+Chord {G-sharp in octave 4 | F in octave 4} Eighth,G#4-interval class 3,0.5,200.25
+Chord {C-sharp in octave 5 | F in octave 4} Eighth Triplet (1/3 QL),F4-interval class 4,1/3,202.0
+Chord {G in octave 4 | G in octave 5} Quarter,G4-unison,1.0,632/3
+Chord {G in octave 4 | D in octave 4} Zero,G4-interval class 5,0.0,215.75
+Chord {D in octave 5 | E-flat in octave 4 | B-flat in octave 3} 16th,E-4-incomplete major-seventh chord,0.25,217.75
+Chord {D in octave 4 | E-flat in octave 5} Zero,E-5-interval class 1,0.0,219.75
+Chord {F in octave 5 | E-flat in octave 5} Zero,F5-interval class 2,0.0,219.75
+Chord {E-flat in octave 4 | C in octave 4} Eighth,C4-interval class 3,0.5,222.0
+Chord {G-sharp in octave 4 | G-sharp in octave 3 | C-sharp in octave 4} Eighth,C#4-interval class 5,0.5,223.0
+Chord {D in octave 4 | F in octave 4} 16th,D4-interval class 3,0.25,671/3
+Chord {C-sharp in octave 5 | C in octave 4} Zero,C#5-interval class 1,0.0,226.0
+Chord {F in octave 3 | G in octave 2} Zero,G2-interval class 2,0.0,227.25
+Chord {E in octave 4 | G in octave 4 | E in octave 3} Eighth Triplet (1/3 QL),E4-interval class 3,1/3,231.0
+Chord {F-sharp in octave 1 | F-sharp in octave 2} Eighth Triplet (1/3 QL),F#1-unison,1/3,232.0
+Chord {E-flat in octave 4 | E-flat in octave 5} 16th,E-4-unison,0.25,233.0
+Chord {E-flat in octave 5 | G-sharp in octave 4 | E in octave 4 | C in octave 5 | E-flat in octave 4} 16th,C5-augmented major tetrachord,0.25,701/3
+Chord {G-sharp in octave 4 | E in octave 4 | C in octave 5 | E-flat in octave 5} 16th,C5-augmented major tetrachord,0.25,703/3
+Chord {E-flat in octave 4 | G in octave 4 | D in octave 5 | A in octave 3 | B in octave 4} Zero,E-4-enigmatic pentachord,0.0,237.25
+Chord {E-flat in octave 4 | G in octave 4 | A in octave 3} Eighth,A3-incomplete half-diminished seventh chord,0.5,237.75
+Chord {E-flat in octave 4 | C in octave 5} Dotted Eighth,C5-interval class 3,0.75,716/3
+Chord {C in octave 5 | G in octave 4} Eighth Triplet (1/3 QL),C5-interval class 5,1/3,241.0
+Chord {D in octave 5 | B-flat in octave 3} Eighth Triplet (1/3 QL),B-3-interval class 4,1/3,242.0
+Chord {B-flat in octave 4 | D in octave 5 | F in octave 4} Zero,B-4-major triad,0.0,242.75
+Chord {F in octave 5 | D in octave 5} 16th,D5-interval class 3,0.25,242.75
+Chord {B-flat in octave 5 | B-flat in octave 4} Quarter Triplet (2/3 QL),B-5-unison,2/3,244.0
+Chord {G-sharp in octave 4 | F in octave 5 | C in octave 5} Eighth Triplet (1/3 QL),F5-minor triad,1/3,247.0
+Chord {F in octave 4 | G in octave 3 | C-sharp in octave 4 | G in octave 4} Eighth,F4-incomplete half-diminished seventh chord,0.5,248.0
+Chord {B-flat in octave 4 | G in octave 3} Dotted Eighth,G3-interval class 3,0.75,249.0
+Chord {B-flat in octave 4 | G in octave 3} Eighth,G3-interval class 3,0.5,250.0
+Chord {F in octave 4 | F-sharp in octave 3 | C in octave 4} Quarter,F4-tritone-fourth,1.0,755/3
+Chord {G in octave 4 | D in octave 4} Zero,G4-interval class 5,0.0,264.0
+Chord {B-flat in octave 3 | E-flat in octave 4 | B in octave 4} 16th,E-4-incomplete major-seventh chord,0.25,264.0
+Chord {D in octave 4 | B-flat in octave 3 | D in octave 6} 16th,B-3-interval class 4,0.25,276.0
+Chord {A in octave 4 | B-flat in octave 3} Zero,B-3-interval class 1,0.0,277.0
+Chord {D in octave 5 | B-flat in octave 3} 16th,B-3-interval class 4,0.25,279.0
+Chord {E in octave 4 | B-flat in octave 3} 16th,E4-tritone,0.25,280.0
+Chord {B-flat in octave 2 | F in octave 3} Quarter,B-2-interval class 5,1.0,284.0
+Chord {D in octave 4 | A in octave 3} 16th,D4-interval class 5,0.25,292.0
+Chord {A in octave 6 | A in octave 5} 16th,A6-unison,0.25,293.5
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,295.0
+Chord {E-flat in octave 4 | B-flat in octave 3 | E in octave 3} Quarter Triplet (2/3 QL),E-4-tritone-fourth,2/3,296.0
+Chord {E-flat in octave 6 | C-sharp in octave 5} 16th,C#5-interval class 2,0.25,296.75
+Chord {E-flat in octave 4 | B-flat in octave 3} Eighth Triplet (1/3 QL),E-4-interval class 5,1/3,298.0
+Chord {E-flat in octave 5 | G-sharp in octave 4 | C in octave 5} Dotted Eighth,C5-major triad,0.75,299.0
+Chord {D in octave 5 | F-sharp in octave 4 | E-flat in octave 4} Dotted Eighth,D5-major-minor trichord,0.75,300.0
+Chord {A in octave 4 | E-flat in octave 3} Dotted Eighth,A4-tritone,0.75,302.0
+Chord {A in octave 4 | E in octave 4} Zero,A4-interval class 5,0.0,304.75
+Chord {B-flat in octave 4 | F in octave 4 | C in octave 4} Eighth Triplet (1/3 QL),B-4-quartal trichord,1/3,306.0
+Chord {G in octave 5 | G-sharp in octave 4 | E-flat in octave 5} Eighth Triplet (1/3 QL),E-5-incomplete major-seventh chord,1/3,309.0
+Chord {G-sharp in octave 4 | E-flat in octave 4 | E-flat in octave 5 | F in octave 5} 16th,E-4-incomplete minor-seventh chord,0.25,309.75
+Chord {B-flat in octave 4 | F in octave 4 | C in octave 4} Half tied to Eighth (2 1/2 total QL),B-4-quartal trichord,2.5,935/3
+Chord {A in octave 4 | A in octave 2} Dotted Eighth,A4-unison,0.75,944/3
+Chord {G-sharp in octave 2 | F-sharp in octave 3} 16th,G#2-interval class 2,0.25,316.0
+Chord {C-sharp in octave 7 | C-sharp in octave 6} Eighth Triplet (1/3 QL),C#7-unison,1/3,320.0
+Chord {D in octave 7 | D in octave 6 | C in octave 7} 16th,D7-interval class 2,0.25,961/3
+Chord {C-sharp in octave 7 | C-sharp in octave 6} 16th,C#7-unison,0.25,962/3
+Chord {C-sharp in octave 7 | C-sharp in octave 6} 16th,C#7-unison,0.25,321.25
+Chord {D in octave 7 | D in octave 6 | C in octave 7} Zero,D7-interval class 2,0.0,321.5
+Chord {D in octave 6 | G in octave 5 | G in octave 6} Zero,G5-interval class 5,0.0,968/3
+Chord {D in octave 5 | F-sharp in octave 4 | A in octave 4 | B-flat in octave 3} Eighth,B-3-augmented major tetrachord,0.5,325.0
+Chord {D in octave 5 | B-flat in octave 3 | E in octave 4 | F-sharp in octave 4 | A in octave 4} Eighth Triplet (1/3 QL),B-3-enigmatic pentachord,1/3,325.5
+Chord {D in octave 5 | E in octave 4} 16th,E4-interval class 2,0.25,326.0
+Chord {F-sharp in octave 4 | C in octave 5 | A in octave 4 | D in octave 4 | B-flat in octave 3} Eighth,B-3-augmented-diminished ninth chord,0.5,980/3
+Chord {G in octave 5 | G-sharp in octave 4 | E-flat in octave 5 | C in octave 5} 16th,C5-major seventh chord,0.25,986/3
+Chord {C-sharp in octave 5 | C-sharp in octave 4 | A in octave 4 | F in octave 4} Eighth Triplet (1/3 QL),F4-augmented triad,1/3,330.0
+Chord {C-sharp in octave 4 | F in octave 4} Eighth Triplet (1/3 QL),F4-interval class 4,1/3,331.0
+Chord {B-flat in octave 4 | F in octave 4 | C in octave 4} Quarter Triplet (2/3 QL),B-4-quartal trichord,2/3,331.75
+Chord {G in octave 3 | B-flat in octave 4 | F in octave 4} Zero,G3-incomplete minor-seventh chord,0.0,333.25
+Chord {D in octave 5 | B-flat in octave 4} Eighth,B-4-interval class 4,0.5,340.0
+Chord {B-flat in octave 3 | D in octave 6 | E-flat in octave 3} Dotted Eighth,E-3-incomplete major-seventh chord,0.75,342.0
+Chord {E-flat in octave 4 | C in octave 4} Zero,C4-interval class 3,0.0,346.0
+Chord {F in octave 6 | C in octave 6 | F in octave 5} Zero,F6-interval class 5,0.0,346.75
+Chord {E in octave 4 | C-sharp in octave 4 | B-flat in octave 3} Quarter Triplet (2/3 QL),C#4-diminished triad,2/3,1046/3
+Chord {E-flat in octave 4 | C in octave 4} Eighth Triplet (1/3 QL),C4-interval class 3,1/3,349.75
+Chord {G-sharp in octave 4 | C-sharp in octave 4} Quarter,C#4-interval class 5,1.0,1052/3
+Chord {F in octave 3 | E in octave 4} 16th,F3-interval class 1,0.25,352.75
+Chord {D in octave 4 | G in octave 4} Quarter Triplet (2/3 QL),G4-interval class 5,2/3,354.0
+Chord {C-sharp in octave 5 | B-flat in octave 4 | F-sharp in octave 4} Eighth,B-4-major triad,0.5,363.0
+Chord {F-sharp in octave 4 | C in octave 5 | A in octave 4} Zero,F#4-diminished triad,0.0,364.0
+Chord {A in octave 3 | D in octave 4 | A in octave 4} Zero,D4-interval class 5,0.0,364.0
+Chord {E-flat in octave 5 | F-sharp in octave 4} 16th,F#4-interval class 3,0.25,366.0
+Chord {D in octave 4 | C in octave 5 | F in octave 4} Eighth,D4-incomplete minor-seventh chord,0.5,368.0
+Chord {C in octave 5 | D in octave 4 | F in octave 4} Eighth Triplet (1/3 QL),D4-incomplete minor-seventh chord,1/3,369.0
+Chord {B-flat in octave 4 | G in octave 3} Dotted Eighth,G3-interval class 3,0.75,369.75
+Chord {F in octave 3 | A in octave 4} 16th,F3-interval class 4,0.25,1112/3
+Chord {B-flat in octave 4 | G in octave 3 | F in octave 4} 16th,G3-incomplete minor-seventh chord,0.25,371.0
+Chord {G-sharp in octave 4 | G in octave 4 | G in octave 5 | C in octave 5 | E-flat in octave 5} Zero,C5-major seventh chord,0.0,1118/3
+Chord {G in octave 4 | G in octave 5} Zero,G4-unison,0.0,373.25
+Chord {G-sharp in octave 4 | E-flat in octave 5} 16th,E-5-interval class 5,0.25,373.25
+Chord {G-sharp in octave 4 | G-sharp in octave 3} 16th,G#4-unison,0.25,373.75
+Chord {D in octave 5 | G in octave 4 | D in octave 4} Eighth,G4-interval class 5,0.5,1123/3
+Chord {G in octave 4 | D in octave 4 | B in octave 4} 16th,G4-major triad,0.25,375.0
+Chord {C-sharp in octave 5 | C-sharp in octave 4 | G-sharp in octave 4} 16th,C#5-interval class 5,0.25,1139/3
+Chord {C in octave 5 | G in octave 4 | G-sharp in octave 2} 16th,C5-incomplete major-seventh chord,0.25,380.25
+Chord {D in octave 6 | D in octave 5} 16th,D6-unison,0.25,1154/3
+Chord {D in octave 5 | B-flat in octave 5} Zero,B-5-interval class 4,0.0,1157/3
+Chord {G in octave 2 | F in octave 3} Zero,G2-interval class 2,0.0,386.0
+Chord {G in octave 6 | G in octave 5 | D in octave 6} Eighth Triplet (1/3 QL),G6-interval class 5,1/3,386.0
+Chord {F-sharp in octave 6 | F-sharp in octave 5} 16th,F#6-unison,0.25,1160/3
+Chord {B in octave 3 | F in octave 6 | F in octave 3} 16th,B3-tritone,0.25,387.0
+Chord {E-flat in octave 6 | E-flat in octave 5 | G in octave 3 | B-flat in octave 5} 16th,E-6-major triad,0.25,1163/3
+Chord {D in octave 7 | G in octave 6} 16th,G6-interval class 5,0.25,1166/3
+Chord {G in octave 6 | C in octave 7 | C in octave 6} 16th,C7-interval class 5,0.25,1169/3
+Chord {E-flat in octave 4 | B in octave 3} Zero,E-4-interval class 4,0.0,390.0
+Chord {B-flat in octave 3 | D in octave 4 | C in octave 3} 16th,B-3-whole-tone trichord,0.25,392.0
+Chord {D in octave 4 | D in octave 5 | G in octave 4} Eighth Triplet (1/3 QL),G4-interval class 5,1/3,1178/3
+Chord {F in octave 4 | B-flat in octave 4} Quarter,B-4-interval class 5,1.0,1187/3
+Chord {F in octave 4 | D in octave 5} Zero,D5-interval class 3,0.0,400.0
+Chord {D in octave 4 | C in octave 4} Quarter tied to 16th (1 1/4 total QL),D4-interval class 2,1.25,400.0
+Chord {C-sharp in octave 5 | F in octave 4} Eighth Triplet (1/3 QL),F4-interval class 4,1/3,410.0
+Chord {F in octave 4 | C-sharp in octave 4} Eighth,F4-interval class 4,0.5,411.0
+Chord {B-flat in octave 5 | F in octave 5 | C in octave 5} 16th,B-5-quartal trichord,0.25,1241/3
+Chord {F in octave 5 | C in octave 5} 16th,F5-interval class 5,0.25,415.0
+Chord {D in octave 5 | B-flat in octave 4 | F in octave 4} 16th,B-4-major triad,0.25,1247/3
+Chord {B-flat in octave 4 | F in octave 4 | C in octave 4} 16th,B-4-quartal trichord,0.25,1249/3
+Chord {G in octave 4 | D in octave 4 | A in octave 3} 16th,G4-quartal trichord,0.25,417.0
+Chord {F in octave 4 | C in octave 4} Quarter tied to 16th (1 1/4 total QL),F4-interval class 5,1.25,417.75
+Chord {E-flat in octave 4 | C-sharp in octave 5 | F-sharp in octave 4} Quarter Triplet (2/3 QL),F#4-incomplete minor-seventh chord,2/3,424.0
+Chord {C-sharp in octave 5 | B-flat in octave 4 | F-sharp in octave 4 | E-flat in octave 4} Eighth,C#5-minor seventh chord,0.5,425.0
+Chord {C-sharp in octave 5 | E-flat in octave 4 | B-flat in octave 4 | F-sharp in octave 4 | E in octave 4} 16th,C#5-minor-diminished ninth chord,0.25,1277/3
+Chord {C-sharp in octave 5 | F in octave 4} Zero,F4-interval class 4,0.0,432.0
+Chord {E-flat in octave 4 | E-flat in octave 5 | C in octave 4} Zero,C4-interval class 3,0.0,438.0
+Chord {B-flat in octave 4 | G-sharp in octave 3} 16th,G#3-interval class 2,0.25,439.0
+Chord {F in octave 6 | E-flat in octave 6} Zero,F6-interval class 2,0.0,445.0
+Chord {E-flat in octave 5 | G-sharp in octave 2} Zero,E-5-interval class 5,0.0,445.75
+Chord {F-sharp in octave 3 | G-sharp in octave 2} 16th,G#2-interval class 2,0.25,445.75
+Chord {F in octave 5 | E-flat in octave 5} Zero,F5-interval class 2,0.0,446.0
+Chord {E in octave 3 | D in octave 4} 16th,E3-interval class 2,0.25,452.0
+Chord {F in octave 3 | F in octave 4} Zero,F3-unison,0.0,457.75
+Chord {C-sharp in octave 5 | C-sharp in octave 4} Dotted Eighth,C#5-unison,0.75,458.0
+Chord {B-flat in octave 4 | D in octave 5 | G in octave 3} Zero,G3-minor triad,0.0,1379/3
+Chord {F in octave 6 | F in octave 5} 16th,F6-unison,0.25,1391/3
+Chord {F in octave 6 | F in octave 5} Zero,F6-unison,0.0,1394/3
+Chord {E in octave 4 | B in octave 3} Eighth Triplet (1/3 QL),E4-interval class 5,1/3,467.0
+Chord {D in octave 7 | C in octave 3 | B-flat in octave 3 | D in octave 6 | G in octave 6} Eighth Triplet (1/3 QL),G6-perfect-fourth minor tetrachord,1/3,469.0
+Chord {B-flat in octave 3 | C-sharp in octave 7 | C-sharp in octave 6 | G in octave 6} 16th,C#7-diminished triad,0.25,1409/3
+Chord {D in octave 4 | D in octave 5 | E-flat in octave 4 | B-flat in octave 4} Quarter Triplet (2/3 QL),E-4-incomplete major-seventh chord,2/3,472.0
+Chord {A in octave 4 | F-sharp in octave 4 | D in octave 4 | A in octave 3} Quarter,D4-major triad,1.0,473.75
+Chord {D in octave 4 | F-sharp in octave 4 | A in octave 4} 16th,D4-major triad,0.25,475.0
+Chord {B-flat in octave 5 | C in octave 5 | F in octave 5 | E in octave 5} 16th,C5-tritone quartal tetrachord,0.25,1430/3
+Chord {G-sharp in octave 5 | E-flat in octave 5 | F in octave 4} 16th,E-5-incomplete minor-seventh chord,0.25,477.25
+Chord {F in octave 5 | C in octave 5} 16th,F5-interval class 5,0.25,477.75
+Chord {E in octave 5 | B in octave 4} 16th,E5-interval class 5,0.25,478.25
+Chord {E-flat in octave 5 | B-flat in octave 4} 16th,E-5-interval class 5,0.25,478.75
+Chord {D in octave 5 | E in octave 4} Zero,E4-interval class 2,0.0,479.25
+Chord {C in octave 5 | G in octave 4} 16th,C5-interval class 5,0.25,480.25
+Chord {A in octave 4 | F-sharp in octave 3} Quarter Triplet (2/3 QL),F#3-interval class 3,2/3,482.0
+Chord {B-flat in octave 3 | E in octave 4 | E in octave 3} 16th,E4-tritone,0.25,484.0
+Chord {E in octave 4 | G in octave 4} Zero,E4-interval class 3,0.0,485.5
+Chord {C in octave 5 | G in octave 4} 16th,C5-interval class 5,0.25,485.5
+Chord {F-sharp in octave 2 | F-sharp in octave 1} 16th,F#2-unison,0.25,487.75
+Chord {F-sharp in octave 4 | E in octave 4} Eighth,F#4-interval class 2,0.5,488.0
+Chord {E-flat in octave 4 | B-flat in octave 5} 16th,E-4-interval class 5,0.25,491.75
+Chord {F in octave 4 | D in octave 6} 16th,D6-interval class 3,0.25,495.75
+Chord {D in octave 4 | C in octave 4} Half Tuplet of 6/5ths (1 2/3 QL),D4-interval class 2,5/3,498.0
+Chord {G in octave 6 | C in octave 6 | E-flat in octave 6 | G in octave 5} 16th,C6-minor triad,0.25,1501/3
+Chord {F in octave 5 | F in octave 6 | E-flat in octave 6} Zero,F5-interval class 2,0.0,500.75
+Chord {E-flat in octave 4 | G in octave 4 | G-sharp in octave 3 | C in octave 4 | B-flat in octave 5} Eighth,C4-major-ninth chord,0.5,501.0
+Chord {E-flat in octave 4 | G-sharp in octave 3 | C in octave 4} Eighth,C4-major triad,0.5,501.75
+Chord {F-sharp in octave 4 | G-sharp in octave 3 | F in octave 5 | C-sharp in octave 6 | F in octave 6 | D in octave 4} Eighth Triplet (1/3 QL),D4-Roma (Gypsy) pentachord,1/3,502.5
+Chord {F-sharp in octave 4 | D in octave 4} Eighth,D4-interval class 4,0.5,503.0
+Chord {F in octave 4 | B-flat in octave 5 | D in octave 4 | F in octave 5} Zero,B-5-major triad,0.0,504.0
+Chord {C in octave 4 | D in octave 4 | B-flat in octave 4 | F in octave 5} 16th,B-4-major-second major tetrachord,0.25,504.0
+Chord {B-flat in octave 4 | F in octave 4 | G in octave 3} Eighth Triplet (1/3 QL),G3-incomplete minor-seventh chord,1/3,505.0
+Chord {B-flat in octave 4 | G in octave 3} Eighth Triplet (1/3 QL),G3-interval class 3,1/3,506.0
+Chord {F in octave 4 | C in octave 4} 16th,F4-interval class 5,0.25,506.75
+Chord {F-sharp in octave 3 | C-sharp in octave 5} Eighth,F#3-interval class 5,0.5,509.0
+Chord {E in octave 6 | E in octave 5} 16th,E6-unison,0.25,511.25
+Chord {D in octave 6 | D in octave 5 | C-sharp in octave 6} 16th,D6-interval class 1,0.25,511.75
+Chord {E in octave 6 | E in octave 5} 16th,E6-unison,0.25,514.25
+Chord {F in octave 6 | F in octave 5 | B in octave 5} Eighth Triplet (1/3 QL),B5-tritone,1/3,514.75
+Chord {B-flat in octave 3 | F in octave 3} 16th,B-3-interval class 5,0.25,515.25
+Chord {E-flat in octave 5 | E-flat in octave 6} 16th,E-5-unison,0.25,515.75
+Chord {B-flat in octave 3 | E in octave 6} 16th,E6-tritone,0.25,516.0
+Chord {D in octave 7 | G in octave 6 | B-flat in octave 6} 16th,G6-minor triad,0.25,1550/3
+Chord {B-flat in octave 3 | C-sharp in octave 7 | C-sharp in octave 6 | B-flat in octave 6} Eighth Triplet (1/3 QL),C#7-interval class 3,1/3,517.0
+Chord {G in octave 6 | C in octave 7} Eighth,C7-interval class 5,0.5,517.75
+Chord {C in octave 1 | C in octave 2} 16th,C1-unison,0.25,520.0
+Chord {D in octave 2 | D in octave 1} 16th,D2-unison,0.25,520.5
+Chord {D in octave 6 | E in octave 2 | E in octave 1 | D in octave 5} 16th,E2-interval class 2,0.25,521.0
+Chord {G in octave 5 | C in octave 5 | B-flat in octave 5} 16th,C5-incomplete dominant-seventh chord,0.25,522.0
+Chord {B-flat in octave 4 | F in octave 4} 16th,B-4-interval class 5,0.25,524.0
+Chord {C in octave 4 | B-flat in octave 0} Eighth,C4-interval class 2,0.5,525.75
+Chord {C-sharp in octave 4 | F-sharp in octave 4} Half,F#4-interval class 5,2.0,5/3
+Chord {C in octave 4 | F in octave 4} Quarter tied to 16th (1 1/4 total QL),F4-interval class 5,1.25,4.0
+Chord {D in octave 4 | B-flat in octave 3 | C in octave 3} Zero,B-3-whole-tone trichord,0.0,26/3
+Chord {C-sharp in octave 6 | C-sharp in octave 5} Eighth,C#6-unison,0.5,18.0
+Chord {C-sharp in octave 4 | A in octave 4} Eighth Triplet (1/3 QL),A4-interval class 4,1/3,26.0
+Chord {F in octave 4 | C in octave 4} Dotted Eighth,F4-interval class 5,0.75,28.0
+Chord {C-sharp in octave 6 | B-flat in octave 4} Eighth Triplet (1/3 QL),C#6-interval class 3,1/3,41.0
+Chord {A in octave 4 | A in octave 3} Eighth,A4-unison,0.5,134/3
+Chord {F in octave 4 | C in octave 4} Quarter,F4-interval class 5,1.0,49.75
+Chord {C-sharp in octave 4 | G in octave 3} 16th,C#4-tritone,0.25,56.0
+Chord {C in octave 4 | G in octave 4 | F-sharp in octave 3} Quarter Triplet (2/3 QL),F#3-tritone-fourth,2/3,60.0
+Chord {F in octave 4 | G in octave 3} Quarter Triplet (2/3 QL),G3-interval class 2,2/3,63.0
+Chord {D in octave 6 | G in octave 5} Eighth Triplet (1/3 QL),G5-interval class 5,1/3,203/3
+Chord {E-flat in octave 4 | B-flat in octave 3 | F in octave 4 | F in octave 3} Eighth Triplet (1/3 QL),E-4-quartal trichord,1/3,78.25
+Chord {F in octave 4 | C in octave 4 | G in octave 3} Dotted Eighth,F4-quartal trichord,0.75,239/3
+Chord {E-flat in octave 4 | F-sharp in octave 3} Dotted Eighth,F#3-interval class 3,0.75,81.0
+Chord {E in octave 4 | E in octave 3} 16th,E4-unison,0.25,84.0
+Chord {G in octave 4 | B-flat in octave 4} 16th,G4-interval class 3,0.25,254/3
+Chord {G in octave 4 | E-flat in octave 4} Quarter Triplet (2/3 QL),E-4-interval class 4,2/3,88.0
+Chord {G in octave 4 | C in octave 5} Eighth,C5-interval class 5,0.5,89.0
+Chord {F in octave 3 | C in octave 4} Eighth Triplet (1/3 QL),F3-interval class 5,1/3,91.0
+Chord {B-flat in octave 3 | C in octave 3} Eighth Triplet (1/3 QL),C3-interval class 2,1/3,94.25
+Chord {A in octave 3 | C-sharp in octave 4 | E-flat in octave 3} Eighth Triplet (1/3 QL),A3-incomplete half-diminished seventh chord,1/3,94.75
+Chord {B-flat in octave 5 | G in octave 5} Eighth Triplet (1/3 QL),G5-interval class 3,1/3,302/3
+Chord {C-sharp in octave 6 | C-sharp in octave 5 | B-flat in octave 5} Eighth Triplet (1/3 QL),C#6-interval class 3,1/3,101.0
+Chord {C-sharp in octave 6 | B-flat in octave 4} Eighth,C#6-interval class 3,0.5,105.0
+Chord {A in octave 3 | E-flat in octave 4} 16th,A3-tritone,0.25,326/3
+Chord {D in octave 4 | F in octave 4} Eighth,D4-interval class 3,0.5,114.0
+Chord {D in octave 4 | G in octave 3} Zero,G3-interval class 5,0.0,344/3
+Chord {F-sharp in octave 3 | B-flat in octave 3} Eighth Triplet (1/3 QL),B-3-interval class 4,1/3,124.0
+Chord {A in octave 3 | D in octave 4 | C in octave 4} Quarter Triplet (2/3 QL),D4-incomplete dominant-seventh chord,2/3,128.0
+Chord {F-sharp in octave 3 | A in octave 3} Eighth Triplet (1/3 QL),F#3-interval class 3,1/3,129.0
+Chord {D in octave 5 | D in octave 4 | G in octave 4} Eighth,G4-interval class 5,0.5,397/3
+Chord {G in octave 4 | C in octave 5 | B-flat in octave 3} 16th,C5-incomplete dominant-seventh chord,0.25,137.0
+Chord {B-flat in octave 3 | F in octave 4} Eighth,B-3-interval class 5,0.5,141.75
+Chord {D in octave 4 | C in octave 4} Quarter tied to 16th (1 1/4 total QL),D4-interval class 2,1.25,144.0
+Chord {C-sharp in octave 5 | D in octave 4 | F in octave 4} 16th,D4-major-minor trichord,0.25,158.75
+Chord {C in octave 5 | A in octave 3} Eighth Triplet (1/3 QL),A3-interval class 3,1/3,159.0
+Chord {C in octave 4 | B-flat in octave 4} 16th,C4-interval class 2,0.25,163.0
+Chord {E-flat in octave 4 | A in octave 4} Quarter,A4-tritone,1.0,515/3
+Chord {D in octave 4 | C in octave 4} Dotted Eighth,D4-interval class 2,0.75,176.0
+Chord {B-flat in octave 6 | E-flat in octave 7 | E-flat in octave 6} 16th,E-7-interval class 5,0.25,186.0
+Chord {F in octave 5 | C in octave 5} Eighth Triplet (1/3 QL),F5-interval class 5,1/3,200.25
+Chord {E-flat in octave 3 | F in octave 4 | E-flat in octave 4} 16th,F4-interval class 2,0.25,206.0
+Chord {C-sharp in octave 4 | F in octave 4 | E-flat in octave 4} 16th,F4-whole-tone trichord,0.25,206.75
+Chord {D in octave 4 | E in octave 3} Eighth Triplet (1/3 QL),E3-interval class 2,1/3,212.0
+Chord {B-flat in octave 3 | C in octave 4} 16th,C4-interval class 2,0.25,214.75
+Chord {G in octave 4 | A in octave 3} Quarter,A3-interval class 2,1.0,216.75
+Chord {B-flat in octave 3 | F in octave 4} 16th,B-3-interval class 5,0.25,220.5
+Chord {B-flat in octave 3 | E in octave 4 | G in octave 4} Eighth,E4-diminished triad,0.5,221.0
+Chord {B-flat in octave 4 | C in octave 4} Eighth Triplet (1/3 QL),C4-interval class 2,1/3,222.0
+Chord {A in octave 3 | E-flat in octave 4} 16th,A3-tritone,0.25,223.0
+Chord {G-sharp in octave 4 | E in octave 4 | C in octave 5} Zero,C5-augmented triad,0.0,233.0
+Chord {E-flat in octave 5 | G-sharp in octave 4 | E in octave 4} Eighth,E-5-incomplete major-seventh chord,0.5,235.0
+Chord {D in octave 5 | G in octave 4 | B in octave 4 | D in octave 4} 16th,G4-major triad,0.25,710/3
+Chord {B-flat in octave 3 | D in octave 3 | D in octave 4} Eighth,B-3-interval class 4,0.5,240.0
+Chord {D in octave 4 | G in octave 4 | D in octave 3} 16th,G4-interval class 5,0.25,242.0
+Chord {B-flat in octave 2 | G-sharp in octave 3} 16th,G#3-interval class 2,0.25,244.0
+Chord {E-flat in octave 4 | C in octave 4} 16th,C4-interval class 3,0.25,245.0
+Chord {E-flat in octave 5 | B-flat in octave 4} 16th,E-5-interval class 5,0.25,248.0
+Chord {F in octave 4 | G in octave 3} Quarter Triplet (2/3 QL),G3-interval class 2,2/3,249.0
+Chord {F in octave 4 | G in octave 3} Eighth,G3-interval class 2,0.5,250.0
+Chord {B-flat in octave 4 | F-sharp in octave 3} Eighth,B-4-interval class 4,0.5,253.0
+Chord {F in octave 4 | C in octave 4} Quarter,F4-interval class 5,1.0,761/3
+Chord {D in octave 4 | C in octave 4} Quarter,D4-interval class 2,1.0,268.0
+Chord {C in octave 4 | D in octave 4} Quarter tied to 16th (1 1/4 total QL),D4-interval class 2,1.25,272.0
+Chord {D in octave 4 | C in octave 4} Quarter,D4-interval class 2,1.0,274.0
+Chord {D in octave 4 | C in octave 4} Quarter,D4-interval class 2,1.0,288.0
+Chord {A in octave 5 | A in octave 6 | C in octave 3} 16th,A5-interval class 3,0.25,293.0
+Chord {C-sharp in octave 5 | E-flat in octave 6} Eighth,C#5-interval class 2,0.5,296.0
+Chord {E-flat in octave 6 | G-sharp in octave 5 | C-sharp in octave 6} Zero,C#6-quartal trichord,0.0,297.75
+Chord {B-flat in octave 3 | F-sharp in octave 3} Dotted Eighth,B-3-interval class 4,0.75,299.0
+Chord {F in octave 4 | A in octave 3 | C in octave 4} Eighth,F4-major triad,0.5,302.0
+Chord {C in octave 4 | F in octave 4 | A in octave 3} Eighth,F4-major triad,0.5,303.0
+Chord {B-flat in octave 4 | C in octave 4} Quarter Triplet (2/3 QL),C4-interval class 2,2/3,303.75
+Chord {B-flat in octave 4 | G in octave 3} Eighth Triplet (1/3 QL),G3-interval class 3,1/3,305.0
+Chord {C in octave 5 | D in octave 4 | F in octave 4} Zero,D4-incomplete minor-seventh chord,0.0,917/3
+Chord {C in octave 5 | E-flat in octave 5} Eighth Triplet (1/3 QL),C5-interval class 3,1/3,309.0
+Chord {C in octave 5 | E-flat in octave 5 | F in octave 5} Zero,F5-incomplete dominant-seventh chord,0.0,309.75
+Chord {G in octave 4 | D in octave 4} Eighth,G4-interval class 5,0.5,931/3
+Chord {E in octave 4 | B in octave 3} Quarter Triplet (2/3 QL),E4-interval class 5,2/3,944/3
+Chord {G-sharp in octave 2 | F-sharp in octave 3} 16th,G#2-interval class 2,0.25,317.75
+Chord {C in octave 4 | B-flat in octave 3} Quarter,C4-interval class 2,1.0,319.0
+Chord {B-flat in octave 5 | G-sharp in octave 6} Eighth Triplet (1/3 QL),G#6-interval class 2,1/3,321.75
+Chord {D in octave 4 | C in octave 4} Eighth Triplet (1/3 QL),D4-interval class 2,1/3,323.0
+Chord {B-flat in octave 6 | D in octave 7 | G in octave 6} 16th,G6-minor triad,0.25,324.0
+Chord {F-sharp in octave 4 | A in octave 4} Eighth Triplet (1/3 QL),F#4-interval class 3,1/3,326.0
+Chord {F in octave 5 | F in octave 4 | C in octave 5 | E-flat in octave 5} 16th,F5-incomplete dominant-seventh chord,0.25,329.25
+Chord {B in octave 3 | E in octave 4} Zero,E4-interval class 5,0.0,332.75
+Chord {G in octave 5 | E in octave 4 | B in octave 3} Zero,E4-minor triad,0.0,338.0
+Chord {E in octave 4 | C in octave 3} Zero,C3-interval class 4,0.0,340.0
+Chord {D in octave 5 | G in octave 5} Eighth,G5-interval class 5,0.5,342.0
+Chord {E-flat in octave 4 | B-flat in octave 3} 16th,E-4-interval class 5,0.25,344.0
+Chord {B-flat in octave 3 | F-sharp in octave 3 | C-sharp in octave 4} Quarter Triplet (2/3 QL),B-3-major triad,2/3,345.0
+Chord {B-flat in octave 3 | C in octave 3} 16th,C3-interval class 2,0.25,349.75
+Chord {F in octave 4 | G in octave 3} Eighth,G3-interval class 2,0.5,352.0
+Chord {G-sharp in octave 3 | C in octave 3} Zero,C3-interval class 4,0.0,1070/3
+Chord {C-sharp in octave 5 | G-sharp in octave 4} 16th,C#5-interval class 5,0.25,1097/3
+Chord {A in octave 3 | A in octave 4} 16th,A3-unison,0.25,369.0
+Chord {F in octave 4 | C in octave 4 | D in octave 4} Quarter Triplet (2/3 QL),D4-incomplete minor-seventh chord,2/3,369.75
+Chord {E-flat in octave 4 | G-sharp in octave 4 | B-flat in octave 2 | C in octave 4} 16th,C4-major-second major tetrachord,0.25,1115/3
+Chord {C in octave 5 | E-flat in octave 5 | G in octave 5} 16th,C5-minor triad,0.25,373.25
+Chord {F in octave 4 | C in octave 5} Zero,F4-interval class 5,0.0,373.75
+Chord {F in octave 4 | G in octave 3} Double Dotted Quarter,G3-interval class 2,1.75,375.75
+Chord {F in octave 4 | A in octave 2 | G in octave 3} Zero,F4-whole-tone trichord,0.0,1139/3
+Chord {E-flat in octave 4 | F in octave 3} Zero,F3-interval class 2,0.0,381.0
+Chord {B-flat in octave 5 | G in octave 5} 16th,G5-interval class 3,0.25,1154/3
+Chord {C-sharp in octave 5 | C-sharp in octave 6} Eighth Triplet (1/3 QL),C#5-unison,1/3,385.0
+Chord {F in octave 5 | C in octave 6} 16th,F5-interval class 5,0.25,387.0
+Chord {C in octave 3 | E in octave 5 | B-flat in octave 5} Zero,C3-incomplete dominant-seventh chord,0.0,388.0
+Chord {C-sharp in octave 7 | C-sharp in octave 6} Eighth Triplet (1/3 QL),C#7-unison,1/3,389.0
+Chord {E-flat in octave 3 | G in octave 3} Zero,E-3-interval class 4,0.0,392.0
+Chord {D in octave 5 | A in octave 3} Quarter tied to 16th (1 1/4 total QL),D5-interval class 5,1.25,1181/3
+Chord {A in octave 4 | F-sharp in octave 4} Eighth,F#4-interval class 3,0.5,395.0
+Chord {E in octave 4 | G in octave 4} Quarter,E4-interval class 3,1.0,406.0
+Chord {G-sharp in octave 4 | F in octave 5} Eighth,G#4-interval class 3,0.5,408.0
+Chord {E-flat in octave 3 | A in octave 4} Eighth Triplet (1/3 QL),A4-tritone,1/3,410.0
+Chord {F in octave 4 | G in octave 3} Eighth,G3-interval class 2,0.5,412.0
+Chord {E in octave 4 | F-sharp in octave 4 | E-flat in octave 4} Eighth,F#4-phrygian trichord,0.5,425.0
+Chord {G in octave 4 | A in octave 3} Zero,A3-interval class 2,0.0,431.0
+Chord {E-flat in octave 4 | A in octave 3} 16th,A3-tritone,0.25,431.0
+Chord {E-flat in octave 4 | B-flat in octave 3} Quarter Triplet (2/3 QL),E-4-interval class 5,2/3,456.25
+Chord {A in octave 4 | F in octave 4} Quarter Triplet (2/3 QL),F4-interval class 4,2/3,458.0
+Chord {E-flat in octave 4 | C-sharp in octave 4} Eighth Triplet (1/3 QL),C#4-interval class 2,1/3,462.0
+Chord {G in octave 6 | G in octave 5} Quarter Triplet (2/3 QL),G6-unison,2/3,466.0
+Chord {D in octave 4 | E in octave 3} Zero,E3-interval class 2,0.0,468.0
+Chord {B-flat in octave 4 | E-flat in octave 4 | D in octave 5} Eighth,E-4-incomplete major-seventh chord,0.5,473.0
+Chord {B-flat in octave 3 | E-flat in octave 4} 16th,E-4-interval class 5,0.25,479.75
+Chord {C-sharp in octave 4 | F-sharp in octave 4} 16th,F#4-interval class 5,0.25,480.75
+Chord {F in octave 4 | G in octave 3 | C in octave 4} Eighth,F4-quartal trichord,0.5,481.25
+Chord {E in octave 4 | B in octave 3} Eighth,E4-interval class 5,0.5,482.0
+Chord {C in octave 5 | B-flat in octave 4 | E in octave 4} Eighth,C5-incomplete dominant-seventh chord,0.5,487.75
+Chord {F in octave 6 | G in octave 6} Zero,G6-interval class 2,0.0,494.25
+Chord {C in octave 4 | D in octave 4} Quarter tied to 16th (1 1/4 total QL),D4-interval class 2,1.25,495.75
+Chord {C-sharp in octave 6 | C-sharp in octave 5} 16th,C#6-unison,0.25,499.0
+Chord {F in octave 6 | F in octave 5} 16th,F6-unison,0.25,1499/3
+Chord {A in octave 5 | F in octave 6} Zero,F6-interval class 4,0.0,1501/3
+Chord {B-flat in octave 6 | B-flat in octave 5} Eighth,B-6-unison,0.5,501.0
+Chord {G in octave 4 | G in octave 6 | E-flat in octave 6 | G in octave 5} Eighth Triplet (1/3 QL),E-6-interval class 4,1/3,501.75
+Chord {C in octave 5 | C in octave 4 | A in octave 3} 16th,A3-interval class 3,0.25,506.75
+Chord {F in octave 4 | C in octave 4} Quarter Triplet (2/3 QL),F4-interval class 5,2/3,507.75
+Chord {E in octave 6 | E in octave 5} Eighth Triplet (1/3 QL),E6-unison,1/3,512.25
+Chord {F in octave 6 | D in octave 6} Eighth,D6-interval class 3,0.5,513.25
+Chord {E-flat in octave 6 | E-flat in octave 5 | C in octave 2} 16th,C2-interval class 3,0.25,520.0
+Chord {G in octave 4 | B-flat in octave 1} Quarter Triplet (2/3 QL),G4-interval class 3,2/3,525.75
+Chord {D in octave 5 | D in octave 6 | G in octave 5} Quarter Triplet (2/3 QL),G5-interval class 5,2/3,20.0
+Chord {D in octave 4 | C in octave 4} Quarter,D4-interval class 2,1.0,32.0
+Chord {D in octave 4 | B-flat in octave 3} Eighth,B-3-interval class 4,0.5,37.0
+Chord {G in octave 4 | B-flat in octave 3 | E in octave 3} 16th,E3-diminished triad,0.25,38.0
+Chord {E-flat in octave 4 | G-sharp in octave 3 | C in octave 4} 16th,C4-major triad,0.25,52.0
+Chord {B-flat in octave 3 | F in octave 4 | E-flat in octave 4} 16th,E-4-quartal trichord,0.25,78.75
+Chord {C in octave 5 | C in octave 6 | G in octave 5} Zero,C5-interval class 5,0.0,102.0
+Chord {C-sharp in octave 6 | B-flat in octave 4} Eighth,C#6-interval class 3,0.5,104.0
+Chord {C in octave 4 | B in octave 3} 16th,C4-interval class 1,0.25,111.0
+Chord {C in octave 7 | C in octave 6} Eighth Triplet (1/3 QL),C7-unison,1/3,123.0
+Chord {F-sharp in octave 4 | C-sharp in octave 4} Quarter Triplet (2/3 QL),F#4-interval class 5,2/3,129.0
+Chord {G in octave 4 | E-flat in octave 4} Dotted Eighth,E-4-interval class 4,0.75,136.0
+Chord {D in octave 4 | A in octave 4} Quarter Triplet (2/3 QL),D4-interval class 5,2/3,138.0
+Chord {C in octave 5 | D in octave 4 | F in octave 4} Eighth,D4-incomplete minor-seventh chord,0.5,158.0
+Chord {C-sharp in octave 7 | C-sharp in octave 6} 16th,C#7-unison,0.25,184.0
+Chord {A in octave 3 | C-sharp in octave 4} 16th,A3-interval class 4,0.25,206.0
+Chord {E-flat in octave 4 | A in octave 3} Zero,A3-tritone,0.0,216.75
+Chord {D in octave 4 | D in octave 3} Zero,D4-unison,0.0,220.5
+Chord {B-flat in octave 3 | G in octave 4} 16th,G4-interval class 3,0.25,222.0
+Chord {E-flat in octave 4 | G in octave 4} Zero,E-4-interval class 4,0.0,710/3
+Chord {D in octave 5 | A in octave 3} Quarter Triplet (2/3 QL),D5-interval class 5,2/3,238.0
+Chord {E-flat in octave 5 | G-sharp in octave 3} Eighth Triplet (1/3 QL),E-5-interval class 5,1/3,245.0
+Chord {C in octave 5 | C in octave 4} 16th,C5-unison,0.25,752/3
+Chord {C in octave 4 | F-sharp in octave 3} Eighth,F#3-tritone,0.5,253.0
+Chord {E-flat in octave 4 | B-flat in octave 3} Quarter Triplet (2/3 QL),E-4-interval class 5,2/3,286.0
+Chord {C in octave 4 | F in octave 4} 16th,F4-interval class 5,0.25,305.0
+Chord {B-flat in octave 3 | D in octave 4} Eighth,B-3-interval class 4,0.5,324.0
+Chord {G in octave 4 | D in octave 4} Zero,G4-interval class 5,0.0,344.0
+Chord {E-flat in octave 3 | C in octave 4} Eighth,C4-interval class 3,0.5,347.75
+Chord {A in octave 4 | E in octave 4} Eighth Triplet (1/3 QL),A4-interval class 5,1/3,366.75
+Chord {F in octave 4 | A in octave 4} Eighth Triplet (1/3 QL),F4-interval class 4,1/3,1243/3
+Chord {B-flat in octave 3 | E in octave 4 | E in octave 3} Eighth,E4-tritone,0.5,423.0
+Chord {E in octave 4 | F-sharp in octave 4} Eighth,F#4-interval class 2,0.5,424.0
+Chord {B-flat in octave 3 | C in octave 4} 16th,C4-interval class 2,0.25,1325/3
+Chord {G in octave 3 | C in octave 4} Eighth,C4-interval class 5,0.5,448.75
+Chord {A in octave 3 | F in octave 4} 16th,F4-interval class 4,0.25,459.0
+Chord {D in octave 4 | C in octave 4} Quarter,D4-interval class 2,1.0,464.0
+Chord {G in octave 6 | C in octave 7} Quarter,C7-interval class 5,1.0,470.0
+Chord {C in octave 4 | F in octave 4 | G in octave 3} Zero,F4-quartal trichord,0.0,1427/3
+Chord {G in octave 4 | C in octave 5} 16th,C5-interval class 5,0.25,477.75
+Chord {G-sharp in octave 4 | E-flat in octave 4} 16th,E-4-interval class 5,0.25,479.75
+Chord {D in octave 6 | B-flat in octave 5} 16th,B-5-interval class 4,0.25,503.0
+Chord {C in octave 5 | C in octave 4} 16th,C5-unison,0.25,509.75
+Chord {D in octave 4 | E in octave 5} Zero,E5-interval class 2,0.0,516.0
+Chord {C in octave 7 | E in octave 7} 16th,C7-interval class 4,0.25,528.25
+Chord {D in octave 4 | B-flat in octave 3} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,36.0
+Chord {B-flat in octave 3 | F in octave 3} Dotted Eighth,B-3-interval class 5,0.75,73.0
+Chord {G in octave 4 | D in octave 4} 16th,G4-interval class 5,0.25,133.0
+Chord {B-flat in octave 3 | F-sharp in octave 3} 16th,B-3-interval class 4,0.25,187.0
+Chord {D in octave 4 | G in octave 3} Double Dotted Quarter,G3-interval class 5,1.75,375.75
+Chord {F in octave 4 | D in octave 4} Eighth Triplet (1/3 QL),D4-interval class 3,1/3,378.0
+Chord {D in octave 4 | C in octave 4} Quarter tied to 16th (1 1/4 total QL),D4-interval class 2,1.25,402.0
+Chord {F in octave 4 | C in octave 4} Eighth Triplet (1/3 QL),F4-interval class 5,1/3,448.75
+Chord {F-sharp in octave 4 | B-flat in octave 4} Quarter,B-4-interval class 4,1.0,1280/3
+Chord {F in octave 6 | B in octave 5} 16th,B5-tritone,0.25,189.0
