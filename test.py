@@ -56,6 +56,7 @@ from utils import *
 # printChordSequence('test_data/riengmotgoctroi.mid', 'test_data/riengmotgoctroiChordSequence.txt')
 # extractMoreSimpleChord('test_data/riengmotgoctroiChordSequence.txt', 20, 'test_data/riengmotgoctroi_more_simple_chord.txt')
 
+
 #testMidiFile2('test_data/riengmotgoctroi.mid', 'test_data/riengmotgoctroi_more_simple_all_track_jazz.note',
                #'test_data/soinhosoithuong_more_simple_big_data_all_track_jazz.mid')
 #removeBadDataFile('data/CHORDS/MidKar/')
@@ -64,3 +65,6 @@ from utils import *
 testWriteMidi('test_data/Imagine.mid','test_data/Imagine_out.mid')
 testWriteMidi('test_data/Imagine_out.mid','test_data/Imagine_out2.mid')
 testWriteMidi('test_data/Imagine_out2.mid','test_data/Imagine_out3.mid')
+
+
+

@@ -12,14 +12,25 @@ import pandas as pd
 import numpy as np
 import sys, re, itertools, random, os
 #fluidsynth.init('piano.SF2',"alsa
+
 def readMidiFile(file_path):
     file = converter.parse(file_path)
     components = []
     # select the first channels
     for element in file.recurse():
-
         components.append(element)
     return components
+
+def readPianoMidiFile(file_path):
+    file = converter.parse(file_path)
+    components = []
+    # select the first channels
+    for i in instrument.partitionByInstrument(file):
+        print(i.partName)
+        if i.partName == "Piano":
+            for element in i.recurse():
+                components.append(element)
+            return components
 
 #print piano chord sequence to output file
 
@@ -65,7 +76,7 @@ def printChordSequence(file_path, outputFile):
         f.write(output)
 
 
-def printPianoChordSequence(file_path):
+def printChordSequenceFirstTrack(file_path):
     try:
         components = readMidiFile(file_path=file_path)
         startPiano = True #False
@@ -109,6 +120,48 @@ def printPianoChordSequence(file_path):
         pass
 
 
+def printPianoChordSequence(file_path):
+    try:
+        components = readPianoMidiFile(file_path=file_path)
+        startPiano = True #False
+        printRatio = True
+        printHighest = True
+        printColumns = True
+        output = ""
+        notes = ""
+        chords = ""
+        for component in components:
+
+            # if hasattr(component, 'instrumentName') and component.instrumentName == 'Piano':
+            #     startPiano = True
+            # elif hasattr(component, 'instrumentName') and not component.instrumentName == 'Piano':
+            #     startPiano = False
+            if startPiano and type(component) is music21.chord.Chord:
+                tmp = component.fullName + "," + component.pitchedCommonName + "," + str(component.quarterLength) + "," + str(
+                    component.offset)
+                output += tmp + "\n"
+                print(tmp)
+            elif type(component) is music21.meter.TimeSignature and printRatio:
+                tmp = str(component.ratioString)
+                output += tmp + "\n"
+                print(tmp)
+                printRatio = False
+            elif type(component) is music21.stream.Score and printHighest:
+                tmp = component.highestTime
+                output += str(tmp) + "\n"
+                print(tmp)
+                printHighest = False
+            elif not printHighest and not printRatio and printColumns:
+                tmp = "FullName,CommonName,Len,Offset"
+                output += tmp + "\n"
+                print(tmp)
+                printColumns = False
+                # Write chords out into cleaned-up version of Oscar's chords
+
+        with open((file_path.split(".mid")[0] + "_chord.txt").replace("data/MidKar", "data/midkar_chords"), 'w') as f:
+           f.write(output)
+    except:
+        pass
 
 
 def printPianoChord(file_path):
@@ -532,6 +585,93 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
         components.append(ele)
 
     fp = file.write('midi', fp=outputFile)
+
+
+
+def testMidiFile5(midiFilePath, translatedChordListFile, translatedDuraListFile, outputFile, mode='both'):
+    """
+    :param midiFilePath:
+    :param translatedChordListFile:
+    :param translatedDuraListFile
+    :param outputFile:
+    :param mode: (both/note/dura)
+    :return:
+    """
+    chords = []
+    if mode in 'both' or 'note':
+        with open(translatedChordListFile, 'r') as f:
+
+            for line in f:
+                line = line.strip()
+                str_chords = line.split(" ")
+                for str_chord in str_chords:
+                    str_notes = str_chord.replace("{", "").replace("}", "").split("|")
+                    notes = []
+                    for str_note in str_notes:
+                        note = convertToNote(str_note)
+                        notes.append(note)
+                    chord = music21.chord.Chord(notes)
+                    chords.append(chord)
+
+    durations = []
+    if mode is 'both' or 'dura':
+        with open(translatedDuraListFile, 'r') as f:
+            for line in f:
+                line = line.strip()
+                duras = line.split(" ")
+                for d in duras:
+                    dd = duration.Duration()
+                    dd.quarterLength = float(d)
+                    #dd = music21.duration.Duration(quarterLength=d)
+                    durations.append(dd)
+
+    count = 0
+
+    file = converter.parse(midiFilePath)
+
+    mf = midi.MidiFile()
+    mf.open(midiFilePath)
+    mf.read()
+    mf.close()
+
+    s = midi.translate.midiFileToStream(mf)
+    partStream = s.parts.stream()
+
+    maxMidiProgam = 0
+    for i in s.recurse().getElementsByClass('Instrument'):
+        if i.midiProgram is not None:
+            if maxMidiProgam < i.midiProgram:
+                maxMidiProgam = i.midiProgram
+    for i in s.recurse().getElementsByClass('Instrument'):
+        if i.midiProgram is None:
+            maxMidiProgam += 1
+            i.midiProgram = maxMidiProgam
+
+    d_count = 0
+    for p in partStream:
+        if p.partName == 'Piano':
+            for ele in list(p.recurse()):
+                if (type(ele) is music21.chord.Chord and len(ele.normalOrder) > 2):
+                    tempDuration = ele.duration
+                    tempOffset = ele.offset
+
+                    if mode is 'both' or 'note':
+                        ele.__dict__ = chords[count].__dict__
+
+                    if mode is 'both' or 'dura':
+                        if d_count < len(durations):
+                            ele.duration = durations[d_count]
+                            ele.offset = tempOffset
+                            d_count += 1
+                    else:
+                        ele.duration = tempDuration
+                        ele.offset = tempOffset
+
+                    count += 1
+
+            break
+
+    fp = s.write('midi', fp=outputFile)
 
 
 def testMidiFile(midiFilePath, translatedChordListFile):

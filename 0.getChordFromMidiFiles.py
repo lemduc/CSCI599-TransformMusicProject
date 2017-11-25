@@ -23,5 +23,5 @@ for file in os.listdir("data/standard-jazz1"):
     if file.endswith(".mid"):
         path = os.path.join("data/standard-jazz1", file)
         print(path)
-        printPianoChordSequence(path)
+        printChordSequenceFirstTrack(path)
 
