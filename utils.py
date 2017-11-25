@@ -265,6 +265,28 @@ def extractChordToFileFromMidi(file_path, split_length, output_file):
     with open(output_file, 'w') as f:
         f.write(str_output)
 
+def extractDuration(file_path, split_length, type):
+    read_data = None
+    duration_name = ""
+    count_length = 0
+    with open(file_path, 'r') as f:
+        read_data = f.readlines()
+    for line in read_data[1:]:
+        if line == "":
+            continue
+        count_length += 1
+        sl = line.split(",")
+        duration_name += sl[2] + " "
+        if split_length is not None and count_length == split_length:
+            duration_name += "\n"
+            count_length = 0
+
+    if duration_name.endswith("\n"):
+        duration_name = duration_name[:-1]
+
+    with open(type+".dura", 'a') as f:
+        f.write(duration_name + '\n')
+
 def extractNodeChord(file_path, split_length, type):
     read_data = None
     full_name = ""

@@ -32,6 +32,7 @@ for file in os.listdir("data/CHORDS/"+type):
         print(path)
         #extractNodeChord(path, None)
         extractNodeMoreSimpleChord(path, 20, type)
+        extractDuration(path, 20, type)
 
 # extract dev
 type = "test"
@@ -41,6 +42,7 @@ for file in os.listdir("data/CHORDS/"+type):
         print(path)
         #extractNodeChord(path, None)
         extractNodeMoreSimpleChord(path, 20, type)
+        extractDuration(path, 20, type)
 
 # extract test
 type = "dev"
@@ -50,4 +52,5 @@ for file in os.listdir("data/CHORDS/"+type):
         print(path)
         #extractNodeChord(path, None)
         extractNodeMoreSimpleChord(path, 20, type)
+        extractDuration(path, 20, type)
 
