@@ -734,17 +734,17 @@ def removeBadDataFile(folderPath):
 
 def splitFileToTrainDevTest():
     files =[]
-    for filename in os.listdir('data/CHORDS/standard-jazz1/'):
-        file = os.path.join('data/CHORDS/standard-jazz1/',filename)
+    for filename in os.listdir('data/standard-jazz1_chords/'):
+        file = os.path.join('data/standard-jazz1_chords/',filename)
         files.append(file)
-    for filename in os.listdir('data/CHORDS/MIDI_1/'):
-        file = os.path.join('data/CHORDS/MIDI_1/',filename)
+    for filename in os.listdir('data/Midi_1_chords/'):
+        file = os.path.join('data/Midi_1_chords/',filename)
         files.append(file)
-    for filename in os.listdir('data/CHORDS/MIDI_2/'):
-        file = os.path.join('data/CHORDS/MIDI_2/',filename)
-        files.append(file)
-    for filename in os.listdir('data/CHORDS/MidKar/'):
-        file = os.path.join('data/CHORDS/MidKar/',filename)
+    # for filename in os.listdir('data/CHORDS/MIDI_2/'):
+    #     file = os.path.join('data/CHORDS/MIDI_2/',filename)
+    #     files.append(file)
+    for filename in os.listdir('data/midkar_chords/'):
+        file = os.path.join('data/midkar_chords/',filename)
         files.append(file)
     print("Total number of files = "+ str(len(files)))
     train = 0
@@ -755,13 +755,13 @@ def splitFileToTrainDevTest():
     for i  in range(len(files)):
         if i < 0.7* len(files):
             train +=1
-            shutil.copy2(files[i],'data/CHORDS/train/')
+            shutil.copy2(files[i],'data/train/')
         elif i <0.8*len(files):
             dev +=1
-            shutil.copy2(files[i], 'data/CHORDS/dev/')
+            shutil.copy2(files[i], 'data/dev/')
         else:
             test +=1
-            shutil.copy2(files[i], 'data/CHORDS/test/')
+            shutil.copy2(files[i], 'data/test/')
 
     print("train ="+str(train))
     print("dev = "+str(dev))
