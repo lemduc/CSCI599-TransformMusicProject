@@ -26,31 +26,31 @@ import os
 
 # extract train
 type = "train"
-for file in os.listdir("data/CHORDS/"+type):
+for file in os.listdir("data/"+type):
     if file.endswith(".txt"):
-        path = os.path.join("data/CHORDS/"+type, file)
+        path = os.path.join("data/"+type, file)
         print(path)
         #extractNodeChord(path, None)
         extractNodeMoreSimpleChord(path, 20, type)
-        extractDuration(path, 20, type)
+        #extractDuration(path, 20, type)
 
 # extract dev
 type = "test"
-for file in os.listdir("data/CHORDS/"+type):
+for file in os.listdir("data/"+type):
     if file.endswith(".txt"):
-        path = os.path.join("data/CHORDS/"+type, file)
+        path = os.path.join("data/"+type, file)
         print(path)
         #extractNodeChord(path, None)
         extractNodeMoreSimpleChord(path, 20, type)
-        extractDuration(path, 20, type)
+        #extractDuration(path, 20, type)
 
 # extract test
 type = "dev"
-for file in os.listdir("data/CHORDS/"+type):
+for file in os.listdir("data/"+type):
     if file.endswith(".txt"):
-        path = os.path.join("data/CHORDS/"+type, file)
+        path = os.path.join("data/"+type, file)
         print(path)
         #extractNodeChord(path, None)
         extractNodeMoreSimpleChord(path, 20, type)
-        extractDuration(path, 20, type)
+        #extractDuration(path, 20, type)
 
