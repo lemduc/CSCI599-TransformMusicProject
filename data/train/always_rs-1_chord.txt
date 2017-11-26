@@ -1,0 +1,16 @@
+4/4
+Chord {A in octave 4 | F in octave 2} Half,F2-interval class 4,2.0,0.0
+Chord {E in octave 4 | C in octave 2} Half,C2-interval class 4,2.0,6.0
+Chord {A in octave 4 | F in octave 2} Whole,F2-interval class 4,4.0,20.0
+Chord {E in octave 4 | C in octave 2} Whole,C2-interval class 4,4.0,28.0
+Chord {A in octave 4 | F in octave 2} Whole,F2-interval class 4,4.0,36.0
+Chord {C-sharp in octave 4 | A in octave 2} Whole,A2-interval class 4,4.0,52.0
+Chord {F-sharp in octave 4 | D in octave 2} Quarter,D2-interval class 4,1.0,68.0
+Chord {A in octave 4 | F in octave 2} Whole,F2-interval class 4,4.0,76.0
+Chord {G-sharp in octave 4 | E in octave 2} Quarter,E2-interval class 4,1.0,86.0
+Chord {E in octave 4 | C in octave 2} Half,C2-interval class 4,2.0,134.0
+Chord {F-sharp in octave 4 | D in octave 2} Quarter,D2-interval class 4,1.0,196.0
+Chord {E in octave 4 | C in octave 2} Quarter,C2-interval class 4,1.0,199.0
+Chord {G-sharp in octave 4 | E in octave 2} Quarter,E2-interval class 4,1.0,214.0
+Chord {B-flat in octave 4 | G in octave 2} Half,G2-interval class 3,2.0,260.0
+Chord {A in octave 4 | C in octave 5} Whole Triplet (2 2/3 QL),A4-interval class 3,8/3,328.0

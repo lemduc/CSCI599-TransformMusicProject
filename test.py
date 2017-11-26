@@ -58,13 +58,13 @@ from utils import *
 
 
 #testMidiFile2('test_data/riengmotgoctroi.mid', 'test_data/riengmotgoctroi_more_simple_all_track_jazz.note',
-               #'test_data/soinhosoithuong_more_simple_big_data_all_track_jazz.mid')
+               # 'test_data/soinhosoithuong_more_simple_big_data_all_track_jazz.mid')
 #removeBadDataFile('data/CHORDS/MidKar/')
 #splitFileToTrainDevTest()
 
-testWriteMidi('test_data/Imagine.mid','test_data/Imagine_out.mid')
-testWriteMidi('test_data/Imagine_out.mid','test_data/Imagine_out2.mid')
-testWriteMidi('test_data/Imagine_out2.mid','test_data/Imagine_out3.mid')
-
-
+# testWriteMidi('test_data/Imagine.mid','test_data/Imagine_out.mid')
+# testWriteMidi('test_data/Imagine_out.mid','test_data/Imagine_out2.mid')
+# testWriteMidi('test_data/Imagine_out2.mid','test_data/Imagine_out3.mid')
+removeDuplicateChordinVocab("input_for_nmt/chord_20_more_simple_only_piano/vocab.chord")
+removeDuplicateChordinVocab("input_for_nmt/chord_20_more_simple_only_piano/vocab.node")
 

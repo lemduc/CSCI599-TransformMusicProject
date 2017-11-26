@@ -1,0 +1,122 @@
+276.25
+4/4
+FullName,CommonName,Len,Offset
+Chord {B-flat in octave 3 | D in octave 4} Double Dotted Quarter,B-3-interval class 4,1.75,8.0
+Chord {G in octave 4 | E-flat in octave 4} Whole Tuplet of 12/7ths (2 1/3 QL),E-4-interval class 4,7/3,21.5
+Chord {F in octave 4 | D in octave 4} Quarter,D4-interval class 3,1.0,27.0
+Chord {F in octave 4 | D in octave 4} Dotted Quarter,D4-interval class 3,1.5,38.5
+Chord {D in octave 4 | F in octave 4} Quarter,D4-interval class 3,1.0,43.0
+Chord {F in octave 4 | D in octave 4} Dotted Quarter,D4-interval class 3,1.5,54.5
+Chord {F in octave 4 | D in octave 4} Dotted Quarter,D4-interval class 3,1.5,62.5
+Chord {F in octave 4 | D in octave 4} Quarter,D4-interval class 3,1.0,67.0
+Chord {F in octave 4 | D in octave 4} Dotted Quarter,D4-interval class 3,1.5,78.5
+Chord {D in octave 4 | F in octave 4} Quarter,D4-interval class 3,1.0,83.0
+Chord {F in octave 4 | D in octave 4} Quarter,D4-interval class 3,1.0,131.0
+Chord {F in octave 4 | D in octave 4} Dotted Quarter,D4-interval class 3,1.5,142.5
+Chord {D in octave 4 | F in octave 4} Quarter,D4-interval class 3,1.0,147.0
+Chord {B-flat in octave 3 | G in octave 4} Quarter tied to 16th (1 1/4 total QL),G4-interval class 3,1.25,156.5
+Chord {B-flat in octave 3 | D in octave 4} Double Dotted Quarter,B-3-interval class 4,1.75,192.0
+Chord {G in octave 4 | E-flat in octave 4} Quarter,E-4-interval class 4,1.0,197.0
+Chord {F in octave 4 | D in octave 4} Quarter,D4-interval class 3,1.0,211.0
+Chord {E-flat in octave 4 | G in octave 4} Half Tuplet of 6/5ths (1 2/3 QL),E-4-interval class 4,5/3,221.5
+Chord {F in octave 4 | D in octave 4} Dotted Quarter,D4-interval class 3,1.5,254.5
+Chord {F in octave 4 | D in octave 4} Dotted Quarter,D4-interval class 3,1.5,262.5
+Chord {E-flat in octave 4 | F in octave 3} Quarter,F3-interval class 2,1.0,269.0
+Chord {F in octave 4 | B-flat in octave 3} Double Dotted Quarter,B-3-interval class 5,1.75,94.0
+Chord {F in octave 4 | C in octave 4} Double Dotted Quarter,F4-interval class 5,1.75,119.5
+Chord {E-flat in octave 4 | C in octave 4} Half,C4-interval class 3,2.0,121.5
+Chord {F in octave 4 | C in octave 4} Double Dotted Quarter,F4-interval class 5,1.75,183.5
+Chord {E-flat in octave 4 | C in octave 4} Half,C4-interval class 3,2.0,185.5
+Chord {F in octave 3 | C in octave 4} Dotted Eighth,F3-interval class 5,0.75,223.0
+Chord {D in octave 4 | F in octave 4} Dotted Whole,D4-interval class 3,6.0,270.0
+Chord {G in octave 4 | B-flat in octave 3} Quarter tied to 16th (1 1/4 total QL),G4-interval class 3,1.25,92.5
+Chord {D in octave 3 | F in octave 3} Quarter tied to 16th (1 1/4 total QL),D3-interval class 3,1.25,8.0
+Chord {D in octave 3 | F in octave 3} Double Dotted Quarter,D3-interval class 3,1.75,9.5
+Chord {F in octave 3 | G in octave 2} Eighth,G2-interval class 2,0.5,17.5
+Chord {D in octave 3 | F in octave 3} Quarter tied to 16th (1 1/4 total QL),D3-interval class 3,1.25,24.0
+Chord {D in octave 3 | F in octave 3} Double Dotted Quarter,D3-interval class 3,1.75,25.5
+Chord {C in octave 3 | G in octave 3} Quarter,C3-interval class 5,1.0,35.0
+Chord {B-flat in octave 2 | G-sharp in octave 3 | F in octave 4} Dotted Eighth,G#3-incomplete dominant-seventh chord,0.75,43.0
+Chord {C in octave 3 | G in octave 3} Quarter,C3-interval class 5,1.0,51.0
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,57.0
+Chord {C in octave 3 | G in octave 3} Quarter,C3-interval class 5,1.0,59.0
+Chord {D in octave 3 | F in octave 3} Quarter tied to 16th (1 1/4 total QL),D3-interval class 3,1.25,64.0
+Chord {D in octave 3 | F in octave 3} Double Dotted Quarter,D3-interval class 3,1.75,65.5
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,73.0
+Chord {C in octave 3 | G in octave 3} Quarter,C3-interval class 5,1.0,75.0
+Chord {D in octave 5 | B-flat in octave 2 | B-flat in octave 4} Dotted Eighth,B-2-interval class 4,0.75,79.0
+Chord {B-flat in octave 2 | G-sharp in octave 3 | F in octave 4} Dotted Eighth,G#3-incomplete dominant-seventh chord,0.75,83.0
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,89.0
+Chord {C in octave 3 | G in octave 3} Quarter,C3-interval class 5,1.0,91.0
+Chord {G in octave 3 | B-flat in octave 3} Double Dotted Quarter,G3-interval class 3,1.75,96.0
+Chord {B-flat in octave 3 | F in octave 5} Quarter,B-3-interval class 5,1.0,99.0
+Chord {G in octave 3 | B-flat in octave 3} Double Dotted Quarter,G3-interval class 3,1.75,112.0
+Chord {D in octave 3 | F in octave 3} Quarter tied to 16th (1 1/4 total QL),D3-interval class 3,1.25,128.0
+Chord {D in octave 3 | F in octave 3} Double Dotted Quarter,D3-interval class 3,1.75,129.5
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,137.0
+Chord {C in octave 3 | G in octave 3} Quarter,C3-interval class 5,1.0,139.0
+Chord {D in octave 5 | B-flat in octave 2 | B-flat in octave 4} Dotted Eighth,B-2-interval class 4,0.75,143.0
+Chord {B-flat in octave 2 | G-sharp in octave 3 | F in octave 4} Dotted Eighth,G#3-incomplete dominant-seventh chord,0.75,147.0
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,153.0
+Chord {C in octave 3 | G in octave 3} Quarter,C3-interval class 5,1.0,155.0
+Chord {G in octave 3 | B-flat in octave 3} Double Dotted Quarter,G3-interval class 3,1.75,160.0
+Chord {B-flat in octave 3 | F in octave 5} Quarter,B-3-interval class 5,1.0,163.0
+Chord {G in octave 3 | B-flat in octave 3} Double Dotted Quarter,G3-interval class 3,1.75,176.0
+Chord {D in octave 3 | F in octave 3} Quarter tied to 16th (1 1/4 total QL),D3-interval class 3,1.25,208.0
+Chord {D in octave 3 | F in octave 3} Double Dotted Quarter,D3-interval class 3,1.75,209.5
+Chord {D in octave 3 | F in octave 3} Quarter tied to 16th (1 1/4 total QL),D3-interval class 3,1.25,224.0
+Chord {D in octave 3 | F in octave 3} Double Dotted Quarter,D3-interval class 3,1.75,225.5
+Chord {C in octave 3 | G in octave 3} Quarter,C3-interval class 5,1.0,235.0
+Chord {D in octave 3 | F in octave 3} Quarter tied to 16th (1 1/4 total QL),D3-interval class 3,1.25,240.0
+Chord {D in octave 3 | F in octave 3} Double Dotted Quarter,D3-interval class 3,1.75,241.5
+Chord {C in octave 3 | G in octave 3} Quarter,C3-interval class 5,1.0,251.0
+Chord {C in octave 3 | G in octave 3} Quarter,C3-interval class 5,1.0,259.0
+Chord {C in octave 3 | G in octave 3} Quarter,C3-interval class 5,1.0,267.0
+Chord {B-flat in octave 2 | G-sharp in octave 4 | F in octave 4} Dotted Eighth,G#4-incomplete dominant-seventh chord,0.75,11.0
+Chord {E-flat in octave 4 | G in octave 4} Dotted Eighth,E-4-interval class 4,0.75,20.5
+Chord {E-flat in octave 4 | G in octave 4} Half tied to 16th (2 1/4 total QL),E-4-interval class 4,2.25,21.5
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,33.0
+Chord {F in octave 4 | D in octave 5 | B-flat in octave 2} Dotted Eighth,B-2-major triad,0.75,39.0
+Chord {D in octave 3 | F in octave 3} Quarter tied to 16th (1 1/4 total QL),D3-interval class 3,1.25,40.0
+Chord {D in octave 3 | F in octave 3} Double Dotted Quarter,D3-interval class 3,1.75,41.5
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,49.0
+Chord {F in octave 4 | D in octave 5 | B-flat in octave 2 | G-sharp in octave 3} Dotted Eighth,G#3-dominant seventh chord,0.75,55.0
+Chord {D in octave 4 | B-flat in octave 2} Quarter Triplet (2/3 QL),B-2-interval class 4,2/3,62.0
+Chord {B-flat in octave 4 | B-flat in octave 2} Dotted Eighth,B-4-unison,0.75,63.0
+Chord {B-flat in octave 2 | G-sharp in octave 3 | F in octave 4} Dotted Eighth,G#3-incomplete dominant-seventh chord,0.75,67.0
+Chord {D in octave 3 | F in octave 3} Double Dotted Quarter,D3-interval class 3,1.75,81.5
+Chord {F in octave 4 | D in octave 5 | B-flat in octave 2} Dotted Eighth,B-2-major triad,0.75,95.0
+Chord {B-flat in octave 2 | G-sharp in octave 3 | F in octave 4} Dotted Eighth,G#3-incomplete dominant-seventh chord,0.75,131.0
+Chord {D in octave 3 | F in octave 3} Double Dotted Quarter,D3-interval class 3,1.75,145.5
+Chord {B-flat in octave 2 | G in octave 4} Dotted Eighth,G4-interval class 3,0.75,159.0
+Chord {G in octave 2 | D in octave 4} Dotted Eighth,G2-interval class 5,0.75,179.0
+Chord {D in octave 3 | F in octave 3} Quarter tied to 16th (1 1/4 total QL),D3-interval class 3,1.25,192.0
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,233.0
+Chord {F in octave 4 | D in octave 5 | B-flat in octave 2} Dotted Eighth,B-2-major triad,0.75,239.0
+Chord {B-flat in octave 2 | G-sharp in octave 3 | F in octave 4} Dotted Eighth,G#3-incomplete dominant-seventh chord,0.75,243.0
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,249.0
+Chord {F in octave 4 | D in octave 5 | B-flat in octave 2 | G-sharp in octave 3} Dotted Eighth,G#3-dominant seventh chord,0.75,255.0
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,257.0
+Chord {B-flat in octave 2 | D in octave 4} Quarter Triplet (2/3 QL),B-2-interval class 4,2/3,262.0
+Chord {B-flat in octave 4 | B-flat in octave 2} Dotted Eighth,B-4-unison,0.75,263.0
+Chord {B-flat in octave 3 | D in octave 4} Quarter Triplet (2/3 QL),B-3-interval class 4,2/3,265.0
+Chord {B-flat in octave 2 | G-sharp in octave 3 | F in octave 4} Dotted Eighth,G#3-incomplete dominant-seventh chord,0.75,27.0
+Chord {C in octave 5 | F in octave 4} Dotted Eighth,F4-interval class 5,0.75,37.0
+Chord {C in octave 5 | F in octave 4} Dotted Eighth,F4-interval class 5,0.75,77.0
+Chord {F in octave 2 | A in octave 3} Dotted Eighth,F2-interval class 4,0.75,111.0
+Chord {C in octave 5 | F in octave 4} Dotted Eighth,F4-interval class 5,0.75,141.0
+Chord {F in octave 4 | A in octave 3} Quarter,F4-interval class 4,1.0,168.5
+Chord {F in octave 4 | C in octave 5} Dotted Quarter,F4-interval class 5,1.5,189.5
+Chord {B-flat in octave 2 | G-sharp in octave 3 | F in octave 4} Dotted Eighth,G#3-incomplete dominant-seventh chord,0.75,227.0
+Chord {C in octave 5 | F in octave 4} Dotted Eighth,F4-interval class 5,0.75,237.0
+Chord {C in octave 5 | F in octave 4} Dotted Eighth,F4-interval class 5,0.75,53.0
+Chord {C in octave 5 | F in octave 4} Dotted Eighth,F4-interval class 5,0.75,61.0
+Chord {C in octave 5 | F in octave 4} Dotted Eighth,F4-interval class 5,0.75,93.0
+Chord {C in octave 5 | F in octave 4} Dotted Eighth,F4-interval class 5,0.75,157.0
+Chord {F in octave 2 | A in octave 3} Dotted Eighth,F2-interval class 4,0.75,175.0
+Chord {D in octave 3 | F in octave 3} Double Dotted Quarter,D3-interval class 3,1.75,193.5
+Chord {C in octave 5 | F in octave 4} Dotted Eighth,F4-interval class 5,0.75,253.0
+Chord {C in octave 5 | F in octave 4} Dotted Eighth,F4-interval class 5,0.75,261.0
+Chord {C in octave 5 | F in octave 4} Dotted Eighth,F4-interval class 5,0.75,269.0
+Chord {E-flat in octave 5 | F in octave 2} Quarter,F2-interval class 2,1.0,173.0
+Chord {D in octave 4 | B-flat in octave 3} Breve Tuplet of 12/7ths (4 2/3 QL),B-3-interval class 4,14/3,271.5

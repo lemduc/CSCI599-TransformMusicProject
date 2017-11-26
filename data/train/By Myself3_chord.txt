@@ -1,0 +1,58 @@
+4/4
+Chord {B in octave 3 | B in octave 1} Quarter,B3-unison,1.0,0.0
+Chord {B in octave 3 | B in octave 1} 16th,B3-unison,0.25,17/3
+Chord {B in octave 3 | B in octave 1} 16th,B3-unison,0.25,20/3
+Chord {B in octave 3 | B in octave 1} Zero,B3-unison,0.0,18.0
+Chord {B in octave 3 | E in octave 2} 16th,E2-interval class 5,0.25,65/3
+Chord {B in octave 1 | A in octave 3} 16th,B1-interval class 2,0.25,32.0
+Chord {B in octave 1 | E-flat in octave 3} Zero,E-3-interval class 4,0.0,39.75
+Chord {E in octave 2 | B in octave 3} Zero,E2-interval class 5,0.0,88.0
+Chord {E in octave 2 | B in octave 3} 16th,E2-interval class 5,0.25,266/3
+Chord {E in octave 2 | D in octave 2} Zero,E2-interval class 2,0.0,284/3
+Chord {G-sharp in octave 2 | E-flat in octave 3} Zero,E-3-interval class 5,0.0,107.75
+Chord {B in octave 3 | E in octave 2} Zero,E2-interval class 5,0.0,170.75
+Chord {B in octave 1 | B in octave 3} Zero,B1-unison,0.0,182.75
+Chord {B in octave 1 | B in octave 3} Zero,B1-unison,0.0,184.75
+Chord {B in octave 3 | E in octave 2} Zero,E2-interval class 5,0.0,186.75
+Chord {B in octave 3 | E in octave 2} Zero,E2-interval class 5,0.0,584/3
+Chord {G-sharp in octave 2 | B in octave 3} Zero,G#2-interval class 3,0.0,207.0
+Chord {B in octave 1 | B in octave 3} 16th,B1-unison,0.25,215.0
+Chord {B in octave 1 | F in octave 3} 16th,B1-tritone,0.25,215.75
+Chord {F in octave 3 | B in octave 1} Zero,B1-tritone,0.0,218.75
+Chord {E in octave 3 | B in octave 1} Zero,E3-interval class 5,0.0,224.0
+Chord {D in octave 2 | E-flat in octave 3} Zero,E-3-interval class 1,0.0,728/3
+Chord {B in octave 1 | E-flat in octave 3} Zero,E-3-interval class 4,0.0,836/3
+Chord {E-flat in octave 3 | E in octave 2} 16th,E-3-interval class 1,0.25,860/3
+Chord {B in octave 1 | B in octave 3} Eighth,B1-unison,0.5,304.0
+Chord {B in octave 3 | B in octave 1} Zero,B3-unison,0.0,311.75
+Chord {C-sharp in octave 2 | B in octave 3} Eighth,C#2-interval class 2,0.5,315.0
+Chord {B in octave 1 | B in octave 3} Zero,B1-unison,0.0,320.75
+Chord {B in octave 3 | B in octave 1} Eighth,B3-unison,0.5,339.0
+Chord {B-flat in octave 2 | B in octave 1} Eighth Triplet (1/3 QL),B-2-interval class 1,1/3,346.0
+Chord {B-flat in octave 2 | B in octave 1} 16th,B-2-interval class 1,0.25,347.5
+Chord {B-flat in octave 2 | B in octave 1} Eighth Triplet (1/3 QL),B-2-interval class 1,1/3,349.0
+Chord {B in octave 3 | E in octave 2} Zero,E2-interval class 5,0.0,1130/3
+Chord {E-flat in octave 3 | B in octave 1} Zero,E-3-interval class 4,0.0,1175/3
+Chord {E-flat in octave 3 | B in octave 1} 16th,E-3-interval class 4,0.25,392.0
+Chord {B in octave 1 | E-flat in octave 3} Zero,E-3-interval class 4,0.0,1220/3
+Chord {E-flat in octave 3 | E in octave 2} Zero,E-3-interval class 1,0.0,1244/3
+Chord {E in octave 2 | B in octave 1} Half tied to Quarter tied to 16th (3 1/4 total QL),E2-interval class 5,3.25,416.0
+Chord {B in octave 1 | E-flat in octave 3} Zero,E-3-interval class 4,0.0,421.75
+Chord {E in octave 2 | E-flat in octave 3} Eighth,E2-interval class 1,0.5,445.0
+Chord {E-flat in octave 3 | E in octave 2} Zero,E-3-interval class 1,0.0,447.75
+Chord {A in octave 3 | E in octave 2} Zero,A3-interval class 5,0.0,458.75
+Chord {B in octave 1 | E-flat in octave 3} Zero,E-3-interval class 4,0.0,469.75
+Chord {F in octave 3 | B in octave 1} Zero,B1-tritone,0.0,1424/3
+Chord {E in octave 2 | E-flat in octave 3} 16th,E2-interval class 1,0.25,1451/3
+Chord {E-flat in octave 3 | B in octave 1} Eighth,E-3-interval class 4,0.5,486.0
+Chord {E-flat in octave 3 | B in octave 1} Zero,E-3-interval class 4,0.0,498.75
+Chord {E-flat in octave 3 | B in octave 1} Zero,E-3-interval class 4,0.0,505.75
+Chord {B in octave 1 | E-flat in octave 3} 16th,E-3-interval class 4,0.25,518.75
+Chord {E-flat in octave 3 | E in octave 2} Zero,E-3-interval class 1,0.0,1589/3
+Chord {E in octave 2 | E-flat in octave 3} Zero,E2-interval class 1,0.0,536.75
+Chord {B in octave 1 | E-flat in octave 3} 16th,E-3-interval class 4,0.25,538.75
+Chord {B in octave 3 | E in octave 2} Eighth,E2-interval class 5,0.5,548.25
+Chord {B in octave 3 | E in octave 2} Zero,E2-interval class 5,0.0,554.75
+Chord {B in octave 1 | B in octave 3} Zero,B1-unison,0.0,1679/3
+Chord {B in octave 3 | E in octave 2} Zero,E2-interval class 5,0.0,1694/3
+Chord {B in octave 1 | E in octave 2} Half,E2-interval class 5,2.0,574.0
