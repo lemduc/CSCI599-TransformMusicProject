@@ -271,7 +271,7 @@ def extractDuration(file_path, split_length, type):
     count_length = 0
     with open(file_path, 'r') as f:
         read_data = f.readlines()
-    for line in read_data[1:]:
+    for line in read_data[3:]:
         if line == "":
             continue
         count_length += 1
@@ -295,7 +295,7 @@ def extractNodeChord(file_path, split_length, type):
     count_length = 0
     with open(file_path, 'r') as f:
         read_data = f.readlines()
-    for line in read_data[1:]:
+    for line in read_data[3:]:
         if line == "":
             continue
         count_length += 1
@@ -332,11 +332,13 @@ def extractNodeSimpleChord(file_path, split_length, type):
     count_length = 0
     with open(file_path, 'r') as f:
         read_data = f.readlines()
-    for line in read_data[1:]:
+    for line in read_data[3:]:
         if line == "":
             continue
         count_length += 1
         sl = line.split(",")
+        if len(sl) is 0:
+            continue
         i  = sl[0].index("{")
         j  = sl[0].index("}")
         full_name += sl[0][i:j+1].replace(" ", "_") + " "
