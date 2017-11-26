@@ -740,9 +740,6 @@ def splitFileToTrainDevTest():
     for filename in os.listdir('data/CHORDS/MIDI_1/'):
         file = os.path.join('data/CHORDS/MIDI_1/',filename)
         files.append(file)
-    for filename in os.listdir('data/CHORDS/MIDI_2/'):
-        file = os.path.join('data/CHORDS/MIDI_2/',filename)
-        files.append(file)
     for filename in os.listdir('data/CHORDS/MidKar/'):
         file = os.path.join('data/CHORDS/MidKar/',filename)
         files.append(file)
