@@ -35,7 +35,7 @@ def readPianoMidiFile(file_path):
 #print piano chord sequence to output file
 
 def printChordSequence(file_path, outputFile):
-    components = readMidiFile(file_path=file_path)
+    components = readPianoMidiFile(file_path=file_path)
     startPiano = True  # False
     printRatio = True
     printHighest = True
@@ -396,7 +396,7 @@ def extractMoreSimpleChord(file_path, split_length, outputFile):
         common_name = common_name[:-1]
 
 
-    with open(outputFile, 'a') as f:
+    with open(outputFile, 'w') as f:
         f.write(common_name + '\n')
 
 
@@ -549,14 +549,18 @@ def testMidiFile2(midiFilePath, translatedChordListFile, outputFile):
 
     for i in range(len(components)):
         ele = components[i]
-        if type(ele) is music21.chord.Chord:
+        countTempo = 0
+        if type(ele) is music21.chord.Chord and count < len(chords):
             tempDuration = ele.duration
             tempOffset = ele.offset
             ele.__dict__ = chords[count].__dict__
             ele.duration = tempDuration
             ele.offset = tempOffset
             count +=1
-        outScore.insert(ele)
+        if type(ele) is music21.tempo.MetronomeMark:
+            countTempo +=1
+        if countTempo == 0 or type(ele) is not music21.tempo.MetronomeMark:
+            outScore.append(ele)
 
 
 
