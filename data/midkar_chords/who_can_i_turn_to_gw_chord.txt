@@ -1,0 +1,114 @@
+4/4
+Chord {B in octave 4 | B in octave 5} Zero,B4-unison,0.0,50/3
+Chord {C in octave 6 | C in octave 5} 16th,C6-unison,0.25,50/3
+Chord {G-sharp in octave 5 | G-sharp in octave 4} Eighth Triplet (1/3 QL),G#5-unison,1/3,53/3
+Chord {C in octave 6 | C in octave 5} 16th,C6-unison,0.25,18.0
+Chord {D in octave 6 | D in octave 5} Eighth,D6-unison,0.5,19.0
+Chord {E-flat in octave 6 | E-flat in octave 5} Zero,E-6-unison,0.0,59/3
+Chord {E in octave 6 | E in octave 5} Half tied to Quarter tied to 16th (3 1/4 total QL),E6-unison,3.25,59/3
+Chord {B in octave 5 | B in octave 4} Zero,B5-unison,0.0,74/3
+Chord {C in octave 5 | C in octave 6} 16th,C5-unison,0.25,74/3
+Chord {G-sharp in octave 4 | G-sharp in octave 5} Eighth Triplet (1/3 QL),G#4-unison,1/3,77/3
+Chord {C in octave 5 | C in octave 6} 16th,C5-unison,0.25,26.0
+Chord {D in octave 5 | D in octave 6} Eighth,D5-unison,0.5,27.0
+Chord {E-flat in octave 5 | E-flat in octave 6} Zero,E-5-unison,0.0,83/3
+Chord {E in octave 5 | E in octave 6} Half tied to Quarter tied to 16th (3 1/4 total QL),E5-unison,3.25,83/3
+Chord {B-flat in octave 5 | B-flat in octave 4} Zero,B-5-unison,0.0,35.0
+Chord {B in octave 5 | B in octave 4} Quarter Triplet (2/3 QL),B5-unison,2/3,35.0
+Chord {C in octave 6 | C in octave 5} Breve Tuplet of 24/13ths (4 1/3 QL),C6-unison,13/3,107/3
+Chord {G in octave 3 | B-flat in octave 3 | C-sharp in octave 4 | F in octave 4} Half,G3-half-diminished seventh chord,2.0,38.0
+Chord {E in octave 4 | C in octave 4 | A in octave 3 | F-sharp in octave 3} Eighth,F#3-half-diminished seventh chord,0.5,40.0
+Chord {E in octave 4 | C in octave 4 | A in octave 3 | F-sharp in octave 3} 16th,F#3-half-diminished seventh chord,0.25,122/3
+Chord {E in octave 4 | B in octave 3 | G-sharp in octave 3 | F in octave 3} Half tied to 16th (2 1/4 total QL),E4-major-diminished tetrachord,2.25,125/3
+Chord {C in octave 6 | C in octave 5} Whole Tuplet of 12/7ths (2 1/3 QL),C6-unison,7/3,221/3
+Chord {A in octave 5 | A in octave 4} 16th,A5-unison,0.25,76.0
+Chord {F in octave 5 | D in octave 4} Half tied to 16th (2 1/4 total QL),D4-interval class 3,2.25,275/3
+Chord {G in octave 5 | E in octave 5 | D in octave 5 | B in octave 4 | E in octave 4} 16th,E5-minor seventh chord,0.25,94.0
+Chord {G in octave 4 | D in octave 4 | C in octave 4 | G-sharp in octave 3 | B-flat in octave 2} Half,G4-phrygian pentachord,2.0,96.0
+Chord {F in octave 4 | C-sharp in octave 4 | G in octave 3} 16th,F4-incomplete half-diminished seventh chord,0.25,98.0
+Chord {F-sharp in octave 6 | F-sharp in octave 5} 16th,F#6-unison,0.25,104.0
+Chord {G in octave 6 | G in octave 5} Whole,G6-unison,4.0,104.0
+Chord {G in octave 4 | E in octave 4 | B in octave 3 | C in octave 3} 16th,C3-major seventh chord,0.25,112.0
+Chord {E in octave 4 | B-flat in octave 3 | G in octave 3 | C-sharp in octave 3} Half,C#3-diminished seventh chord,2.0,341/3
+Chord {F in octave 4 | C in octave 4 | A in octave 3 | D in octave 3} Eighth,D3-minor seventh chord,0.5,116.0
+Chord {A in octave 3 | F in octave 4 | D in octave 3 | C in octave 4} 16th,D3-minor seventh chord,0.25,350/3
+Chord {G in octave 4 | E in octave 4 | B in octave 3} Quarter tied to 16th (1 1/4 total QL),E4-minor triad,1.25,374/3
+Chord {D in octave 4 | F in octave 4 | A in octave 3} Quarter tied to 16th (1 1/4 total QL),D4-minor triad,1.25,126.75
+Chord {E in octave 4 | C in octave 4 | G in octave 3} Half Triplet (1 1/3 QL),C4-major triad,4/3,386/3
+Chord {E-flat in octave 4 | C in octave 4 | F-sharp in octave 3} Dotted Eighth,F#3-diminished triad,0.75,131.0
+Chord {D in octave 4 | F in octave 3 | G in octave 2 | B-flat in octave 3} Eighth,G2-minor seventh chord,0.5,132.0
+Chord {B-flat in octave 3 | F in octave 3 | D in octave 4 | G in octave 2} 16th,G2-minor seventh chord,0.25,398/3
+Chord {F in octave 3 | A in octave 3 | C in octave 4 | E in octave 4 | G in octave 4 | B in octave 4} Zero,F3-phrygian hexamirror,0.0,140.0
+Chord {F in octave 3 | A in octave 3 | C in octave 4 | E in octave 4 | G in octave 4 | B in octave 4} Zero,F3-phrygian hexamirror,0.0,140.25
+Chord {F in octave 3 | A in octave 3 | C in octave 4 | E in octave 4 | G in octave 4 | B in octave 4} Whole Tuplet of 12/7ths (2 1/3 QL),F3-phrygian hexamirror,7/3,141.0
+Chord {E in octave 3 | G-sharp in octave 3 | D in octave 4 | F in octave 4 | G in octave 4 | C in octave 5} Whole tied to 16th (4 1/4 total QL),C5-melodic-minor hexachord,4.25,431/3
+Chord {B in octave 4 | B in octave 5} Quarter Triplet (2/3 QL),B4-unison,2/3,149.0
+Chord {D in octave 5 | D in octave 6} Whole Tuplet of 12/7ths (2 1/3 QL),D5-unison,7/3,449/3
+Chord {C in octave 6 | C in octave 7} Eighth Triplet (1/3 QL),C6-unison,1/3,458/3
+Chord {G-sharp in octave 5 | G-sharp in octave 6} Eighth Triplet (1/3 QL),G#5-unison,1/3,153.0
+Chord {A in octave 5 | A in octave 6} Eighth Triplet (1/3 QL),A5-unison,1/3,460/3
+Chord {C in octave 6 | C in octave 7} Eighth Triplet (1/3 QL),C6-unison,1/3,461/3
+Chord {G-sharp in octave 5 | G-sharp in octave 6} Eighth Triplet (1/3 QL),G#5-unison,1/3,154.0
+Chord {A in octave 5 | A in octave 6} Eighth Triplet (1/3 QL),A5-unison,1/3,463/3
+Chord {C in octave 6 | C in octave 7} Eighth Triplet (1/3 QL),C6-unison,1/3,464/3
+Chord {G-sharp in octave 5 | G-sharp in octave 6} Eighth Triplet (1/3 QL),G#5-unison,1/3,155.0
+Chord {A in octave 5 | A in octave 6} Eighth Triplet (1/3 QL),A5-unison,1/3,466/3
+Chord {C in octave 6 | C in octave 7} Eighth Triplet (1/3 QL),C6-unison,1/3,467/3
+Chord {E in octave 6 | E in octave 7} Dotted Half,E6-unison,3.0,156.0
+Chord {B-flat in octave 4 | B-flat in octave 5} Zero,B-4-unison,0.0,163.0
+Chord {B in octave 4 | B in octave 5} Quarter Triplet (2/3 QL),B4-unison,2/3,163.0
+Chord {C in octave 5 | C in octave 6} Breve Tuplet of 24/13ths (4 1/3 QL),C5-unison,13/3,491/3
+Chord {G-sharp in octave 4 | E in octave 4 | C-sharp in octave 4 | B-flat in octave 3} Double Dotted Quarter,C#4-half-diminished seventh chord,1.75,166.0
+Chord {G-sharp in octave 3 | C in octave 4 | E-flat in octave 4 | G in octave 4} 16th,C4-major seventh chord,0.25,168.0
+Chord {G-sharp in octave 3 | B in octave 3 | D in octave 4 | F-sharp in octave 4} Half tied to 16th (2 1/4 total QL),G#3-half-diminished seventh chord,2.25,509/3
+Chord {B-flat in octave 3 | G in octave 3 | F in octave 4 | D in octave 4} 16th,G3-minor seventh chord,0.25,518/3
+Chord {B-flat in octave 3 | G in octave 3 | F in octave 4 | D in octave 4} 16th,G3-minor seventh chord,0.25,524/3
+Chord {B-flat in octave 3 | G in octave 3 | E in octave 4 | C-sharp in octave 4} Half tied to 16th (2 1/4 total QL),C#4-diminished seventh chord,2.25,533/3
+Chord {C in octave 5 | G-sharp in octave 3 | G in octave 4 | E-flat in octave 4} 16th,C5-major seventh chord,0.25,180.0
+Chord {C in octave 5 | G-sharp in octave 3 | G in octave 4 | E-flat in octave 4} 16th,C5-major seventh chord,0.25,181.75
+Chord {C in octave 4 | G-sharp in octave 3 | G in octave 4 | E-flat in octave 4} 16th,C4-major seventh chord,0.25,184.0
+Chord {G in octave 4 | D in octave 4 | B in octave 4 | G-sharp in octave 3} Eighth,G4-major-diminished tetrachord,0.5,557/3
+Chord {F-sharp in octave 4 | C-sharp in octave 4 | G in octave 3} 16th,F#4-tritone-fourth,0.25,566/3
+Chord {E in octave 4 | B in octave 3 | F in octave 3} 16th,E4-tritone-fourth,0.25,572/3
+Chord {G in octave 4 | E-flat in octave 4 | B-flat in octave 3} 16th,E-4-major triad,0.25,578/3
+Chord {B-flat in octave 4 | F-sharp in octave 4 | C-sharp in octave 4 | G-sharp in octave 3 | B in octave 2} Quarter tied to 16th (1 1/4 total QL),G#3-major pentachord,1.25,584/3
+Chord {C in octave 5 | F in octave 4 | C-sharp in octave 4 | G-sharp in octave 3 | B-flat in octave 2} 16th,G#3-minor-ninth chord,0.25,196.0
+Chord {E-flat in octave 6 | E-flat in octave 5} 16th,E-6-unison,0.25,602/3
+Chord {E-flat in octave 5 | E-flat in octave 6} Half,E-5-unison,2.0,202.0
+Chord {E-flat in octave 4 | C in octave 4 | B-flat in octave 3 | G in octave 3} Half tied to Dotted Eighth (2 3/4 total QL),C4-minor seventh chord,2.75,204.0
+Chord {E-flat in octave 4 | C in octave 4 | G in octave 3} Half,C4-minor triad,2.0,623/3
+Chord {F in octave 4 | C in octave 4 | F-sharp in octave 3} Half tied to 16th (2 1/4 total QL),F4-tritone-fourth,2.25,629/3
+Chord {D in octave 4 | B-flat in octave 3 | F in octave 3} Eighth,B-3-major triad,0.5,212.0
+Chord {D in octave 4 | B-flat in octave 3 | F in octave 3} 16th,B-3-major triad,0.25,638/3
+Chord {G in octave 4 | E-flat in octave 3 | D in octave 4 | B-flat in octave 3} 16th,E-3-major seventh chord,0.25,650/3
+Chord {G in octave 4 | E-flat in octave 3 | D in octave 4 | B-flat in octave 3} 16th,E-3-major seventh chord,0.25,656/3
+Chord {C in octave 4 | G-sharp in octave 3 | G in octave 4 | E-flat in octave 3} 16th,C4-major seventh chord,0.25,662/3
+Chord {D in octave 4 | B-flat in octave 3 | A in octave 4 | F in octave 3} Eighth,B-3-major seventh chord,0.5,665/3
+Chord {G in octave 4 | E-flat in octave 4 | B in octave 3} Dotted Quarter,E-4-augmented triad,1.5,224.0
+Chord {G in octave 4 | E in octave 4 | C-sharp in octave 4 | B-flat in octave 3} Half tied to 16th (2 1/4 total QL),C#4-diminished seventh chord,2.25,677/3
+Chord {C in octave 4 | G-sharp in octave 3 | G in octave 4 | E-flat in octave 3} Whole Tuplet of 12/7ths (2 1/3 QL),C4-major seventh chord,7/3,228.0
+Chord {C in octave 4 | G-sharp in octave 3 | G in octave 4 | E-flat in octave 3} Eighth,C4-major seventh chord,0.5,230.75
+Chord {D in octave 4 | G in octave 4 | G-sharp in octave 3 | B-flat in octave 4 | B-flat in octave 2} 16th,G4-all-interval tetrachord,0.25,232.0
+Chord {B-flat in octave 5 | B-flat in octave 4} Half tied to 16th (2 1/4 total QL),B-5-unison,2.25,725/3
+Chord {B-flat in octave 5 | B-flat in octave 4} Triple Dotted Half (3 3/4 QL),B-5-unison,3.75,252.0
+Chord {C in octave 5 | F in octave 4 | C-sharp in octave 4 | G-sharp in octave 4} Eighth,F4-major seventh chord,0.5,260.0
+Chord {C in octave 5 | G-sharp in octave 4 | C-sharp in octave 4 | F in octave 4} 16th,F4-major seventh chord,0.25,260.75
+Chord {F in octave 4 | C in octave 4 | B-flat in octave 4 | G in octave 3} Whole Tuplet of 12/7ths (2 1/3 QL),G3-quartal tetramirror,7/3,268.0
+Chord {F in octave 4 | C in octave 4 | B-flat in octave 4 | G in octave 3} Eighth,G3-quartal tetramirror,0.5,270.75
+Chord {E in octave 4 | B in octave 3 | A in octave 3 | F in octave 3} Eighth,F3-minor-second quartal tetrachord,0.5,815/3
+Chord {G in octave 4 | E-flat in octave 3 | D in octave 4 | B-flat in octave 3} 16th,E-3-major seventh chord,0.25,830/3
+Chord {G in octave 4 | E-flat in octave 3 | D in octave 4 | B-flat in octave 3} 16th,E-3-major seventh chord,0.25,836/3
+Chord {B in octave 3 | D in octave 4 | A in octave 3 | G in octave 4 | E-flat in octave 3} 16th,E-3-enigmatic pentachord,0.25,280.0
+Chord {B in octave 3 | D in octave 4 | A in octave 3 | G in octave 4 | E-flat in octave 3} 16th,E-3-enigmatic pentachord,0.25,281.75
+Chord {B-flat in octave 2 | B-flat in octave 1} Triple Dotted Half (3 3/4 QL),B-2-unison,3.75,284.0
+Chord {B-flat in octave 2 | B-flat in octave 1} Triple Dotted Half (3 3/4 QL),B-2-unison,3.75,288.0
+Chord {C-sharp in octave 4 | B-flat in octave 3 | G in octave 4 | F in octave 3} 16th,G4-half-diminished seventh chord,0.25,292.0
+Chord {C-sharp in octave 4 | B-flat in octave 3 | G in octave 4 | F in octave 3} 16th,G4-half-diminished seventh chord,0.25,293.75
+Chord {G-sharp in octave 4 | B-flat in octave 3 | C-sharp in octave 4 | E in octave 4} 16th,C#4-half-diminished seventh chord,0.25,296.0
+Chord {B-flat in octave 3 | C-sharp in octave 4 | G in octave 4 | E in octave 4} Half tied to 16th (2 1/4 total QL),C#4-diminished seventh chord,2.25,893/3
+Chord {E-flat in octave 5 | E-flat in octave 6} Triple Dotted Half (3 3/4 QL),E-5-unison,3.75,300.0
+Chord {B-flat in octave 5 | B-flat in octave 6} Dotted Half,B-5-unison,3.0,305.0
+Chord {F in octave 4 | D in octave 4 | C in octave 4 | G in octave 3} Half tied to Quarter tied to 16th (3 1/4 total QL),D4-quartal tetramirror,3.25,926/3
+Chord {F in octave 4 | C in octave 4 | B-flat in octave 3 | F-sharp in octave 3} Half tied to Quarter tied to 16th (3 1/4 total QL),B-3-minor-second quartal tetrachord,3.25,938/3
+Chord {D in octave 4 | B-flat in octave 3 | G-sharp in octave 3 | E in octave 3} 16th,E3-Messiaen's truncated mode 6,0.25,318.0
+Chord {C in octave 4 | D in octave 4} Imperfect Longa Tuplet of 24/13ths (8 2/3 QL),D4-interval class 2,26/3,321.25

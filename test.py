@@ -58,7 +58,7 @@ from utils import *
 
 testMidiFile2('test_data/Imagine.mid', 'test_data/Imagine_more_simple_big_data_track0_jazz.note','test_data/Imagine_more_simple_big_data_track0_jazz.mid')
 #removeBadDataFile('data/CHORDS/standard-jazz1/')
-#splitFileToTrainDevTest()
+splitFileToTrainDevTest()
 
 def testWriteMidi(filePath,outputFile):
     s = converter.parse(filePath)

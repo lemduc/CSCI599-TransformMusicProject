@@ -158,7 +158,7 @@ def printPianoChordSequence(file_path):
                 printColumns = False
                 # Write chords out into cleaned-up version of Oscar's chords
 
-        with open((file_path.split(".mid")[0] + "_chord.txt").replace("data/MidKar", "data/midkar_chords"), 'w') as f:
+        with open(file_path.split("\\")[0] + "_chords/" + file_path.split("\\")[1].replace(".mid", "_chord.txt") , 'w') as f:
            f.write(output)
     except:
         pass
