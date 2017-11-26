@@ -25,8 +25,8 @@ import os
 import os
 
 # extract train
-SPLIT_LENGTH = 20
-DIR_PREFIX = "data/CHORDS_track0/"
+SPLIT_LENGTH = 5
+DIR_PREFIX = "data/"
 
 type = "train"
 for file in os.listdir(DIR_PREFIX+type):
@@ -35,7 +35,7 @@ for file in os.listdir(DIR_PREFIX+type):
         print(path)
         #extractNodeChord(path, None)
         extractNodeSimpleChord(path, SPLIT_LENGTH, type)
-        extractDuration(path, SPLIT_LENGTH, type)
+      #  extractDuration(path, SPLIT_LENGTH, type)
 
 # extract dev
 type = "test"
@@ -45,7 +45,7 @@ for file in os.listdir(DIR_PREFIX+type):
         print(path)
         #extractNodeChord(path, None)
         extractNodeSimpleChord(path, SPLIT_LENGTH, type)
-        extractDuration(path, SPLIT_LENGTH, type)
+      #  extractDuration(path, SPLIT_LENGTH, type)
 
 # extract test
 type = "dev"
@@ -55,5 +55,5 @@ for file in os.listdir(DIR_PREFIX+type):
         print(path)
         #extractNodeChord(path, None)
         extractNodeSimpleChord(path, SPLIT_LENGTH, type)
-        extractDuration(path, SPLIT_LENGTH, type)
+      #  extractDuration(path, SPLIT_LENGTH, type)
 
