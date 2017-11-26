@@ -28,6 +28,7 @@ with open('vocab.chord', 'w') as f:
         if c:
             f.write(c+'\n')
 
+removeDuplicateChordinVocab('vocab.chord')
 
 vob = set()
 with open('train.node', 'r') as f:
@@ -56,6 +57,8 @@ with open('vocab.node', 'w') as f:
     for c in vob:
         if c:
             f.write(c+'\n')
+
+removeDuplicateChordinVocab('vocab.node')
 
 vob = set()
 with open('train.dura', 'r') as f:
