@@ -60,6 +60,11 @@ In this section, we show the results with the 2 types of chord representation: c
 [Add results here]
 - Compact chord representation:
 After training, we get dev ppl 51871.42, dev bleu 10.5, test ppl 71964.79, test bleu 8.4. 
+
+| Dev perplexity | Dev blue score | Test perplexity | Test blue score | 
+| -------------- | -------------- | --------------- | --------------- |
+| 51871.42       |           10.5 | 71964.79        | 8.4             |      
+
 ![chord20_more_simple_piano](https://user-images.githubusercontent.com/5298482/33243942-85f0cfc8-d2a3-11e7-9b16-43bf7fc2612c.png)
 
 
@@ -134,7 +139,7 @@ Our first thought is using the previous result to do chord sequences translate t
 
 We extracted the chords-durations mapping to training our model. Unfortunately, even turning different hyper-parameters,  the initial results still converged to one or two different tempos. The possible reason is the vocabulary of chords are more than 2000 words, but durations are just 120 words. More, most chords have been played at 16th note(0.25) more than others. It causes that playing 16th note may always get a higher score by NMT. After 12000 iterations(8 hours) training, the input sentences are easy to be inferred to all 16th notes. It is not our expectation. 
 
-At this point, translating chords to durations by NMT is not a successful approach. In conclusion, the chords are not related to the note durations directly in the dataset. There are other works for music tempo by predicting what is the next note duration from a correlation between beats, that should be a better way to do it.
+At this point, translating chords to durations by NMT is not a successful approach. In conclusion, the chords are not related to the note durations directly in the dataset. There are other works for music creation by predicting what is the next note duration from a correlation between beats, that can be an interesting approach.
  
 
 ## 4. Related Work
