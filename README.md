@@ -18,9 +18,10 @@ When a song is covered, the melody usually is retained and the background music 
 
 We use [music21](http://web.mit.edu/music21/) library to search Piano track in midi files. A chord will have different expressions, especially in Jazz, performers would like to improvise some different notes. For example, E3 chord, there are at least 3 different expressions in song “Imagine”:
 
-- Chord {G in octave 3 | E in octave 3} E3-interval
-- Chord {E in octave 3 | D in octave 4 | G in octave 3} E3-incomplete minor-seventh
-- Chord {G in octave 3 | E in octave 3 | B in octave 3} E3-minor triad
+| Chord | Note Combination |
+| --- | --- |
+| E3 | {G in octave 3 , E in octave 3} E3-interval <br>{E in octave 3 , D in octave 4 , G in octave 3} E3-minor-seventh<br> {G in octave 3 , E in octave 3 , B in octave 3} E3-minor triad
+|E3-minor-seventh | {E in octave 3, D in octave 4, G in octave 3, B in octave 3} <br> {D in octave 4 , G in octave 4, E in octave 3}
 
 We can see the chords frequency from our first training dataset like this:
 
