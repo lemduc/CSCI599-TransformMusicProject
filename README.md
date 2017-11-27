@@ -1,10 +1,10 @@
-### CSCI599 Deep Learning - Final Report
-# Music Style Transfer project 
-### Team: VicDucLuan(Duc Le, Luan Tran, Vic Chen)
+### CSCI 599 Deep Learning - Final Report
+# Music Style Transfer Project 
+### Team: VicDucLuan (Duc Le, Luan Tran, Vic Chen)
 
 ## 1. Introduction
 
-Song composition is difficult and talent needed. Nowadays, there is more and more research to use learning algorithm especially deep learning to do jobs which require creativity, including composing music. In our project, we want to do implement an intelligent system which can transfer music style of a song to a new genre. This work is inspired by the fact that a lot of indie musicians cover popular songs into different styles such as cover rock ’n roll to acoustic or cover folk to Jazz.
+Song composition is difficult and talent needed. Nowadays, there is more and more research to use learning algorithm especially deep learning to do jobs which require creativity, including composing music. In our project, we want to develop an intelligent system which can transfer music style of a song to a new genre. This work is inspired by the fact that a lot of indie musicians cover popular songs into different styles such as cover rock ’n roll to acoustic or cover folk to Jazz.
 
 We choose Jazz style to be the targeted genre for this project because Jazz has several significant and unique attributes, like spontaneous tempo, lots of seventh chord and improvisation of notes. Even the people who don’t really know jazz can easily recognize them.
 
@@ -16,16 +16,15 @@ Our goal is training a machine learning model that knows how the chords played i
 ## 2. Proposed Approach
 When a song is covered, the melody usually is retained and the background music is changed. Therefore, we separate the songs into a monophonic part (melody) and background music (chord/harmony), and we focus on changing the background music.  In the background music, different ways to play chords - the note combinations produce different styles of music. Our approach is to learn a model that produces a jazz style chords. 
 
-We use [music21](http://web.mit.edu/music21/) library to search Piano track in midi files. A chord will have different expressions, especially in Jazz, performers would like to improvise some different notes. For example, E3 chord, there are at least 3 different expressions in song “Imagine”:
+We use [music21](http://web.mit.edu/music21/) library to extract Piano track in midi files. A chord will have different expressions, especially in Jazz, performers would like to improvise some different notes. For example, E3 chord, there are at least 3 different expressions in song “Imagine”:
 
 | Chord | Note Combination |
 | --- | --- |
 | E3 | {G in octave 3 , E in octave 3} E3-interval <br>{E in octave 3 , D in octave 4 , G in octave 3} E3-minor-seventh<br> {G in octave 3 , E in octave 3 , B in octave 3} E3-minor triad
 |E3-minor-seventh | {E in octave 3, D in octave 4, G in octave 3, B in octave 3} <br> {D in octave 4 , G in octave 4, E in octave 3}
 
-We can see the chords frequency from our first training dataset like this:
 
-We use seq2seq model (Sutskever et al., 2014, Cho et al., 2014) which have already gotten great success in machine translation, speech recognition, and text summarization fields. The chord sequences are considered as the input language, and it is translated by NMT into a sequence of notes (output language) that should be played.
+We use seq2seq model (Sutskever et al., 2014, Cho et al., 2014) which have already gotten great success in machine translation, speech recognition, and text summarization fields. The chord sequences are considered as the input language, and they are translated by NMT into sequences of notes (output language) that should be played.
 
 ![102](https://user-images.githubusercontent.com/18378723/33247016-c39ae760-d2cf-11e7-91e8-95f393cc6c47.jpeg)
 ![103](https://user-images.githubusercontent.com/18378723/33247019-c6118d3c-d2cf-11e7-9f56-5a9073dba565.jpeg)
@@ -38,7 +37,7 @@ After the note combinations for chords are found, we incorporate them into the o
 ## 3. Experiments
 Methodology: We evaluate the performance of our algorithm using the midi jazz files. The experiments are conducted on a Linux machine 3.4GHz, 8Gb memory, and a GPU. To measure the goodness of the model, we report the blue score of the test set. The default hyperparameters can be found  [here](https://github.com/lemduc/CSCI599-TransformMusicProject/blob/master/iwslt15.json).
 
-Datasets:  ~1500 jazz midi files are crawled. In that dataset, we use 802 files that have piano tracks for evaluation. We export chords and corresponding notes from midi files and separate chords into sentences with length L (default value  L = 20 chords). After that, we put them to train, dev, and test datasets. Train and dev datasets are used for model training. 
+Datasets:  ~1500 jazz midi files are used. In that dataset, we use 802 files that have piano tracks for evaluation. We export chords and corresponding notes from midi files and separate chords into sentences with length L (default value  L = 20 chords). After that, we put them to train, dev, and test datasets. Train and dev datasets are used for model training. 
 
 With default settings: 
 
@@ -49,15 +48,15 @@ With default settings:
 
 Vocabulary
 
-|  | #Chords | #Notes |
+|  | #Chords | #Note Combinations |
 | - | ------- | ------ |
 | Chord compact representation | 79 | 39837 | 
 | Chord common representation | 2269  | 39387 |   
 
 
 ### 3.1. Varying the chord representation. 
-In this section, we show the results with the 2 types of chord representation: common name and simple name. The simple name is a more compact representation. Multiple chords with different common names can have the same simple name. 
-[Add results here]
+In this section, we show the results with the 2 types of chord representation: common name and compact name. The compact name is a brief representation of common name. Multiple chords with different common names can have the same compact name. 
+
 - Compact chord representation:
 After training, the result of translating chord sequence to note combination sequence is summerized in the following table. 
 
@@ -134,7 +133,7 @@ Piano Track Result:
 
 Combination of transformed piano and bass, harmonica:
 
-[Imagine](https://github.com/lemduc/CSCI599-TransformMusicProject/blob/master/result_figures_wav/Imagine_more_simple_big_data_track0_jazz.mid)   
+For example, with the song [Imagine](https://github.com/lemduc/CSCI599-TransformMusicProject/blob/master/result_figures_wav/Imagine_more_simple_big_data_track0_jazz.mid). 
 
 ### 3.3. Adjusting Notes' Duration
 
@@ -164,7 +163,7 @@ In our approach, we have used some basic musical knowledge to transform the musi
 
 ## 5. Conclusions and Future Work
 
-In this project, we successfully transformed song to a jazz version using chord translation. The chords in the original song are played by the jazz style combination of notes. We also experienced using duration translation but it needs to be explored more. Here, we note some directions can be explored in the future: 
+In this project, we successfully transformed non-jazz style song to a jazz style song using chord translation. The chords in the original song are played by the jazz style combination of notes which are produced by the model. We also experienced using duration translation but it needs to be explored more. Here, we note some directions can be explored in the future: 
 
 1. Scale up/down the key of the dataset into the same key (e.g. C Major) to reduce the size of language vocabulary, which in turns increase the size of our training data.
 
