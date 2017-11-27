@@ -59,7 +59,7 @@ Vocabulary
 In this section, we show the results with the 2 types of chord representation: common name and simple name. The simple name is a more compact representation. Multiple chords with different common names can have the same simple name. 
 [Add results here]
 - Compact chord representation:
-After training, we get dev ppl 51871.42, dev bleu 10.5, test ppl 71964.79, test bleu 8.4. 
+After training, the result of translating chord sequence to note combination sequence is summerized in the following table. 
 
 | Dev perplexity | Dev blue score | Test perplexity | Test blue score | 
 | -------------- | -------------- | --------------- | --------------- |
@@ -79,7 +79,13 @@ Result:
 
 
 - Common chord representation:
-After training, we get dev ppl 21539.96, dev bleu 15.0, test ppl 45704.38, test bleu 10.7. It is showed that this representation gives better results than the compact representation because it is more detailed. 
+After training, the result of translating chord sequence to note combination sequence is summerized in the following table. 
+
+| Dev perplexity | Dev blue score | Test perplexity | Test blue score | 
+| -------------- | -------------- | --------------- | --------------- |
+| 21539.96       |           15.0 | 45704.38        | 10.7             | 
+
+It is showed that this representation gives better results than the compact representation because it is more detailed. 
 ![chord_20_simple_piano png](https://user-images.githubusercontent.com/5298482/33243869-81cbdaf6-d2a2-11e7-8b09-af6b9c9a320f.png)
 
 Result: 
