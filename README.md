@@ -56,7 +56,7 @@ Vocabulary
 
 
 ### 3.1. Varying the chord representation. 
-In this section, we show the results with the 2 types of chord representation: common name and simple name. The simple name is a more compact representation. Multiple chords with different common names can have the same simple name. 
+In this section, we show the results with the 2 types of chord representation: common name and compact name. The compact name is a compact representation of common name. Multiple chords with different common names can have the same compact name. 
 
 - Compact chord representation: The bleu and perplexity are as followings
 
