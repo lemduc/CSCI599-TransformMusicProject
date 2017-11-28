@@ -184,5 +184,5 @@ In this project, we have successfully transformed songs to their jazz versions u
 ## Members' contributions
 
 - Duc Le: clean up raw data to get chord and note sequences, train the NMT model based on the collected data.
-- Luan Tran: extract the raw representation of songs (notes, chords, tempo) from midi files, training the NMT models, regenerate midi output files by integrating the model’s output. 
+- Luan Tran: extract the raw representation of songs (notes, chords, tempo) from midi files, training the NMT models for translating chord sequence into note combination sequence, regenerate midi output files by integrating the model’s output. 
 - Vic Chen: collect jazz midi files, separate melodies, and background, cleanup generated jazz sample from the model, training models and analysis for tempo experiments.
