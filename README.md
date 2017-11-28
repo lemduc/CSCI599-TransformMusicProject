@@ -1,6 +1,6 @@
 ### CSCI599 Deep Learning - Final Report
-# Music Style Transfer project 
-### Team: VicDucLuan(Duc Le, Luan Tran, Vic Chen)
+# Music Style Transfer Project 
+### Team: VicDucLuan (Duc Le, Luan Tran, Vic Chen)
 
 ## 1. Introduction
 
