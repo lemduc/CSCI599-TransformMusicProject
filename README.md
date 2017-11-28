@@ -145,7 +145,7 @@ Our first thought is using the previous result to translate a chord sequence int
 
 We extracted the chords-durations mapping to training our model. Unfortunately, even turning different hyper-parameters,  the initial results still converged to one or two different durations. The possible reason for this result is that the vocabulary of chords contains more than 2000 words, but there are only 120 different durations. Furthermore, most chords have been played as 16th notes (0.25). It makes playing 16th note may always get a higher score. After 12000 iterations (8 hours) training, the input sentences are easy to be inferred to all 16th notes, which is not our expectation. 
 
-At this point, translating chords to durations by NMT is not a successful approach. In conclusion, the chords are not related to the note durations directly in the dataset. There is another approach to this problem by generating note durations of a whole music bar (similar to generating drum patterns). However, due to the time constraint, we put this as one of our future work. 
+At this point, translating chords to durations by NMT is not a successful approach. In conclusion, the chords are not related to the note durations directly in the dataset, and the reason on music view is the performers they improvise the duration to notes not to chords, they keep chords constant. There is another approach to this problem by generating note durations of a whole music bar (similar to generating drum patterns). However, due to the time constraint, we put this as one of our future work. 
 
 
 ## 4. Related Work
