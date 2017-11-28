@@ -9,6 +9,7 @@ Song composition is difficult and talent needed. Nowadays, there is more and mor
 In this project, we choose Jazz style to be our targeted genre because Jazz has several significant and unique attributes, like spontaneous tempo, lots of seventh chord and improvisation of notes. Even the people who don’t really know details about Jazz can easily recognize Jazz songs.
 
 -  **Problem Formulation**
+
 Our ultimate goal is training a machine learning model that knows some characteristics of Jazz songs and is able to transform the non-Jazz songs to Jazz ones.	
 
 
