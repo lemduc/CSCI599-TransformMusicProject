@@ -131,7 +131,7 @@ Result sample:
 
 Combination of transformed piano and bass, harmonica:
 
-[Imagine](https://github.com/lemduc/CSCI599-TransformMusicProject/blob/master/result_figures_wav/Imagine_more_simple_big_data_track0_jazz.mid)   
+Imagine: [midi](https://github.com/lemduc/CSCI599-TransformMusicProject/blob/master/result_figures_wav/Imagine_more_simple_big_data_track0_jazz.mid), [wav](    https://github.com/lemduc/CSCI599-TransformMusicProject/blob/master/result_figures_wav/Imagine_more_simple_big_data_track0_jazz.wav)
 
 ### 3.3. Adjusting Notes' Duration
 
