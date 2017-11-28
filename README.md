@@ -33,7 +33,7 @@ After breaking down our problem based on the above knowledge about music, we con
 ![103](https://user-images.githubusercontent.com/18378723/33247019-c6118d3c-d2cf-11e7-9f56-5a9073dba565.jpeg)
 
 
-In this study, we use 2 representations of a chord, i.e., common representation (E3-incomplete minor-seventh) and compact representation (E3). The objective is to find the note combination when playing a chord, e.g., E3 -> {E in octave 3 | D in octave 4 | G in octave 3}. After the note combinations for chords are found, we incorporate them into the original song to produce a jazz style song. 
+In this study, we use 2 representations of a chord, i.e., complete representation (E3-incomplete minor-seventh) and compact representation (E3). The objective is to find the note combination when playing a chord, e.g., E3 -> {E in octave 3 | D in octave 4 | G in octave 3}. After the note combinations for chords are found, we incorporate them into the original song to produce a jazz style song. 
 
 ## 3. Experiments
 Methodology: We evaluate the performance of our algorithm using the midi jazz files. The experiments are conducted on a Linux machine 3.4GHz, 8Gb memory, and a GPU. To measure the goodness of the model, we report the [bleu score](http://www.aclweb.org/anthology/P02-1040.pdf) and [perplexity](https://en.wikipedia.org/wiki/Perplexity) of the test set. The default hyperparameters can be found  [here](https://github.com/lemduc/CSCI599-TransformMusicProject/blob/master/iwslt15.json).
@@ -52,11 +52,11 @@ Vocabulary
 |  | #Chords | #Notes |
 | - | ------- | ------ |
 | Chord compact representation | 79 | 39837 | 
-| Chord common representation | 2269  | 39387 |   
+| Chord complete representation | 2269  | 39387 |   
 
 
 ### 3.1. Varying the chord representation. 
-In this section, we show the results with the 2 types of chord representation: common name and compact name. The compact name is a compact representation of common name. Multiple chords with different common names can have the same compact name. 
+In this section, we show the results with the 2 types of chord representation: complete name and compact name. The compact name is a compact representation of complete name. Multiple chords with different complete names can have the same compact name. 
 
 - Compact chord representation: The bleu and perplexity are as followings
 
@@ -76,7 +76,7 @@ Result sample:
 | Full Midi file | [Can you feel my love tonight](https://github.com/lemduc/CSCI599-TransformMusicProject/blob/master/result_figures_wav/canyoufeelthelovetonight.mid) | [Can you feel my love tonight jazz ](https://github.com/lemduc/CSCI599-TransformMusicProject/blob/master/result_figures_wav/canyoufeelthelovetonight_more_simple_big_data_piano_track_jazz_11_26.mid) |
 
 
-- Common chord representation: The bleu and perplexity are as followings. The result shows that the common representation gives better results than the compact representation because it provides more details about the chords. 
+- complete chord representation: The bleu and perplexity are as followings. The result shows that the complete representation gives better results than the compact representation because it provides more details about the chords. 
 
 |                            | Dev   |  Test   |
 | ---------------------- | ------- |-------- |
@@ -93,7 +93,7 @@ Result sample:
 | Music sheet (beginning part) | ![canyoufeelthelovetonight-1](https://user-images.githubusercontent.com/5298482/33243353-6bb8ddd0-d299-11e7-9e5b-107c7b120d85.png) | ![canyoufeelthelovetonight_simple_piano_track_jazz_11_26-1](https://user-images.githubusercontent.com/5298482/33244188-ede8e9d6-d2a7-11e7-95fa-5a8d7f442592.png)  | 
 | Full Midi file | [Can you feel my love tonight](https://github.com/lemduc/CSCI599-TransformMusicProject/blob/master/result_figures_wav/canyoufeelthelovetonight.mid) | [Can you feel my love tonight jazz 2 ](https://github.com/lemduc/CSCI599-TransformMusicProject/blob/master/result_figures_wav/canyoufeelthelovetonight_simple_piano_track_jazz_11_26.mid) |
 
-Because using common chord representation achieve better results, from now, we use it for the following experiments. 
+Because using complete chord representation achieve better results, from now, we use it for the following experiments. 
 
 ### 3.2 Varying the sentence length
 
